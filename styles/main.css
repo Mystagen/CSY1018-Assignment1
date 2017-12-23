@@ -2096,9 +2096,13 @@ input#bioView, input#mainView{
 
   #contactButton, .contactIcon {
     position: absolute;
-    top: 10%;
+    top: 50%;
     left: 50%;
     margin-left: -90px;
     background-color: #222;
+  }
+
+  .contactIcon {
+    border: 1px solid #fff;
   }
 }
