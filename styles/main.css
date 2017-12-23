@@ -2089,7 +2089,7 @@ input#bioView, input#mainView{
   }
 }
 
-@media (max-width: 800px) {
+@media (max-width: 1000px) {
   .comparisonColumns p {
     column-count: 1;
   }
