@@ -2105,4 +2105,43 @@ input#bioView, input#mainView{
   .contactIcon {
     border: 1px solid #fff;
   }
+
+  .contactForm {
+    left:50%;
+    margin-left:-175px;
+    width: 350px;
+  }
+  
+  .contactForm p {
+    padding: 15px;
+    font-size: 30px;
+  }
+  
+  .subheading p {
+    padding: 15px;
+    font-size: 25px;
+  }
+  
+  .soloPhotos label input + img{ 
+    padding: 10px;
+    max-width: 25%;
+    max-height: 25%;
+  }
+  
+  .emailForm {
+    padding: 10px;
+  }
+  
+  .emailForm input, .emailForm textarea{
+    padding: 10px;
+  }
+  
+  .submitButton {
+    padding: 10px;
+  }
+  
+  .submitButton input{
+    width: 100px;
+    height: 25px;
+  }
 }
