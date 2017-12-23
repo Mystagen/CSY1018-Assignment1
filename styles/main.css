@@ -312,11 +312,11 @@ label input:checked + img{
   display: none;
 }
 
-#contactButtonClose {
+#crossCloseButton {
   display: none;
 }
 
-.contactIconClose {
+.closeIcon {
   position: absolute;
   right: 5%;
   top: 5%;
@@ -324,10 +324,10 @@ label input:checked + img{
   height: 32px;
   opacity: 0.3;
 }
-.contactIconClose:hover {
+.closeIcon:hover {
   opacity: 1;
 }
-.contactIconClose:before, .contactIconClose:after {
+.closeIcon:before, .closeIcon:after {
   position: absolute;
   left: 15px;
   content: ' ';
@@ -335,10 +335,10 @@ label input:checked + img{
   width: 2px;
   background-color: #fff;
 }
-.contactIconClose:before {
+.closeIcon:before {
   transform: rotate(45deg);
 }
-.contactIconClose:after {
+.closeIcon:after {
   transform: rotate(-45deg);
 }
 
