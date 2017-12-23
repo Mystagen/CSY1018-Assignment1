@@ -268,6 +268,10 @@ label input:checked + img{
   padding: 10px;
 }
 
+.emailForm input {
+  width: 200px;
+}
+
 .emailForm textarea{
   resize: none;
 }
@@ -2159,10 +2163,6 @@ input#bioView, input#mainView{
   
   .emailForm {
     padding: 5px;
-  }
-
-  .emailForm input {
-    width: 100px;
   }
   
   .emailForm input, .emailForm textarea{
