@@ -2107,18 +2107,17 @@ input#bioView, input#mainView{
   }
 
   .contactForm {
-    left:50%;
     margin-left:-175px;
     width: 350px;
   }
   
   .contactForm p {
-    padding: 15px;
+    padding: 10px;
     font-size: 30px;
   }
   
   .subheading p {
-    padding: 15px;
+    padding: 10px;
     font-size: 25px;
   }
   
@@ -2129,15 +2128,15 @@ input#bioView, input#mainView{
   }
   
   .emailForm {
-    padding: 10px;
+    padding: 5px;
   }
   
   .emailForm input, .emailForm textarea{
-    padding: 10px;
+    padding: 5px;
   }
   
   .submitButton {
-    padding: 10px;
+    padding: 5px;
   }
   
   .submitButton input{
