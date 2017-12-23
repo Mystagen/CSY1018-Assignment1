@@ -269,7 +269,7 @@ label input:checked + img{
 }
 
 .emailForm input {
-  width: 200px;
+  width: 55%;
 }
 
 .emailForm textarea{
