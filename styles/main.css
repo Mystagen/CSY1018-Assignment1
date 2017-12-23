@@ -315,10 +315,13 @@ label input:checked + img{
   -o-border-radius: 50px;
   border-radius: 50px;
   cursor: pointer;
+  width: 180px;
 }
 
 .contactIcon img {
   padding: 5px;
+  position: absolute;
+  right: 5%;
 }
 
 .contactIcon p {
@@ -2080,14 +2083,22 @@ input#bioView, input#mainView{
   column-rule: 1px solid #000;
 }
 
-@media (max-width: 1000px) {
+@media (max-width: 1300px) {
   .comparisonColumns p {
     column-count: 2;
   }
 }
 
-@media (max-width: 500px) {
+@media (max-width: 800px) {
   .comparisonColumns p {
     column-count: 1;
+  }
+
+  #contactButton, .contactIcon {
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    margin-left: -;
+    background-color: #222;
   }
 }
