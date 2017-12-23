@@ -2113,12 +2113,12 @@ input#bioView, input#mainView{
   
   .contactForm p {
     padding: 10px;
-    font-size: 30px;
+    font-size: 25px;
   }
   
   .subheading p {
     padding: 10px;
-    font-size: 25px;
+    font-size: 20px;
   }
   
   .soloPhotos label input + img{ 
