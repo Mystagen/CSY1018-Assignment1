@@ -308,6 +308,36 @@ label input:checked + img{
   display: none;
 }
 
+#contactButtonClose {
+  display: none;
+}
+
+.contactIconClose {
+  position: absolute;
+  right: 5%;
+  top: 5%;
+  width: 32px;
+  height: 32px;
+  opacity: 0.3;
+}
+.contactIconClose:hover {
+  opacity: 1;
+}
+.contactIconClose:before, .contactIconClose:after {
+  position: absolute;
+  left: 15px;
+  content: ' ';
+  height: 33px;
+  width: 2px;
+  background-color: #fff;
+}
+.contactIconClose:before {
+  transform: rotate(45deg);
+}
+.contactIconClose:after {
+  transform: rotate(-45deg);
+}
+
 .contactIcon {
   -webkit-border-radius: 50px;
   -moz-border-radius: 50px;
@@ -2113,12 +2143,12 @@ input#bioView, input#mainView{
   
   .contactForm p {
     padding: 10px;
-    font-size: 25px;
+    font-size: 30px;
   }
   
   .subheading p {
     padding: 10px;
-    font-size: 20px;
+    font-size: 25px;
   }
   
   .soloPhotos label input + img{ 
@@ -2129,6 +2159,10 @@ input#bioView, input#mainView{
   
   .emailForm {
     padding: 5px;
+  }
+
+  .emailForm input {
+    width: 100px;
   }
   
   .emailForm input, .emailForm textarea{
