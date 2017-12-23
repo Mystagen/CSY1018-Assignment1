@@ -2083,13 +2083,8 @@ input#bioView, input#mainView{
   column-rule: 1px solid #000;
 }
 
-@media (max-width: 1300px) {
-  .comparisonColumns p {
-    column-count: 2;
-  }
-}
 
-@media (max-width: 800px) {
+@media (max-width: 1300px) {
   .comparisonColumns p {
     column-count: 1;
   }
