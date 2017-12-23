@@ -1,0 +1,2094 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Comfortaa', cursive;
+}
+
+#navigationBurger {
+  display: none;
+  position: fixed;
+}
+
+.menu {
+  left:50%;
+  margin-left:-200px;
+  text-align: center;
+  position: relative;
+  -webkit-border-radius: 40px;
+  -moz-border-radius: 40px;
+  -ms-border-radius: 40px;
+  -o-border-radius: 40px;
+  border-radius: 40px;
+  z-index: 5;
+  top: -500px;
+  width: 400px;
+  background-color: #222;
+  -webkit-transition: -webkit-transform 2s;
+  -moz-transition: -moz-transform 2s;
+  -ms-transition: -ms-transform 2s;
+  -o-transition: -o-transform 2s;
+  transition: transform 2s;
+  border: 1px solid #fff;
+}
+
+.menuicon {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  display: block;
+  cursor: pointer;
+  height: 21px;
+  width: 25px;
+}
+
+.menuicon span, .menuicon span::after, .menuicon span::before{
+  display: block;
+  width: 22px;
+  height: 3px;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  -ms-border-radius: 15px;
+  -o-border-radius: 15px;
+  border-radius: 15px;
+  background-color: #000;
+}
+
+.menuicon span {
+  top: 8px;
+  position: relative;
+  -webkit-transition-delay: 0.2s;
+  -moz-transition-delay: 0.2s;
+  -ms-transition-delay: 0.2s;
+  -o-transition-delay: 0.2s;
+  transition-delay: 0.2s;
+}
+
+.menuicon span::after, .menuicon span::before {  
+  content: '';
+  position: absolute;
+  -webkit-transition-duration: 0.2s;
+  -moz-transition-duration: 0.2s;
+  -ms-transition-duration: 0.2s;
+  -o-transition-duration: 0.2s;
+  transition-duration: 0.2s;
+  -webkit-transition-delay: 0.2s;
+  -moz-transition-delay: 0.2s;
+  -ms-transition-delay: 0.2s;
+  -o-transition-delay: 0.2s;
+  transition-delay: 0.2s;
+}
+
+.menuicon span::before {
+  margin-top: -8px;
+}
+.menuicon span::after {
+  margin-top: 8px;
+}
+
+#navigationBurger:checked ~ .menu {
+  -webkit-transform: translate(0, 480px);
+  -moz-transform: translate(0, 480px);
+  -ms-transform: translate(0, 480px);
+  -o-transform: translate(0, 480px);
+  transform: translate(0, 480px);
+}
+
+#navigationBurger:check ~ .title{
+  display: none;
+}
+
+#navigationBurger:checked ~ .menuicon span {
+  background-color: transparent;
+}
+
+#navigationBurger:checked ~ .menuicon span::before, #navigationBurger:checked ~ .menuicon span::after {
+  margin-top: 0px;
+}
+
+#navigationBurger:checked ~ .menuicon span::before {
+  -webkit-transform: rotate(45deg);
+  -moz-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  -o-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+#navigationBurger:checked ~ .menuicon span::after {
+  -webkit-transform: rotate(-45deg);
+  -moz-transform: rotate(-45deg);
+  -ms-transform: rotate(-45deg);
+  -o-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+}
+	
+.navigation {
+  opacity: 1;
+  margin: 0px;
+  position: relative;
+  overflow: hidden;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: 80px;
+}
+
+.main {
+  border-top: 1px solid #000;
+  border-bottom: 1px solid #000;
+  position: absolute;
+  top: 40;
+  left: 0;
+  right: 0;
+  bottom: 45;
+  background-image: url('C:\\Users\\mjfra\\Desktop\\Web Assignment\\images\\Temp.jpg');
+  background-size: 100%, 100%;
+  overflow: hidden;
+  background-color: #222;
+}
+
+footer {
+  width: 100%;
+  overflow: hidden;
+  position: absolute;
+  bottom: 0;
+  height: 46;
+  display: flex;
+  flex-direction: row;
+  background-color: #eee;
+  z-index: 1;
+  border-top: 1px solid #000;
+}
+
+.logo {
+  padding: 15px;
+  font-weight: bold;
+  border-right: 1px solid #000;
+}
+
+h1 {
+  padding: 5px;
+  position: absolute;
+  top: 0;
+  left: 40;
+  font-size: 30;
+}
+
+footer label {
+  font-weight: bold;
+  padding: 15px;
+}
+
+.menu ul {
+  overflow: auto;
+  list-style-type: none;
+}
+ 
+.menu li {
+  padding: 20;
+}
+ 
+.menu li a {
+  text-decoration: none;
+  color: #777;
+  font-size: 25px;
+  text-transform: uppercase;
+ 
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  -ms-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+ 
+.menu li a:hover {
+  color: #ccc;
+}
+ 
+.menu li.active a {
+  color: #fff;
+}
+
+.contactForm {
+  left:50%;
+  margin-left:-200px;
+  text-align: center;
+  position: relative;
+  -webkit-border-radius: 40px;
+  -moz-border-radius: 40px;
+  -o-border-radius: 40px;
+  -ms-border-radius: 40px;
+  border-radius: 40px;
+  z-index: 1;
+  top: -600px;
+  width: 400px;
+  background-color: #222;
+  -webkit-transition: -webkit-transform 2s;
+  -moz-transition: -moz-transform 2s;
+  -ms-transition: -ms-transform 2s;
+  -o-transition: -o-transform 2s;
+  transition: transform 2s;
+  border: 1px solid #fff;
+}
+
+.contactForm p {
+  padding: 15px;
+  font-size: 30px;
+  color: #eee;
+}
+
+.subheading p {
+  padding: 15px;
+  font-size: 25px;
+  color: #eee;
+}
+
+.soloPhotos label input{
+  visibility: hidden; 
+  position: absolute; 
+}
+
+.soloPhotos label input + img{ 
+  cursor:pointer;
+  padding: 10px;
+  max-width: 25%;
+  max-height: 25%;
+  -webkit-border-radius: 100px;
+  -moz-border-radius: 100px;
+  -ms-border-radius: 100px;
+  -o-border-radius: 100px;
+  border-radius: 100px;
+}
+
+label input:checked + img{ 
+  border:2px solid #fff;
+}
+
+.emailForm {
+  padding: 10px;
+}
+
+.emailForm textarea{
+  resize: none;
+}
+
+.emailForm input, .emailForm textarea{
+  padding: 10px;
+  -webkit-border-radius: 25px;
+  -moz-border-radius: 25px;
+  -ms-border-radius: 25px;
+  -o-border-radius: 25px;
+  border-radius: 25px;
+  outline: 0;
+}
+
+.submitButton {
+  padding: 10px;
+}
+
+.submitButton input{
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  border-radius: 10px;
+  width: 100px;
+  height: 25px;
+  outline: 0;
+}
+
+#contactButton, .contactIcon {
+  position: absolute;
+  top: 10%;
+  left: 5%;
+  background-color: #222;
+}
+
+#contactButton {
+  display: none;
+}
+
+.contactIcon {
+  -webkit-border-radius: 50px;
+  -moz-border-radius: 50px;
+  -ms-border-radius: 50px;
+  -o-border-radius: 50px;
+  border-radius: 50px;
+  cursor: pointer;
+}
+
+.contactIcon img {
+  padding: 5px;
+}
+
+.contactIcon p {
+  float: left;
+  color: #fff;
+  padding: 16px;
+}
+
+#contactButton:checked ~ .contactForm {
+  -webkit-transform: translate(0, 600px);
+  -moz-transform: translate(0, 600px);
+  -ms-transform: translate(0, 600px);
+  -o-transform: translate(0, 600px);
+  transform: translate(0, 600px);
+}
+
+.topExtension {
+  width: 0;
+  height: 0;
+  position: absolute;
+  top: -1400px;
+  left: 140px;
+  z-index: 2;
+	border-bottom: 1400px solid #222;
+	border-left: 1400px solid transparent;
+}
+
+.bottomExtension {
+  width: 0;
+  height: 0;
+  position: absolute;
+  top: 140px;
+  left: -1000px;
+  z-index: 2;
+	border-bottom: 1000px solid #222;
+	border-left: 1000px solid transparent;
+}
+
+.plus1, .plus2, .plus21, .plus22 {
+  width: 50px;
+  height: 50px;
+  z-index: 2;
+  border-bottom: 3px solid #eee;
+  position: absolute;
+  cursor: pointer;
+}
+
+.plus1 {
+  bottom: 40;
+  right: 5;
+  margin-right: 5px;
+}
+
+.plus2 {
+  bottom: 15;
+  right: 5;
+  margin-right: -20px;
+  -webkit-transform: rotate(90deg);
+  -moz-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  -o-transform: rotate(90deg);
+  transform: rotate(90deg);
+}
+
+.contact {
+  overflow: hidden;
+}
+
+.teamImage {
+  position: absolute;
+}
+
+.seperator {
+  position: absolute;
+  width: 0;
+  height: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 1;
+	border-bottom: 142px solid #222;
+  border-left: 142px solid transparent;
+  cursor: pointer;
+}
+
+.bioPage {
+  position: absolute;
+  z-index: 2;
+  background: linear-gradient(135deg, transparent 100px, #222 20px);
+  width: 100%;
+  height: 100%;
+  bottom: -100%;
+  right: -100%;
+  -webkit-transition: -webkit-transform 2s;
+  -moz-transition: -moz-transform 2s;
+  -ms-transition: -ms-transform 2s;
+  -o-transition: -o-transform 2s;
+  transition: transform 2s;
+}
+
+.bioPage img {
+  max-width: 10%;
+  max-height: 10%;
+  padding: 10px;
+  -webkit-border-radius: 100px;
+  -moz-border-radius: 100px;
+  -ms-border-radius: 100px;
+  -o-border-radius: 100px;
+  border-radius: 100px;
+  margin: 5px;
+}
+
+.bioPage p {
+  padding: 10px;
+  color: #fff;
+}
+
+.groupVideo {
+  top: 5%;
+  position: absolute;
+  z-index: 2;
+  width: 320px;
+  left:50%;
+  margin-left:-160px;
+  border: 10px solid #fff;
+  -webkit-border-radius: 25px;
+  -moz-border-radius: 25px;
+  -ms-border-radius: 25px;
+  -o-border-radius: 25px;
+  border-radius: 25px;
+}
+
+.bioPage img, .bioPage p {
+  width: 250px;
+  float: left;
+}
+
+.bios {
+  position: absolute;
+  top: 52%;
+  width: 100%;
+}
+
+.backSeperator {
+  width: 0;
+  height: 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+	border-bottom: 142px solid #222;
+  border-left: 142px solid transparent;
+  cursor: pointer;
+}
+
+.soloPhotos label input{
+  visibility: hidden; 
+  position: absolute; 
+}
+
+.soloPhotos label input + img{ 
+  cursor:pointer;
+  padding: 10px;
+  max-width: 25%;
+  max-height: 25%;
+  -webkit-border-radius: 100px;
+  -moz-border-radius: 100px;
+  -ms-border-radius: 100px;
+  -o-border-radius: 100px;
+  border-radius: 100px;
+}
+
+input#bioView, input#mainView{
+  position: absolute;
+  visibility: hidden;
+}
+
+.switch1 label input + div, .switch2 label input + div {
+  cursor: pointer;
+}
+
+#bioView:checked ~ .bioPage {
+  -webkit-transform: translate(-100%, -100%);
+  -moz-transform: translate(-100%, -100%);
+  -ms-transform: translate(-100%, -100%);
+  -o-transform: translate(-100%, -100%);
+  transform: translate(-100%, -100%);
+}
+
+.bubbles * {
+  z-index: 1;
+  position: absolute;
+  -webkit-border-radius: 100px;
+  -moz-border-radius: 100px;
+  -ms-border-radius: 100px;
+  -o-border-radius: 100px;
+  border-radius: 100px;
+  cursor: pointer;
+}
+
+.bubbles p {
+  color: #fff;
+  position: absolute;
+}
+
+.bubbles input {
+  display: none;
+}
+
+.accessibilityBubble {
+  top: 30px;
+  left: 5px;
+  width: 110px;
+	height: 110px;
+  background: #666;
+}
+
+.accessibilityBubble p {
+  top: 40%;
+  left: 5%;
+}
+
+.asciiBubble {
+  top: 10px;
+  left: 150px;
+  width: 70px;
+  height: 70px;
+  background: #777;
+}
+
+.asciiBubble p {
+  top: 40%;
+  left: 20%;
+}
+
+.attributeBubble {
+  top: 180px;
+  left: 200px;
+  width: 90px;
+  height: 90px;
+  background: #888;
+}
+
+.attributeBubble p {
+  top: 40%;
+  left: 10%;
+}
+
+.bounceBubble {
+  top: 0px;
+  left: 300px;
+  width: 75px;
+	height: 75px;
+  background: #bbb;
+}
+
+.bounceBubble p {
+  top: 40%;
+  left: 8%;
+}
+
+.browserBubble {
+  top: 0px;
+  left: 400px;
+  width: 90px;
+  height: 90px;
+  background: #aaa;
+}
+
+.browserBubble p {
+  top: 40%;
+  left: 15%;
+}
+
+.browserWindowBubble {
+  top: 0px;
+  left: 500px;
+  width: 110px;
+  height: 110px;
+  background: #555;
+}
+
+.browserWindowBubble p {
+  top: 35%;
+  left: 20%;
+}
+
+.cssBubble {
+  top: -50px;
+  left: 650px;
+  width: 130px;
+	height: 130px;
+  background: #999;
+}
+
+.cssBubble p {
+  top: 45%;
+  left: 35%;
+}
+
+.cookieBubble {
+  top: 120px;
+  left: 600px;
+  width: 100px;
+  height: 100px;
+  background: #bbb;
+}
+
+.cookieBubble p {
+  top: 40%;
+  left: 20%;
+}
+
+.domainBubble {
+  top: 0px;
+  left: 800px;
+  width: 80px;
+  height: 80px;
+  background: #888;
+}
+
+.domainBubble p {
+  top: 40%;
+  left: 10%;
+}
+
+.domainNameBubble {
+  top: 0px;
+  left: 960px;
+  width: 120px;
+	height: 120px;
+  background: #444;
+}
+
+.domainNameBubble p {
+  top: 35%;
+  left: 25%;
+}
+
+.dnsBubble {
+  top: 525px;
+  left: 990px;
+  width: 60px;
+  height: 60px;
+  background: #888;
+}
+
+.dnsBubble p {
+  top: 35%;
+  left: 20%;
+}
+
+.doctypeBubble {
+  top: 0px;
+  left: 1100px;
+  width: 100px;
+  height: 100px;
+  background: #777;
+}
+
+.doctypeBubble p {
+  top: 42%;
+  left: 10%;
+}
+
+.elementBubble {
+  top: 300px;
+  left: 650px;
+  width: 80px;
+	height: 80px;
+  background: #aaa;
+}
+
+.elementBubble p {
+  top: 40%;
+  left: 10%;
+}
+
+.faviconBubble {
+  top: 200px;
+  left: 40px;
+  width: 110px;
+  height: 110px;
+  background: #888;
+}
+
+.faviconBubble p {
+  top: 40%;
+  left: 20%;
+}
+
+.ftpClientBubble {
+  top: 110px;
+  left: 110px;
+  width: 90px;
+  height: 90px;
+  background: #999;
+}
+
+.ftpClientBubble p {
+  top: 30%;
+  left: 20%;
+}
+
+.gifBubble {
+  top: -20px;
+  left: 1250px;
+  width: 140px;
+	height: 140px;
+  background: #444;
+}
+
+.gifBubble p {
+  top: 45%;
+  left: 40%;
+}
+
+.hexadecimalBubble {
+  top: 100px;
+  left: 300px;
+  width: 150px;
+  height: 150px;
+  background: #555;
+}
+
+.hexadecimalBubble p {
+  top: 43%;
+  left: 15%;
+}
+
+.hitBubble {
+  top: 280px;
+  left: 320px;
+  width: 50px;
+  height: 50px;
+  background: #bbb;
+}
+
+.hitBubble p {
+  top: 35%;
+  left: 25%;
+}
+
+.htmlBubble {
+  top: 110px;
+  left: 460px;
+  width: 70px;
+	height: 70px;
+  background: #bbb;
+}
+
+.htmlBubble p {
+  top: 40%;
+  left: 15%;
+}
+
+.httpBubble {
+  top: 480px;
+  left: 1250px;
+  width: 100px;
+  height: 100px;
+  background: #aaa;
+}
+
+.httpBubble p {
+  top: 40%;
+  left: 25%;
+}
+
+.httpsBubble {
+  top: 90px;
+  left: 750px;
+  width: 120px;
+  height: 120px;
+  background: #555;
+}
+
+.httpsBubble p {
+  top: 40%;
+  left: 25%;
+}
+
+.hyperlinkBubble {
+  top: 250px;
+  left: 1080px;
+  width: 100px;
+	height: 100px;
+  background: #444;
+}
+
+.hyperlinkBubble p {
+  top: 40%;
+  left: 10%;
+}
+
+.hypertextBubble {
+  top: 100px;
+  left: 900px;
+  width: 90px;
+  height: 90px;
+  background: #aaa;
+}
+
+.hypertextBubble p {
+  top: 40%;
+  left: 5%;
+}
+
+.iframeBubble {
+  top: 110px;
+  left: 1050px;
+  width: 110px;
+  height: 110px;
+  background: #777;
+}
+
+.iframeBubble p {
+  top: 40%;
+  left: 25%;
+}
+
+.ispBubble {
+  top: 500px;
+  left: 200px;
+  width: 60px;
+	height: 60px;
+  background: #999;
+}
+
+.ispBubble p {
+  top: 38%;
+  left: 30%;
+}
+
+.ipAddressBubble {
+  top: 90px;
+  left: 1170px;
+  width: 100px;
+  height: 100px;
+  background: #aaa;
+}
+
+.ipAddressBubble p {
+  top: 30%;
+  left: 15%;
+}
+
+.javascriptBubble {
+  top: 400px;
+  left: 35px;
+  width: 120px;
+  height: 120px;
+  background: #666;
+}
+
+.javascriptBubble p {
+  top: 40%;
+  left: 12%;
+}
+
+.lanBubble {
+  top: 330px;
+  left: 1280px;
+  width: 100px;
+	height: 100px;
+  background: #888;
+}
+
+.lanBubble p {
+  top: 40%;
+  left: 30%;
+}
+
+.landingPageBubble {
+  top: 450px;
+  left: 800px;
+  width: 130px;
+  height: 130px;
+  background: #bbb;
+}
+
+.landingPageBubble p {
+  top: 40%;
+  left: 20%;
+}
+
+.linkBubble {
+  top: 500px;
+  left: 1100px;
+  width: 100px;
+  height: 100px;
+  background: #aaa;
+}
+
+.linkBubble p {
+  top: 40%;
+  left: 30%;
+}
+
+.metadataBubble {
+  top: 500px;
+  left: 400px;
+  width: 100px;
+	height: 100px;
+  background: #666;
+}
+
+.metadataBubble p {
+  top: 35%;
+  left: 30%;
+}
+
+.metatagBubble {
+  top: 200px;
+  left: 500px;
+  width: 90px;
+  height: 90px;
+  background: #888;
+}
+
+.metatagBubble p {
+  top: 30%;
+  left: 25%;
+}
+
+.operatingSystemBubble {
+  top: 480px;
+  left: 600px;
+  width: 120px;
+  height: 120px;
+  background: #777;
+}
+
+.operatingSystemBubble p {
+  top: 35%;
+  left: 15%;
+}
+
+.optimiseBubble {
+  top: 400px;
+  left: 1000px;
+  width: 100px;
+	height: 100px;
+  background: #999;
+}
+
+.optimiseBubble p {
+  top: 40%;
+  left: 13%;
+}
+
+.parkedDomainBubble {
+  top: 220px;
+  left: 800px;
+  width: 80px;
+  height: 80px;
+  background: #bbb;
+}
+
+.parkedDomainBubble p {
+  top: 25%;
+  left: 10%;
+}
+
+.phpBubble {
+  top: 200px;
+  left: 900px;
+  width: 50px;
+  height: 50px;
+  background: #777;
+}
+
+.phpBubble p {
+  top: 35%;
+  left: 15%;
+}
+
+.rootBubble {
+  top: 220px;
+  left: 960px;
+  width: 60px;
+	height: 60px;
+  background: #bbb;
+}
+
+.rootBubble p {
+  top: 35%;
+  left: 15%;
+}
+
+.serverBubble {
+  top: 350px;
+  left: 1150px;
+  width: 100px;
+  height: 100px;
+  background: #777;
+}
+
+.serverBubble p {
+  top: 40%;
+  left: 21%;
+}
+
+.serversideBubble {
+  top: 200px;
+  left: 1200px;
+  width: 130px;
+  height: 130px;
+  background: #999;
+}
+
+.serversideBubble p {
+  top: 43%;
+  left: 15%;
+}
+
+.scriptBubble {
+  top: 310px;
+  left: 0px;
+  width: 80px;
+	height: 80px;
+  background: #aaa;
+}
+
+.scriptBubble p {
+  top: 40%;
+  left: 20%;
+}
+
+.sitemapBubble {
+  top: 400px;
+  left: 260px;
+  width: 130px;
+  height: 130px;
+  background: #aaa;
+}
+
+.sitemapBubble p {
+  top: 42%;
+  left: 23%;
+}
+
+.subdomainBubble {
+  top: 300px;
+  left: 180px;
+  width: 120px;
+  height: 120px;
+  background: #555;
+}
+
+.subdomainBubble p {
+  top: 43%;
+  left: 10%;
+}
+
+.tagBubble {
+  top: 400px;
+  left: 700px;
+  width: 50px;
+	height: 50px;
+  background: #666;
+}
+
+.tagBubble p {
+  top: 35%;
+  left: 20%;
+}
+
+.theNetBubble {
+  top: 300px;
+  left: 400px;
+  width: 90px;
+  height: 90px;
+  background: #888;
+}
+
+.theNetBubble p {
+  top: 40%;
+  left: 10%;
+}
+
+.trojanHorseBubble {
+  top: 300px;
+  left: 500px;
+  width: 130px;
+  height: 130px;
+  background: #bbb;
+}
+
+.trojanHorseBubble p {
+  top: 40%;
+  left: 13%;
+}
+
+.urlBubble {
+  top: 450px;
+  left: 500px;
+  width: 70px;
+	height: 70px;
+  background: #bbb;
+}
+
+.urlBubble p {
+  top: 40%;
+  left: 25%;
+}
+
+.websiteBubble {
+  top: 310px;
+  left: 750px;
+  width: 80px;
+  height: 80px;
+  background: #888;
+}
+
+.websiteBubble p {
+  top: 40%;
+  left: 10%;
+}
+
+.websiteAddressBubble {
+  top: 300px;
+  left: 850px;
+  width: 140px;
+  height: 140px;
+  background: #666;
+}
+
+.websiteAddressBubble p {
+  top: 40%;
+  left: 25%;
+}
+
+.wwwBubble {
+  top: 70px;
+  left: 220px;
+  width: 60px;
+	height: 60px;
+  background: #aaa;
+}
+
+.wwwBubble p {
+  top: 40%;
+  left: 13%;
+}
+
+.xmlBubble {
+  top: 300px;
+  left: 1000px;
+  width: 50px;
+  height: 50px;
+  background: #777;
+}
+
+.xmlBubble p {
+  top: 35%;
+  left: 10%;
+}
+
+.closeButton {
+  top: 2;
+  left: 2;
+  width: 50;
+  height: 25;
+  background-color: #fff;
+  border-radius: 50px;
+}
+
+.closeButton p {
+  color: #000;
+  font-weight: bold;
+  padding: 1px;
+  top: 10%;
+}
+
+.glossaryTitle {
+  position: absolute;
+  z-index: 1;
+  top: 40%;
+  left: 47%;
+  background-color: #fff;
+  height: 50px;
+  width: 100px;
+  border-radius: 25px;
+}
+
+.glossaryTitle p {
+  position: absolute;
+  z-index: 2;
+  top: 35%;
+  left: 15%;
+  font-weight: bold;
+}
+
+.accessibilityMenu, .asciiMenu, .attributeMenu, .bounceMenu, .browserMenu, .browserWindowMenu, .cssMenu, .cookieMenu, .domainMenu, .domainNameMenu, .dnsMenu, .doctypeMenu, .elementMenu,
+.faviconMenu, .ftpClientMenu, .gifMenu, .hexadecimalMenu, .hitMenu, .htmlMenu, .httpMenu, .httpsMenu, .hyperlinkMenu, .hypertextMenu, .iFrameMenu, .ispMenu, .ipAddressMenu, .javascriptMenu,
+.lanMenu, .landingPageMenu, .linkMenu, .metadataMenu, .metatagMenu, .operatingSystemMenu, .optimiseMenu, .parkedDomainMenu, .phpMenu, .rootMenu, .serverMenu, .serversideMenu, .scriptMenu,
+.sitemapMenu, .subdomainMenu, .tagMenu, .theNetMenu, .trojanHorseMenu, .urlMenu, .websiteMenu, .websiteAddressMenu, .wwwMenu, .xmlMenu{
+  left:50%;
+  top: -500px;
+  margin-left:-200px;
+  text-align: center;
+  position: absolute;
+  z-index: 4;
+  width: 400px;
+  height: 200px;
+  background-color: #222;
+  border: 1px solid #fff;
+  -webkit-transition: -webkit-transform 2s;
+  -moz-transition: -moz-transform 2s;
+  -ms-transition: -ms-transform 2s;
+  -o-transition: -o-transform 2s;
+  transition: transform 2s;
+}
+
+.accessibilityMenu h1 {
+  position: absolute;
+  color: #fff;
+  font-weight: lighter;
+  left: 25%;
+  top: 5%;
+}
+
+.accessibilityMenu p, .asciiMenu p, .attributeMenu p, .bounceMenu p, .browserMenu p, .browserWindowMenu p, .cssMenu p, .cookieMenu p, .domainMenu p, .domainNameMenu p, .dnsMenu p, .doctypeMenu p, .elementMenu p,
+.faviconMenu p, .ftpClientMenu p, .gifMenu p, .hexadecimalMenu p, .hitMenu p, .htmlMenu p, .httpMenu p, .httpsMenu p, .hyperlinkMenu p, .hypertextMenu p, .iFrameMenu p, .ispMenu p, .ipAddressMenu p, .javascriptMenu p,
+.lanMenu p, .landingPageMenu p, .linkMenu p, .metadataMenu p, .metatagMenu p, .operatingSystemMenu p, .optimiseMenu p, .parkedDomainMenu p, .phpMenu p, .rootMenu p, .serverMenu p, .serversideMenu p, .scriptMenu p,
+.sitemapMenu p, .subdomainMenu p, .tagMenu p, .theNetMenu p, .trojanHorseMenu p, .urlMenu p, .websiteMenu p, .websiteAddressMenu p, .wwwMenu p, .xmlMenu p{
+  top: 35%;
+  padding: 10px;
+}
+
+#accessibility:checked ~ .accessibilityMenu{
+  -webkit-transform: translate(0, 550px);
+  -moz-transform: translate(0, 550px);
+  -ms-transform: translate(0, 550px);
+  -o-transform: translate(0, 550px);
+  transform: translate(0, 550px);
+}
+
+.asciiMenu h1 {
+  position: absolute;
+  color: #fff;
+  font-weight: lighter;
+  left: 40%;
+  top: 5%;
+}
+
+#ascii:checked ~ .asciiMenu {
+  -webkit-transform: translate(0, 550px);
+  -moz-transform: translate(0, 550px);
+  -ms-transform: translate(0, 550px);
+  -o-transform: translate(0, 550px);
+  transform: translate(0, 550px);
+}
+
+.attributeMenu h1 {
+  position: absolute;
+  color: #fff;
+  font-weight: lighter;
+  left: 33%;
+  top: 5%;
+}
+
+#attribute:checked ~ .attributeMenu {
+  -webkit-transform: translate(0, 550px);
+  -moz-transform: translate(0, 550px);
+  -ms-transform: translate(0, 550px);
+  -o-transform: translate(0, 550px);
+  transform: translate(0, 550px);
+}
+
+.bounceMenu h1 {
+  position: absolute;
+  color: #fff;
+  font-weight: lighter;
+  left: 33%;
+  top: 5%;
+}
+
+#bounce:checked ~ .bounceMenu{
+  -webkit-transform: translate(0, 550px);
+  -moz-transform: translate(0, 550px);
+  -ms-transform: translate(0, 550px);
+  -o-transform: translate(0, 550px);
+  transform: translate(0, 550px);
+}
+
+.browserMenu h1 {
+  position: absolute;
+  color: #fff;
+  font-weight: lighter;
+  left: 33%;
+  top: 5%;
+}
+
+#browser:checked ~ .browserMenu{
+  -webkit-transform: translate(0, 550px);
+  -moz-transform: translate(0, 550px);
+  -ms-transform: translate(0, 550px);
+  -o-transform: translate(0, 550px);
+  transform: translate(0, 550px);
+}
+
+.browserWindowMenu h1 {
+  position: absolute;
+  color: #fff;
+  font-weight: lighter;
+  left: 18%;
+  top: 5%;
+}
+
+#browserWindow:checked ~ .browserWindowMenu{
+  -webkit-transform: translate(0, 550px);
+  -moz-transform: translate(0, 550px);
+  -ms-transform: translate(0, 550px);
+  -o-transform: translate(0, 550px);
+  transform: translate(0, 550px);
+}
+
+.cssMenu h1 {
+  position: absolute;
+  color: #fff;
+  font-weight: lighter;
+  left: 40%;
+  top: 5%;
+}
+
+#css:checked ~ .cssMenu{
+  -webkit-transform: translate(0, 550px);
+  -moz-transform: translate(0, 550px);
+  -ms-transform: translate(0, 550px);
+  -o-transform: translate(0, 550px);
+  transform: translate(0, 550px);
+}
+
+.cookieMenu h1 {
+  position: absolute;
+  color: #fff;
+  font-weight: lighter;
+  left: 33%;
+  top: 5%;
+}
+
+#cookie:checked ~ .cookieMenu{
+  -webkit-transform: translate(0, 550px);
+  -moz-transform: translate(0, 550px);
+  -ms-transform: translate(0, 550px);
+  -o-transform: translate(0, 550px);
+  transform: translate(0, 550px);
+}
+
+.domainMenu h1 {
+  position: absolute;
+  color: #fff;
+  font-weight: lighter;
+  left: 33%;
+  top: 5%;
+}
+
+#domain:checked ~ .domainMenu{
+  -webkit-transform: translate(0, 550px);
+  -moz-transform: translate(0, 550px);
+  -ms-transform: translate(0, 550px);
+  -o-transform: translate(0, 550px);
+  transform: translate(0, 550px);
+}
+
+.domainNameMenu h1 {
+  position: absolute;
+  color: #fff;
+  font-weight: lighter;
+  left: 20%;
+  top: 5%;
+}
+
+#domainName:checked ~ .domainNameMenu{
+  -webkit-transform: translate(0, 550px);
+  -moz-transform: translate(0, 550px);
+  -ms-transform: translate(0, 550px);
+  -o-transform: translate(0, 550px);
+  transform: translate(0, 550px);
+}
+
+.dnsMenu h1 {
+  position: absolute;
+  color: #fff;
+  font-weight: lighter;
+  left: 40%;
+  top: 5%;
+}
+
+#dns:checked ~ .dnsMenu{
+  -webkit-transform: translate(0, 550px);
+  -moz-transform: translate(0, 550px);
+  -ms-transform: translate(0, 550px);
+  -o-transform: translate(0, 550px);
+  transform: translate(0, 550px);
+}
+
+.doctypeMenu h1 {
+  position: absolute;
+  color: #fff;
+  font-weight: lighter;
+  left: 33%;
+  top: 5%;
+}
+
+#doctype:checked ~ .doctypeMenu{
+  -webkit-transform: translate(0, 550px);
+  -moz-transform: translate(0, 550px);
+  -ms-transform: translate(0, 550px);
+  -o-transform: translate(0, 550px);
+  transform: translate(0, 550px);
+}
+
+.elementMenu h1 {
+  position: absolute;
+  color: #fff;
+  font-weight: lighter;
+  left: 33%;
+  top: 5%;
+}
+
+#element:checked ~ .elementMenu{
+  -webkit-transform: translate(0, 550px);
+  -moz-transform: translate(0, 550px);
+  -ms-transform: translate(0, 550px);
+  -o-transform: translate(0, 550px);
+  transform: translate(0, 550px);
+}
+
+.faviconMenu h1 {
+  position: absolute;
+  color: #fff;
+  font-weight: lighter;
+  left: 33%;
+  top: 5%;
+}
+
+#favicon:checked ~ .faviconMenu{
+  -webkit-transform: translate(0, 550px);
+  -moz-transform: translate(0, 550px);
+  -ms-transform: translate(0, 550px);
+  -o-transform: translate(0, 550px);
+  transform: translate(0, 550px);
+}
+
+.ftpClientMenu h1 {
+  position: absolute;
+  color: #fff;
+  font-weight: lighter;
+  left: 33%;
+  top: 5%;
+}
+
+#ftpClient:checked ~ .ftpClientMenu{
+  -webkit-transform: translate(0, 550px);
+  -moz-transform: translate(0, 550px);
+  -ms-transform: translate(0, 550px);
+  -o-transform: translate(0, 550px);
+  transform: translate(0, 550px);
+}
+
+.gifMenu h1 {
+  position: absolute;
+  color: #fff;
+  font-weight: lighter;
+  left: 40%;
+  top: 5%;
+}
+
+#gif:checked ~ .gifMenu {
+  -webkit-transform: translate(0, 550px);
+  -moz-transform: translate(0, 550px);
+  -ms-transform: translate(0, 550px);
+  -o-transform: translate(0, 550px);
+  transform: translate(0, 550px);
+}
+
+.hexadecimalMenu h1 {
+  position: absolute;
+  color: #fff;
+  font-weight: lighter;
+  left: 25%;
+  top: 5%;
+}
+
+#hexadecimal:checked ~ .hexadecimalMenu {
+  -webkit-transform: translate(0, 550px);
+  -moz-transform: translate(0, 550px);
+  -ms-transform: translate(0, 550px);
+  -o-transform: translate(0, 550px);
+  transform: translate(0, 550px);
+}
+
+.hitMenu h1 {
+  position: absolute;
+  color: #fff;
+  font-weight: lighter;
+  left: 42%;
+  top: 5%;
+}
+
+#hit:checked ~ .hitMenu {
+  -webkit-transform: translate(0, 550px);
+  -moz-transform: translate(0, 550px);
+  -ms-transform: translate(0, 550px);
+  -o-transform: translate(0, 550px);
+  transform: translate(0, 550px);
+}
+
+.htmlMenu h1 {
+  position: absolute;
+  color: #fff;
+  font-weight: lighter;
+  left: 37%;
+  top: 5%;
+}
+
+#html:checked ~ .htmlMenu {
+  -webkit-transform: translate(0, 550px);
+  -moz-transform: translate(0, 550px);
+  -ms-transform: translate(0, 550px);
+  -o-transform: translate(0, 550px);
+  transform: translate(0, 550px);
+}
+
+.httpMenu h1 {
+  position: absolute;
+  color: #fff;
+  font-weight: lighter;
+  left: 33%;
+  top: 5%;
+}
+
+#http:checked ~ .httpMenu {
+  -webkit-transform: translate(0, 550px);
+  -moz-transform: translate(0, 550px);
+  -ms-transform: translate(0, 550px);
+  -o-transform: translate(0, 550px);
+  transform: translate(0, 550px);
+}
+
+.httpsMenu h1 {
+  position: absolute;
+  color: #fff;
+  font-weight: lighter;
+  left: 35%;
+  top: 5%;
+}
+
+#https:checked ~ .httpsMenu {
+  -webkit-transform: translate(0, 550px);
+  -moz-transform: translate(0, 550px);
+  -ms-transform: translate(0, 550px);
+  -o-transform: translate(0, 550px);
+  transform: translate(0, 550px);
+}
+
+.hyperlinkMenu h1 {
+  position: absolute;
+  color: #fff;
+  font-weight: lighter;
+  left: 33%;
+  top: 5%;
+}
+
+#hyperlink:checked ~ .hyperlinkMenu {
+  -webkit-transform: translate(0, 550px);
+  -moz-transform: translate(0, 550px);
+  -ms-transform: translate(0, 550px);
+  -o-transform: translate(0, 550px);
+  transform: translate(0, 550px);
+}
+
+.hypertextMenu h1 {
+  position: absolute;
+  color: #fff;
+  font-weight: lighter;
+  left: 30%;
+  top: 5%;
+}
+
+#hypertext:checked ~ .hypertextMenu {
+  -webkit-transform: translate(0, 550px);
+  -moz-transform: translate(0, 550px);
+  -ms-transform: translate(0, 550px);
+  -o-transform: translate(0, 550px);
+  transform: translate(0, 550px);
+}
+
+.iFrameMenu h1 {
+  position: absolute;
+  color: #fff;
+  font-weight: lighter;
+  left: 33%;
+  top: 5%;
+}
+
+#iFrame:checked ~ .iFrameMenu {
+  -webkit-transform: translate(0, 550px);
+  -moz-transform: translate(0, 550px);
+  -ms-transform: translate(0, 550px);
+  -o-transform: translate(0, 550px);
+  transform: translate(0, 550px);
+}
+
+.ispMenu h1 {
+  position: absolute;
+  color: #fff;
+  font-weight: lighter;
+  left: 43%;
+  top: 5%;
+}
+
+#isp:checked ~ .ispMenu {
+  -webkit-transform: translate(0, 550px);
+  -moz-transform: translate(0, 550px);
+  -ms-transform: translate(0, 550px);
+  -o-transform: translate(0, 550px);
+  transform: translate(0, 550px);
+}
+
+.ipAddressMenu h1 {
+  position: absolute;
+  color: #fff;
+  font-weight: lighter;
+  left: 33%;
+  top: 5%;
+}
+
+#ipAddress:checked ~ .ipAddressMenu {
+  -webkit-transform: translate(0, 550px);
+  -moz-transform: translate(0, 550px);
+  -ms-transform: translate(0, 550px);
+  -o-transform: translate(0, 550px);
+  transform: translate(0, 550px);
+}
+
+.javascriptMenu h1 {
+  position: absolute;
+  color: #fff;
+  font-weight: lighter;
+  left: 28%;
+  top: 5%;
+}
+
+#javascript:checked ~ .javascriptMenu {
+  -webkit-transform: translate(0, 550px);
+  -moz-transform: translate(0, 550px);
+  -ms-transform: translate(0, 550px);
+  -o-transform: translate(0, 550px);
+  transform: translate(0, 550px);
+}
+
+.lanMenu h1 {
+  position: absolute;
+  color: #fff;
+  font-weight: lighter;
+  left: 42%;
+  top: 5%;
+}
+
+#lan:checked ~ .lanMenu {
+  -webkit-transform: translate(0, 550px);
+  -moz-transform: translate(0, 550px);
+  -ms-transform: translate(0, 550px);
+  -o-transform: translate(0, 550px);
+  transform: translate(0, 550px);
+}
+
+.landingPageMenu h1 {
+  position: absolute;
+  color: #fff;
+  font-weight: lighter;
+  left: 25%;
+  top: 5%;
+}
+
+#landingPage:checked ~ .landingPageMenu {
+  -webkit-transform: translate(0, 550px);
+  -moz-transform: translate(0, 550px);
+  -ms-transform: translate(0, 550px);
+  -o-transform: translate(0, 550px);
+  transform: translate(0, 550px);
+}
+
+.linkMenu h1 {
+  position: absolute;
+  color: #fff;
+  font-weight: lighter;
+  left: 40%;
+  top: 5%;
+}
+
+#link:checked ~ .linkMenu {
+  -webkit-transform: translate(0, 550px);
+  -moz-transform: translate(0, 550px);
+  -ms-transform: translate(0, 550px);
+  -o-transform: translate(0, 550px);
+  transform: translate(0, 550px);
+}
+
+.metadataMenu h1 {
+  position: absolute;
+  color: #fff;
+  font-weight: lighter;
+  left: 30%;
+  top: 5%;
+}
+
+#metadata:checked ~ .metadataMenu {
+  -webkit-transform: translate(0, 550px);
+  -moz-transform: translate(0, 550px);
+  -ms-transform: translate(0, 550px);
+  -o-transform: translate(0, 550px);
+  transform: translate(0, 550px);
+}
+
+.metatagMenu h1 {
+  position: absolute;
+  color: #fff;
+  font-weight: lighter;
+  left: 33%;
+  top: 5%;
+}
+
+#metatag:checked ~ .metatagMenu {
+  -webkit-transform: translate(0, 550px);
+  -moz-transform: translate(0, 550px);
+  -ms-transform: translate(0, 550px);
+  -o-transform: translate(0, 550px);
+  transform: translate(0, 550px);
+}
+
+.operatingSystemMenu h1 {
+  position: absolute;
+  color: #fff;
+  font-weight: lighter;
+  left: 15%;
+  top: 5%;
+}
+
+#operatingSystem:checked ~ .operatingSystemMenu {
+  -webkit-transform: translate(0, 550px);
+  -moz-transform: translate(0, 550px);
+  -ms-transform: translate(0, 550px);
+  -o-transform: translate(0, 550px);
+  transform: translate(0, 550px);
+}
+
+.optimiseMenu h1 {
+  position: absolute;
+  color: #fff;
+  font-weight: lighter;
+  left: 33%;
+  top: 5%;
+}
+
+#optimise:checked ~ .optimiseMenu {
+  -webkit-transform: translate(0, 550px);
+  -moz-transform: translate(0, 550px);
+  -ms-transform: translate(0, 550px);
+  -o-transform: translate(0, 550px);
+  transform: translate(0, 550px);
+}
+
+.parkedDomainMenu h1 {
+  position: absolute;
+  color: #fff;
+  font-weight: lighter;
+  left: 20%;
+  top: 5%;
+}
+
+#parkedDomain:checked ~ .parkedDomainMenu {
+  -webkit-transform: translate(0, 550px);
+  -moz-transform: translate(0, 550px);
+  -ms-transform: translate(0, 550px);
+  -o-transform: translate(0, 550px);
+  transform: translate(0, 550px);
+}
+
+.phpMenu h1 {
+  position: absolute;
+  color: #fff;
+  font-weight: lighter;
+  left: 40%;
+  top: 5%;
+}
+
+#php:checked ~ .phpMenu {
+  -webkit-transform: translate(0, 550px);
+  -moz-transform: translate(0, 550px);
+  -ms-transform: translate(0, 550px);
+  -o-transform: translate(0, 550px);
+  transform: translate(0, 550px);
+}
+
+.rootMenu h1 {
+  position: absolute;
+  color: #fff;
+  font-weight: lighter;
+  left: 40%;
+  top: 5%;
+}
+
+#root:checked ~ .rootMenu {
+  -webkit-transform: translate(0, 550px);
+  -moz-transform: translate(0, 550px);
+  -ms-transform: translate(0, 550px);
+  -o-transform: translate(0, 550px);
+  transform: translate(0, 550px);
+}
+
+.serverMenu h1 {
+  position: absolute;
+  color: #fff;
+  font-weight: lighter;
+  left: 35%;
+  top: 5%;
+}
+
+#server:checked ~ .serverMenu {
+  -webkit-transform: translate(0, 550px);
+  -moz-transform: translate(0, 550px);
+  -ms-transform: translate(0, 550px);
+  -o-transform: translate(0, 550px);
+  transform: translate(0, 550px);
+}
+
+.serversideMenu h1 {
+  position: absolute;
+  color: #fff;
+  font-weight: lighter;
+  left: 25%;
+  top: 5%;
+}
+
+#serverside:checked ~ .serversideMenu {
+  -webkit-transform: translate(0, 550px);
+  -moz-transform: translate(0, 550px);
+  -ms-transform: translate(0, 550px);
+  -o-transform: translate(0, 550px);
+  transform: translate(0, 550px);
+}
+
+.scriptMenu h1 {
+  position: absolute;
+  color: #fff;
+  font-weight: lighter;
+  left: 36%;
+  top: 5%;
+}
+
+#script:checked ~ .scriptMenu {
+  -webkit-transform: translate(0, 550px);
+  -moz-transform: translate(0, 550px);
+  -ms-transform: translate(0, 550px);
+  -o-transform: translate(0, 550px);
+  transform: translate(0, 550px);
+}
+
+.sitemapMenu h1 {
+  position: absolute;
+  color: #fff;
+  font-weight: lighter;
+  left: 33%;
+  top: 5%;
+}
+
+#sitemap:checked ~ .sitemapMenu {
+  -webkit-transform: translate(0, 550px);
+  -moz-transform: translate(0, 550px);
+  -ms-transform: translate(0, 550px);
+  -o-transform: translate(0, 550px);
+  transform: translate(0, 550px);
+}
+
+.subdomainMenu h1 {
+  position: absolute;
+  color: #fff;
+  font-weight: lighter;
+  left: 27%;
+  top: 5%;
+}
+
+#subdomain:checked ~ .subdomainMenu {
+  -webkit-transform: translate(0, 550px);
+  -moz-transform: translate(0, 550px);
+  -ms-transform: translate(0, 550px);
+  -o-transform: translate(0, 550px);
+  transform: translate(0, 550px);
+}
+
+.tagMenu h1 {
+  position: absolute;
+  color: #fff;
+  font-weight: lighter;
+  left: 41%;
+  top: 5%;
+}
+
+#tag:checked ~ .tagMenu {
+  -webkit-transform: translate(0, 550px);
+  -moz-transform: translate(0, 550px);
+  -ms-transform: translate(0, 550px);
+  -o-transform: translate(0, 550px);
+  transform: translate(0, 550px);
+}
+
+.theNetMenu h1 {
+  position: absolute;
+  color: #fff;
+  font-weight: lighter;
+  left: 33%;
+  top: 5%;
+}
+
+#theNet:checked ~ .theNetMenu {
+  -webkit-transform: translate(0, 550px);
+  -moz-transform: translate(0, 550px);
+  -ms-transform: translate(0, 550px);
+  -o-transform: translate(0, 550px);
+  transform: translate(0, 550px);
+}
+
+.trojanHorseMenu h1 {
+  position: absolute;
+  color: #fff;
+  font-weight: lighter;
+  left: 25%;
+  top: 5%;
+}
+
+#trojanHorse:checked ~ .trojanHorseMenu {
+  -webkit-transform: translate(0, 550px);
+  -moz-transform: translate(0, 550px);
+  -ms-transform: translate(0, 550px);
+  -o-transform: translate(0, 550px);
+  transform: translate(0, 550px);
+}
+
+.urlMenu h1 {
+  position: absolute;
+  color: #fff;
+  font-weight: lighter;
+  left: 40%;
+  top: 5%;
+}
+
+#url:checked ~ .urlMenu {
+  -webkit-transform: translate(0, 550px);
+  -moz-transform: translate(0, 550px);
+  -ms-transform: translate(0, 550px);
+  -o-transform: translate(0, 550px);
+  transform: translate(0, 550px);
+}
+
+.websiteMenu h1 {
+  position: absolute;
+  color: #fff;
+  font-weight: lighter;
+  left: 33%;
+  top: 5%;
+}
+
+#website:checked ~ .websiteMenu {
+  -webkit-transform: translate(0, 550px);
+  -moz-transform: translate(0, 550px);
+  -ms-transform: translate(0, 550px);
+  -o-transform: translate(0, 550px);
+  transform: translate(0, 550px);
+}
+
+.websiteAddressMenu h1 {
+  position: absolute;
+  color: #fff;
+  font-weight: lighter;
+  left: 20%;
+  top: 5%;
+}
+
+#websiteAddress:checked ~ .websiteAddressMenu {
+  -webkit-transform: translate(0, 550px);
+  -moz-transform: translate(0, 550px);
+  -ms-transform: translate(0, 550px);
+  -o-transform: translate(0, 550px);
+  transform: translate(0, 550px);
+}
+
+.wwwMenu h1 {
+  position: absolute;
+  color: #fff;
+  font-weight: lighter;
+  left: 37%;
+  top: 5%;
+}
+
+#www:checked ~ .wwwMenu {
+  -webkit-transform: translate(0, 550px);
+  -moz-transform: translate(0, 550px);
+  -ms-transform: translate(0, 550px);
+  -o-transform: translate(0, 550px);
+  transform: translate(0, 550px);
+}
+
+.xmlMenu h1 {
+  position: absolute;
+  color: #fff;
+  font-weight: lighter;
+  left: 40%;
+  top: 5%;
+}
+
+#xml:checked ~ .xmlMenu {
+  -webkit-transform: translate(0, 550px);
+  -moz-transform: translate(0, 550px);
+  -ms-transform: translate(0, 550px);
+  -o-transform: translate(0, 550px);
+  transform: translate(0, 550px);
+}
+
+.comparisonColumns {
+  position: absolute;
+  top: 5%;
+  left: 2%;
+  width: 96%;
+  height: 90%;
+  background-color: #fff;
+  -webkit-border-radius: 40px;
+  -moz-border-radius: 40px;
+  -ms-border-radius: 40px;
+  -o-border-radius: 40px;
+  border-radius: 40px;
+}
+
+.cchead{
+  text-align:center;
+  position: relative;
+  top: 10%;
+  font-weight: bold;
+  font-size: 30px;
+}
+
+.comparisonColumns a {
+  color: #24f;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.comparisonColumns p {
+  position: absolute;
+  top: 35%;
+  left: 2%;
+  max-width: 96%;
+  max-height: 90%;
+  color: #000;
+  column-count: 3;
+  column-gap: 70px;
+  column-rule: 1px solid #000;
+}
+
+@media (max-width: 1500px) {
+  .comparisonColumns p {
+    column-count: 2;
+  }
+}
+
+@media (max-width: 1000px) {
+  .comparisonColumns p {
+    column-count: 1;
+  }
+}

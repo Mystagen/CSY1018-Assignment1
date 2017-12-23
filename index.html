@@ -1,0 +1,115 @@
+<!DOCTYPE html:5>
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="styles/main.css">
+        <link href="https://fonts.googleapis.com/css?family=Comfortaa:300" rel="stylesheet">
+    </head>
+    <body>
+        <div class="navigation">               
+            <input type="checkbox" id="navigationBurger"/>
+            <label class="menuicon" for="navigationBurger">
+                <span></span>
+            </label> 
+            <h1>Web Dev</h1>             
+            <div class="menu">
+                <nav>
+                    <ul>
+                        <li class="active"><a href="index.html">The Team</a></li>
+                        <li><a href="glossary.html">Glossary</a></li>
+                        <li><a href="jobComparison.html">Job Comparison</a></li>
+                        <li><a href="softwareEngineering.html">Software Engineering</a></li>
+                        <li><a href="goodPractice.html">GUI Good Practice</a></li>
+                        <li><a href="reflection.html">Reflection</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+        <div class = "main">
+            <div class="teamImage">
+                <img src="C:\Users\mjfra\Desktop\Web Assignment\images\Team.jpg" width="100%" alt="The whole team"/>
+            </div>
+            <div class="scrollPage">
+                <input type="radio" name="changeView" id="bioView"/>
+                <label class = "switch1" for="bioView">
+                    <div class="seperator">
+                    </div>
+                    <div class="plus1">
+                    </div>
+                    <div class="plus2">
+                    </div>
+                </label>
+                <div class="bioPage">
+                    <label class = "switch2">
+                        <input type="radio" name="changeView" id="mainView"/>
+                        <div class="backSeperator">
+                        </div>
+                    </label>
+                    <div class="groupVideo">
+                        <iframe width="320" height="240"
+                            src="https://www.youtube.com/embed/HQlkp6Dobjg">
+                            Your browser doesnt support this video
+                        </iframe>
+                    </div>
+                    <div class="topExtension">
+                    </div>
+                    <div class="bottomExtension">
+                    </div>
+                    <div class="bios">
+                        <div class="michael">
+                            <img src="C:\Users\mjfra\Desktop\Web Assignment\images\Michael.jpg" alt=Michael/>
+                            <p>I am an 18-year-old Software Engineering student studying at the University of Northampton. I was born in Reading however I have lived in Scotland since I was 3. I have long held a passion for programming having being taught to use Python to a decent extent in highschool. I am a fan of PC gaming and my favourite game is the free-to-play MMO Warframe.</p>
+                        </div>
+                        <div class="raj">
+                            <img src="C:\Users\mjfra\Desktop\Web Assignment\images\Raj.jpg" alt=Raj/>
+                            <p>Place-holder bio</p>
+                        </div>
+                        <div class="mendes">
+                            <img src="C:\Users\mjfra\Desktop\Web Assignment\images\Mendes.jpg" alt=Mendes/>
+                            <p>I am a 18 years old software engineering student in The University of Northampton. Living now in Northampton since September 2017 and came from Portugal, Madeira Island. Always liked computing since very little and have the dream of working in a company like Google. I play the piano as music is very important for me as well. Also a fan of video games.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="contact">
+                <input type="checkbox" id="contactButton"/>
+                <label class="contactIcon" for="contactButton">
+                    <p>Contact Us</p>
+                    <img src="C:\Users\mjfra\Desktop\Web Assignment\images\contactUs.png" height = "40" width = "40" alt="Contact Us"/>
+                </label> 
+                <div class="contactForm">
+                    <p>Contact Us</p>
+                    <div class="subheading">
+                        <p> Choose Recipient</p>
+                    </div>
+                    <div class="soloPhotos">
+                        <label>
+                            <input type="radio" name ="personalPhotos"/>
+                            <img src="C:\Users\mjfra\Desktop\Web Assignment\images\Michael.jpg" alt="Michael"/>
+                        </label>
+                        <label>
+                            <input type="radio" name ="personalPhotos"/>
+                            <img src="C:\Users\mjfra\Desktop\Web Assignment\images\Raj.jpg" alt="Raj"/>
+                        </label>
+                        <label>
+                            <input type="radio" name ="personalPhotos"/>
+                            <img src="C:\Users\mjfra\Desktop\Web Assignment\images\Mendes.jpg" alt="Mendes"/>
+                        </label>
+                    </div> 
+                    <div class="emailForm">
+                        <form>
+                            <input type="text" name="name" placeholder="Your name"><br><br>
+                            <input type="email" name="email" placeholder="Your e-mail"><br><br>
+                            <textarea name="message" cols="35" rows="6" placeholder="Your question or message"></textarea>
+                        </form> 
+                    </div>
+                    <div class="submitButton">
+                        <input type="button" value="Send"/>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <footer>
+            <p class = "logo">Web Dev</p>
+        </footer>
+    </body>
+</html>
