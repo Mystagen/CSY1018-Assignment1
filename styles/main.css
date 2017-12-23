@@ -51,7 +51,7 @@
   -ms-border-radius: 15px;
   -o-border-radius: 15px;
   border-radius: 15px;
-  background-color: #000;
+  background-color: #ecf0f1;
 }
 
 .menuicon span {
@@ -132,11 +132,17 @@
   left: 0;
   right: 0;
   padding: 80px;
+  background-color: #2c3e50;
+}
+
+.navigation h1 {
+  font-weight: lighter;
+  color: #ecf0f1;
 }
 
 .main {
-  border-top: 1px solid #000;
-  border-bottom: 1px solid #000;
+  border-top: 3px solid #e74c3c;
+  border-bottom: 3px solid #e74c3c;
   position: absolute;
   top: 40;
   left: 0;
@@ -144,7 +150,7 @@
   bottom: 45;
   background-size: 100%, 100%;
   overflow: hidden;
-  background-color: #222;
+  background-color: #ecf0f1;
 }
 
 footer {
@@ -155,15 +161,16 @@ footer {
   height: 46;
   display: flex;
   flex-direction: row;
-  background-color: #eee;
+  background-color: #2c3e50;
   z-index: 1;
-  border-top: 1px solid #000;
+  border-top: 3px solid #e74c3c;
 }
 
 .logo {
+  color: #ecf0f1;
+  font-weight: lighter;
   padding: 15px;
-  font-weight: bold;
-  border-right: 1px solid #000;
+  border-right: 3px solid #e74c3c;
 }
 
 h1 {
@@ -222,25 +229,25 @@ footer label {
   z-index: 2;
   top: -600px;
   width: 400px;
-  background-color: #222;
+  background-color: #2c3e50;
   -webkit-transition: -webkit-transform 2s;
   -moz-transition: -moz-transform 2s;
   -ms-transition: -ms-transform 2s;
   -o-transition: -o-transform 2s;
   transition: transform 2s;
-  border: 1px solid #fff;
+  border: 2px solid #e74c3c;
 }
 
 .contactForm p {
   padding: 15px;
   font-size: 30px;
-  color: #eee;
+  color: #ecf0f1;
 }
 
 .subheading p {
   padding: 15px;
   font-size: 25px;
-  color: #eee;
+  color: #ecf0f1;
 }
 
 .soloPhotos label input{
@@ -305,7 +312,7 @@ label input:checked + img{
   position: absolute;
   top: 10%;
   left: 5%;
-  background-color: #222;
+  background-color: #2c3e50;
 }
 
 #contactButton {
@@ -363,6 +370,7 @@ label input:checked + img{
   -ms-border-radius: 50px;
   -o-border-radius: 50px;
   border-radius: 50px;
+  border: 5px inset #e74c3c;
   cursor: pointer;
   width: 180px;
 }
@@ -375,7 +383,7 @@ label input:checked + img{
 
 .contactIcon p {
   float: left;
-  color: #fff;
+  color: #ecf0f1;
   padding: 16px;
 }
 
@@ -394,7 +402,7 @@ label input:checked + img{
   top: -1400px;
   left: 140px;
   z-index: 2;
-	border-bottom: 1400px solid #222;
+	border-bottom: 1400px solid #e74c3c;
 	border-left: 1400px solid transparent;
 }
 
@@ -405,7 +413,7 @@ label input:checked + img{
   top: 140px;
   left: -1000px;
   z-index: 2;
-	border-bottom: 1000px solid #222;
+	border-bottom: 1000px solid #e74c3c;
 	border-left: 1000px solid transparent;
 }
 
@@ -450,7 +458,7 @@ label input:checked + img{
   right: 0;
   bottom: 0;
   z-index: 1;
-	border-bottom: 142px solid #222;
+	border-bottom: 143px solid #e74c3c;
   border-left: 142px solid transparent;
   cursor: pointer;
 }
@@ -458,7 +466,7 @@ label input:checked + img{
 .bioPage {
   position: absolute;
   z-index: 2;
-  background: linear-gradient(135deg, transparent 100px, #222 20px);
+  background: linear-gradient(135deg, transparent 100px, #e74c3c 20px);
   width: 100%;
   height: 100%;
   bottom: -100%;
@@ -484,7 +492,7 @@ label input:checked + img{
 
 .bioPage p {
   padding: 10px;
-  color: #fff;
+  color: #ecf0f1;
 }
 
 .groupVideo {
@@ -494,7 +502,7 @@ label input:checked + img{
   width: 320px;
   left:50%;
   margin-left:-160px;
-  border: 10px solid #fff;
+  border: 10px solid #ecf0f1;
   -webkit-border-radius: 25px;
   -moz-border-radius: 25px;
   -ms-border-radius: 25px;
@@ -519,7 +527,7 @@ label input:checked + img{
   position: absolute;
   top: 0;
   left: 0;
-	border-bottom: 142px solid #222;
+	border-bottom: 143px solid #e74c3c;
   border-left: 142px solid transparent;
   cursor: pointer;
 }
@@ -570,7 +578,7 @@ input#bioView, input#mainView{
 }
 
 .bubbles p {
-  color: #fff;
+  color: #ecf0f1;
   position: absolute;
 }
 
@@ -1238,7 +1246,7 @@ input#bioView, input#mainView{
 }
 
 .closeButton p {
-  color: #000;
+  color: #ecf0f1;
   font-weight: bold;
   padding: 1px;
   top: 10%;
@@ -1286,7 +1294,7 @@ input#bioView, input#mainView{
 
 .accessibilityMenu h1 {
   position: absolute;
-  color: #fff;
+  color: #ecf0f1;
   font-weight: lighter;
   left: 25%;
   top: 5%;
@@ -1310,7 +1318,7 @@ input#bioView, input#mainView{
 
 .asciiMenu h1 {
   position: absolute;
-  color: #fff;
+  color: #ecf0f1;
   font-weight: lighter;
   left: 40%;
   top: 5%;
@@ -1326,7 +1334,7 @@ input#bioView, input#mainView{
 
 .attributeMenu h1 {
   position: absolute;
-  color: #fff;
+  color: #ecf0f1;
   font-weight: lighter;
   left: 33%;
   top: 5%;
@@ -1342,7 +1350,7 @@ input#bioView, input#mainView{
 
 .bounceMenu h1 {
   position: absolute;
-  color: #fff;
+  color: #ecf0f1;
   font-weight: lighter;
   left: 33%;
   top: 5%;
@@ -1358,7 +1366,7 @@ input#bioView, input#mainView{
 
 .browserMenu h1 {
   position: absolute;
-  color: #fff;
+  color: #ecf0f1;
   font-weight: lighter;
   left: 33%;
   top: 5%;
@@ -1374,7 +1382,7 @@ input#bioView, input#mainView{
 
 .browserWindowMenu h1 {
   position: absolute;
-  color: #fff;
+  color: #ecf0f1;
   font-weight: lighter;
   left: 18%;
   top: 5%;
@@ -1390,7 +1398,7 @@ input#bioView, input#mainView{
 
 .cssMenu h1 {
   position: absolute;
-  color: #fff;
+  color: #ecf0f1;
   font-weight: lighter;
   left: 40%;
   top: 5%;
@@ -1406,7 +1414,7 @@ input#bioView, input#mainView{
 
 .cookieMenu h1 {
   position: absolute;
-  color: #fff;
+  color: #ecf0f1;
   font-weight: lighter;
   left: 33%;
   top: 5%;
@@ -1422,7 +1430,7 @@ input#bioView, input#mainView{
 
 .domainMenu h1 {
   position: absolute;
-  color: #fff;
+  color: #ecf0f1;
   font-weight: lighter;
   left: 33%;
   top: 5%;
@@ -1438,7 +1446,7 @@ input#bioView, input#mainView{
 
 .domainNameMenu h1 {
   position: absolute;
-  color: #fff;
+  color: #ecf0f1;
   font-weight: lighter;
   left: 20%;
   top: 5%;
@@ -1454,7 +1462,7 @@ input#bioView, input#mainView{
 
 .dnsMenu h1 {
   position: absolute;
-  color: #fff;
+  color: #ecf0f1;
   font-weight: lighter;
   left: 40%;
   top: 5%;
@@ -1470,7 +1478,7 @@ input#bioView, input#mainView{
 
 .doctypeMenu h1 {
   position: absolute;
-  color: #fff;
+  color: #ecf0f1;
   font-weight: lighter;
   left: 33%;
   top: 5%;
@@ -1486,7 +1494,7 @@ input#bioView, input#mainView{
 
 .elementMenu h1 {
   position: absolute;
-  color: #fff;
+  color: #ecf0f1;
   font-weight: lighter;
   left: 33%;
   top: 5%;
@@ -1502,7 +1510,7 @@ input#bioView, input#mainView{
 
 .faviconMenu h1 {
   position: absolute;
-  color: #fff;
+  color: #ecf0f1;
   font-weight: lighter;
   left: 33%;
   top: 5%;
@@ -1518,7 +1526,7 @@ input#bioView, input#mainView{
 
 .ftpClientMenu h1 {
   position: absolute;
-  color: #fff;
+  color: #ecf0f1;
   font-weight: lighter;
   left: 33%;
   top: 5%;
@@ -1534,7 +1542,7 @@ input#bioView, input#mainView{
 
 .gifMenu h1 {
   position: absolute;
-  color: #fff;
+  color: #ecf0f1;
   font-weight: lighter;
   left: 40%;
   top: 5%;
@@ -1550,7 +1558,7 @@ input#bioView, input#mainView{
 
 .hexadecimalMenu h1 {
   position: absolute;
-  color: #fff;
+  color: #ecf0f1;
   font-weight: lighter;
   left: 25%;
   top: 5%;
@@ -1566,7 +1574,7 @@ input#bioView, input#mainView{
 
 .hitMenu h1 {
   position: absolute;
-  color: #fff;
+  color: #ecf0f1;
   font-weight: lighter;
   left: 42%;
   top: 5%;
@@ -1582,7 +1590,7 @@ input#bioView, input#mainView{
 
 .htmlMenu h1 {
   position: absolute;
-  color: #fff;
+  color: #ecf0f1;
   font-weight: lighter;
   left: 37%;
   top: 5%;
@@ -1598,7 +1606,7 @@ input#bioView, input#mainView{
 
 .httpMenu h1 {
   position: absolute;
-  color: #fff;
+  color: #ecf0f1;
   font-weight: lighter;
   left: 33%;
   top: 5%;
@@ -1614,7 +1622,7 @@ input#bioView, input#mainView{
 
 .httpsMenu h1 {
   position: absolute;
-  color: #fff;
+  color: #ecf0f1;
   font-weight: lighter;
   left: 35%;
   top: 5%;
@@ -1630,7 +1638,7 @@ input#bioView, input#mainView{
 
 .hyperlinkMenu h1 {
   position: absolute;
-  color: #fff;
+  color: #ecf0f1;
   font-weight: lighter;
   left: 33%;
   top: 5%;
@@ -1646,7 +1654,7 @@ input#bioView, input#mainView{
 
 .hypertextMenu h1 {
   position: absolute;
-  color: #fff;
+  color: #ecf0f1;
   font-weight: lighter;
   left: 30%;
   top: 5%;
@@ -1662,7 +1670,7 @@ input#bioView, input#mainView{
 
 .iFrameMenu h1 {
   position: absolute;
-  color: #fff;
+  color: #ecf0f1;
   font-weight: lighter;
   left: 33%;
   top: 5%;
@@ -1678,7 +1686,7 @@ input#bioView, input#mainView{
 
 .ispMenu h1 {
   position: absolute;
-  color: #fff;
+  color: #ecf0f1;
   font-weight: lighter;
   left: 43%;
   top: 5%;
@@ -1694,7 +1702,7 @@ input#bioView, input#mainView{
 
 .ipAddressMenu h1 {
   position: absolute;
-  color: #fff;
+  color: #ecf0f1;
   font-weight: lighter;
   left: 33%;
   top: 5%;
@@ -1710,7 +1718,7 @@ input#bioView, input#mainView{
 
 .javascriptMenu h1 {
   position: absolute;
-  color: #fff;
+  color: #ecf0f1;
   font-weight: lighter;
   left: 28%;
   top: 5%;
@@ -1726,7 +1734,7 @@ input#bioView, input#mainView{
 
 .lanMenu h1 {
   position: absolute;
-  color: #fff;
+  color: #ecf0f1;
   font-weight: lighter;
   left: 42%;
   top: 5%;
@@ -1742,7 +1750,7 @@ input#bioView, input#mainView{
 
 .landingPageMenu h1 {
   position: absolute;
-  color: #fff;
+  color: #ecf0f1;
   font-weight: lighter;
   left: 25%;
   top: 5%;
@@ -1758,7 +1766,7 @@ input#bioView, input#mainView{
 
 .linkMenu h1 {
   position: absolute;
-  color: #fff;
+  color: #ecf0f1;
   font-weight: lighter;
   left: 40%;
   top: 5%;
@@ -1774,7 +1782,7 @@ input#bioView, input#mainView{
 
 .metadataMenu h1 {
   position: absolute;
-  color: #fff;
+  color: #ecf0f1;
   font-weight: lighter;
   left: 30%;
   top: 5%;
@@ -1790,7 +1798,7 @@ input#bioView, input#mainView{
 
 .metatagMenu h1 {
   position: absolute;
-  color: #fff;
+  color: #ecf0f1;
   font-weight: lighter;
   left: 33%;
   top: 5%;
@@ -1806,7 +1814,7 @@ input#bioView, input#mainView{
 
 .operatingSystemMenu h1 {
   position: absolute;
-  color: #fff;
+  color: #ecf0f1;
   font-weight: lighter;
   left: 15%;
   top: 5%;
@@ -1822,7 +1830,7 @@ input#bioView, input#mainView{
 
 .optimiseMenu h1 {
   position: absolute;
-  color: #fff;
+  color: #ecf0f1;
   font-weight: lighter;
   left: 33%;
   top: 5%;
@@ -1838,7 +1846,7 @@ input#bioView, input#mainView{
 
 .parkedDomainMenu h1 {
   position: absolute;
-  color: #fff;
+  color: #ecf0f1;
   font-weight: lighter;
   left: 20%;
   top: 5%;
@@ -1854,7 +1862,7 @@ input#bioView, input#mainView{
 
 .phpMenu h1 {
   position: absolute;
-  color: #fff;
+  color: #ecf0f1;
   font-weight: lighter;
   left: 40%;
   top: 5%;
@@ -1870,7 +1878,7 @@ input#bioView, input#mainView{
 
 .rootMenu h1 {
   position: absolute;
-  color: #fff;
+  color: #ecf0f1;
   font-weight: lighter;
   left: 40%;
   top: 5%;
@@ -1886,7 +1894,7 @@ input#bioView, input#mainView{
 
 .serverMenu h1 {
   position: absolute;
-  color: #fff;
+  color: #ecf0f1;
   font-weight: lighter;
   left: 35%;
   top: 5%;
@@ -1902,7 +1910,7 @@ input#bioView, input#mainView{
 
 .serversideMenu h1 {
   position: absolute;
-  color: #fff;
+  color: #ecf0f1;
   font-weight: lighter;
   left: 25%;
   top: 5%;
@@ -1918,7 +1926,7 @@ input#bioView, input#mainView{
 
 .scriptMenu h1 {
   position: absolute;
-  color: #fff;
+  color: #ecf0f1;
   font-weight: lighter;
   left: 36%;
   top: 5%;
@@ -1934,7 +1942,7 @@ input#bioView, input#mainView{
 
 .sitemapMenu h1 {
   position: absolute;
-  color: #fff;
+  color: #ecf0f1;
   font-weight: lighter;
   left: 33%;
   top: 5%;
@@ -1950,7 +1958,7 @@ input#bioView, input#mainView{
 
 .subdomainMenu h1 {
   position: absolute;
-  color: #fff;
+  color: #ecf0f1;
   font-weight: lighter;
   left: 27%;
   top: 5%;
@@ -1966,7 +1974,7 @@ input#bioView, input#mainView{
 
 .tagMenu h1 {
   position: absolute;
-  color: #fff;
+  color: #ecf0f1;
   font-weight: lighter;
   left: 41%;
   top: 5%;
@@ -1982,7 +1990,7 @@ input#bioView, input#mainView{
 
 .theNetMenu h1 {
   position: absolute;
-  color: #fff;
+  color: #ecf0f1;
   font-weight: lighter;
   left: 33%;
   top: 5%;
@@ -1998,7 +2006,7 @@ input#bioView, input#mainView{
 
 .trojanHorseMenu h1 {
   position: absolute;
-  color: #fff;
+  color: #ecf0f1;
   font-weight: lighter;
   left: 25%;
   top: 5%;
@@ -2014,7 +2022,7 @@ input#bioView, input#mainView{
 
 .urlMenu h1 {
   position: absolute;
-  color: #fff;
+  color: #ecf0f1;
   font-weight: lighter;
   left: 40%;
   top: 5%;
@@ -2030,7 +2038,7 @@ input#bioView, input#mainView{
 
 .websiteMenu h1 {
   position: absolute;
-  color: #fff;
+  color: #ecf0f1;
   font-weight: lighter;
   left: 33%;
   top: 5%;
@@ -2046,7 +2054,7 @@ input#bioView, input#mainView{
 
 .websiteAddressMenu h1 {
   position: absolute;
-  color: #fff;
+  color: #ecf0f1;
   font-weight: lighter;
   left: 20%;
   top: 5%;
@@ -2062,7 +2070,7 @@ input#bioView, input#mainView{
 
 .wwwMenu h1 {
   position: absolute;
-  color: #fff;
+  color: #ecf0f1;
   font-weight: lighter;
   left: 37%;
   top: 5%;
@@ -2078,7 +2086,7 @@ input#bioView, input#mainView{
 
 .xmlMenu h1 {
   position: absolute;
-  color: #fff;
+  color: #ecf0f1;
   font-weight: lighter;
   left: 40%;
   top: 5%;
@@ -2126,10 +2134,10 @@ input#bioView, input#mainView{
   left: 2%;
   max-width: 96%;
   max-height: 90%;
-  color: #000;
+  color: #ecf0f1;
   column-count: 3;
   column-gap: 70px;
-  column-rule: 1px solid #000;
+  column-rule: 1px solid #ecf0f1;
 }
 
 @media (max-width: 1300px) {
