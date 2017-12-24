@@ -2252,7 +2252,7 @@ input#bioView, input#mainView{
   .michaelPhoneMenu, .rajPhoneMenu, .mendesPhoneMenu {
     display: block;
     left: 50%;
-    top: -1300px;
+    top: -300vh;
     margin-left: -40%;
     text-align: center;
     position: absolute;
@@ -2283,26 +2283,26 @@ input#bioView, input#mainView{
   }
 
   #michaelPhone:checked ~ .michaelPhoneMenu {
-    -webkit-transform: translate(0, 1150px);
-    -moz-transform: translate(0, 1150px);
-    -ms-transform: translate(0, 1150px);
-    -o-transform: translate(0, 1150px);
-    transform: translate(0, 1150px);
+    -webkit-transform: translate(0, 278vh);
+    -moz-transform: translate(0, 278vh);
+    -ms-transform: translate(0, 278vh);
+    -o-transform: translate(0, 278vh);
+    transform: translate(0, 278vh);
   }
 
   #rajPhone:checked ~ .rajPhoneMenu {
-    -webkit-transform: translate(0, 1150px);
-    -moz-transform: translate(0, 1150px);
-    -ms-transform: translate(0, 1150px);
-    -o-transform: translate(0, 1150px);
-    transform: translate(0, 1150px);
+    -webkit-transform: translate(0, 278vh);
+    -moz-transform: translate(0, 278vh);
+    -ms-transform: translate(0, 278vh);
+    -o-transform: translate(0, 278vh);
+    transform: translate(0, 278vh);
   }
 
   #mendesPhone:checked ~ .mendesPhoneMenu {
-    -webkit-transform: translate(0, 1150px);
-    -moz-transform: translate(0, 1150px);
-    -ms-transform: translate(0, 1150px);
-    -o-transform: translate(0, 1150px);
-    transform: translate(0, 1150px);
+    -webkit-transform: translate(0, 278vh);
+    -moz-transform: translate(0, 278vh);
+    -ms-transform: translate(0, 278vh);
+    -o-transform: translate(0, 278vh);
+    transform: translate(0, 278vh);
   }
 }
