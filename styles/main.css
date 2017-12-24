@@ -2217,15 +2217,6 @@ input#bioView, input#mainView{
     margin-left: -20%;
   }
 
-  .main {
-    overflow-x: hidden;
-    overflow-y: scroll;
-    -webkit-overflow-scrolling: touch;
-    -moz-overflow-scrolling: touch;
-    -ms-overflow-scrolling: touch;
-    -o-overflow-scrolling: touch;
-  }
-
   .bios {
     top: 40%;
   }
