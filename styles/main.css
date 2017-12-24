@@ -151,6 +151,7 @@
   background-size: 100%, 100%;
   overflow: hidden;
   background-color: #ecf0f1;
+  position: fixed;
 }
 
 footer {
