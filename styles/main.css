@@ -2212,6 +2212,8 @@ input#bioView, input#mainView{
   }
 
   .groupVideo {
-
+    top: 15%;
+    width: 40%;
+    margin-left: -20%;
   }
 }
