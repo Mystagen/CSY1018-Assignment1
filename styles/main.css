@@ -536,6 +536,14 @@ label input:checked + img{
   width: 100%;
 }
 
+.bios input {
+  display: none;
+}
+
+.michaelPhoneMenu, .rajPhoneMenu, .mendesPhoneMenu {
+  display: none;
+}
+
 .backSeperator {
   width: 0;
   height: 0;
@@ -2219,5 +2227,82 @@ input#bioView, input#mainView{
 
   .bios {
     top: 40%;
+  }
+
+  .bioPage img {
+    max-width: 25%;
+    max-height: 25%;
+    padding: 10px;
+    -webkit-border-radius: 100px;
+    -moz-border-radius: 100px;
+    -ms-border-radius: 100px;
+    -o-border-radius: 100px;
+    border-radius: 100px;
+    text-align: center;
+  }
+
+  .michael p, .raj p, .mendes p {
+    display: none;
+  }
+
+  .michael img, .raj img, .mendes img {
+    cursor: pointer;
+  }
+
+  .michaelPhoneMenu, .rajPhoneMenu, .mendesPhoneMenu {
+    display: block;
+    left: 50%;
+    top: -1300px;
+    margin-left: -40%;
+    text-align: center;
+    position: absolute;
+    z-index: 4;
+    width: 80%;
+    background-color: #222;
+    border: 1px solid #fff;
+    -webkit-border-radius: 40px;
+    -moz-border-radius: 40px;
+    -ms-border-radius: 40px;
+    -o-border-radius: 40px;
+    border-radius: 40px;
+    -webkit-transition: -webkit-transform 2s;
+    -moz-transition: -moz-transform 2s;
+    -ms-transition: -ms-transform 2s;
+    -o-transition: -o-transform 2s;
+    transition: transform 2s;
+  }
+
+  .michaelPhoneMenu img, .rajPhoneMenu img, .mendesPhoneMenu img{
+    position: absolute;
+    left: 50%;
+    margin-left: -15%;
+  }
+
+  .michaelPhoneMenu p, .rajPhoneMenu p, .mendesPhoneMenu p {
+    margin-top: 30%;
+  }
+
+  #michaelPhone:checked ~ .michaelPhoneMenu {
+    -webkit-transform: translate(0, 1200px);
+    -moz-transform: translate(0, 1200px);
+    -ms-transform: translate(0, 1200px);
+    -o-transform: translate(0, 1200px);
+    transform: translate(0, 1200px);
+  }
+
+  #rajPhone:checked ~ .rajPhoneMenu {
+    -webkit-transform: translate(0, 1200px);
+    -moz-transform: translate(0, 1200px);
+    -ms-transform: translate(0, 1200px);
+    -o-transform: translate(0, 1200px);
+    transform: translate(0, 1200px);
+  }
+
+  #mendesPhone:checked ~ .mendesPhoneMenu {
+    -webkit-transform: translate(0, 1200px);
+    -moz-transform: translate(0, 1200px);
+    -ms-transform: translate(0, 1200px);
+    -o-transform: translate(0, 1200px);
+    transform: translate(0, 1200px);
   }
 }
