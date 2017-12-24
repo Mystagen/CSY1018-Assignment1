@@ -320,7 +320,11 @@ label input:checked + img{
 }
 
 #crossCloseButton {
-  display: block;
+  display: none;
+}
+
+#crossCloseButton2 {
+  display: none;
 }
 
 .closeIcon {
