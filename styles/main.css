@@ -2283,26 +2283,26 @@ input#bioView, input#mainView{
   }
 
   #michaelPhone:checked ~ .michaelPhoneMenu {
-    -webkit-transform: translate(0, 1200px);
-    -moz-transform: translate(0, 1200px);
-    -ms-transform: translate(0, 1200px);
-    -o-transform: translate(0, 1200px);
-    transform: translate(0, 1200px);
+    -webkit-transform: translate(0, 1150px);
+    -moz-transform: translate(0, 1150px);
+    -ms-transform: translate(0, 1150px);
+    -o-transform: translate(0, 1150px);
+    transform: translate(0, 1150px);
   }
 
   #rajPhone:checked ~ .rajPhoneMenu {
-    -webkit-transform: translate(0, 1200px);
-    -moz-transform: translate(0, 1200px);
-    -ms-transform: translate(0, 1200px);
-    -o-transform: translate(0, 1200px);
-    transform: translate(0, 1200px);
+    -webkit-transform: translate(0, 1150px);
+    -moz-transform: translate(0, 1150px);
+    -ms-transform: translate(0, 1150px);
+    -o-transform: translate(0, 1150px);
+    transform: translate(0, 1150px);
   }
 
   #mendesPhone:checked ~ .mendesPhoneMenu {
-    -webkit-transform: translate(0, 1200px);
-    -moz-transform: translate(0, 1200px);
-    -ms-transform: translate(0, 1200px);
-    -o-transform: translate(0, 1200px);
-    transform: translate(0, 1200px);
+    -webkit-transform: translate(0, 1150px);
+    -moz-transform: translate(0, 1150px);
+    -ms-transform: translate(0, 1150px);
+    -o-transform: translate(0, 1150px);
+    transform: translate(0, 1150px);
   }
 }
