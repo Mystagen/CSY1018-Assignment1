@@ -2218,7 +2218,12 @@ input#bioView, input#mainView{
   }
 
   .main {
-    overflow: scroll;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    -webkit-overflow-scrolling: touch;
+    -moz-overflow-scrolling: touch;
+    -ms-overflow-scrolling: touch;
+    -o-overflow-scrolling: touch;
   }
 
   .bios {
