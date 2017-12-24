@@ -23,13 +23,13 @@
   z-index: 5;
   top: -500px;
   width: 400px;
-  background-color: #222;
+  background-color: #2c3e50;
   -webkit-transition: -webkit-transform 2s;
   -moz-transition: -moz-transform 2s;
   -ms-transition: -ms-transform 2s;
   -o-transition: -o-transform 2s;
   transition: transform 2s;
-  border: 1px solid #fff;
+  border: 2px solid #e74c3c;
 }
 
 .menuicon {
@@ -151,7 +151,6 @@
   background-size: 100%, 100%;
   overflow: hidden;
   background-color: #ecf0f1;
-  position: fixed;
 }
 
 footer {
@@ -165,6 +164,7 @@ footer {
   background-color: #2c3e50;
   z-index: 1;
   border-top: 3px solid #e74c3c;
+  position: fixed;
 }
 
 .logo {
@@ -214,7 +214,7 @@ footer label {
 }
  
 .menu li.active a {
-  color: #fff;
+  color: #ecf0f1;;
 }
 
 .contactForm {
@@ -619,7 +619,7 @@ input#bioView, input#mainView{
   left: 5px;
   width: 110px;
 	height: 110px;
-  background: #666;
+  background: #3498db;
 }
 
 .accessibilityBubble p {
@@ -632,7 +632,7 @@ input#bioView, input#mainView{
   left: 150px;
   width: 70px;
   height: 70px;
-  background: #777;
+  background: #2980b9;
 }
 
 .asciiBubble p {
@@ -645,7 +645,7 @@ input#bioView, input#mainView{
   left: 200px;
   width: 90px;
   height: 90px;
-  background: #888;
+  background: #2c3e50;
 }
 
 .attributeBubble p {
@@ -658,7 +658,7 @@ input#bioView, input#mainView{
   left: 300px;
   width: 75px;
 	height: 75px;
-  background: #bbb;
+  background: #2980b9;
 }
 
 .bounceBubble p {
@@ -671,7 +671,7 @@ input#bioView, input#mainView{
   left: 400px;
   width: 90px;
   height: 90px;
-  background: #aaa;
+  background: #3498db;
 }
 
 .browserBubble p {
@@ -684,7 +684,7 @@ input#bioView, input#mainView{
   left: 500px;
   width: 110px;
   height: 110px;
-  background: #555;
+  background: #2980b9;
 }
 
 .browserWindowBubble p {
@@ -697,7 +697,7 @@ input#bioView, input#mainView{
   left: 650px;
   width: 130px;
 	height: 130px;
-  background: #999;
+  background: #2c3e50;
 }
 
 .cssBubble p {
@@ -710,7 +710,7 @@ input#bioView, input#mainView{
   left: 600px;
   width: 100px;
   height: 100px;
-  background: #bbb;
+  background: #295099;
 }
 
 .cookieBubble p {
@@ -723,7 +723,7 @@ input#bioView, input#mainView{
   left: 800px;
   width: 80px;
   height: 80px;
-  background: #888;
+  background: #295099;
 }
 
 .domainBubble p {
@@ -736,7 +736,7 @@ input#bioView, input#mainView{
   left: 960px;
   width: 120px;
 	height: 120px;
-  background: #444;
+  background: #2980b9;
 }
 
 .domainNameBubble p {
@@ -749,7 +749,7 @@ input#bioView, input#mainView{
   left: 990px;
   width: 60px;
   height: 60px;
-  background: #888;
+  background: #3498db;
 }
 
 .dnsBubble p {
@@ -762,7 +762,7 @@ input#bioView, input#mainView{
   left: 1100px;
   width: 100px;
   height: 100px;
-  background: #777;
+  background: #2c3e50;
 }
 
 .doctypeBubble p {
@@ -775,7 +775,7 @@ input#bioView, input#mainView{
   left: 650px;
   width: 80px;
 	height: 80px;
-  background: #aaa;
+  background: #253077;
 }
 
 .elementBubble p {
@@ -788,7 +788,7 @@ input#bioView, input#mainView{
   left: 40px;
   width: 110px;
   height: 110px;
-  background: #888;
+  background: #2980b9;
 }
 
 .faviconBubble p {
@@ -801,7 +801,7 @@ input#bioView, input#mainView{
   left: 110px;
   width: 90px;
   height: 90px;
-  background: #999;
+  background: #3498db;
 }
 
 .ftpClientBubble p {
@@ -814,7 +814,7 @@ input#bioView, input#mainView{
   left: 1250px;
   width: 140px;
 	height: 140px;
-  background: #444;
+  background: #2980b9;
 }
 
 .gifBubble p {
@@ -827,7 +827,7 @@ input#bioView, input#mainView{
   left: 300px;
   width: 150px;
   height: 150px;
-  background: #555;
+  background: #2c3e50;
 }
 
 .hexadecimalBubble p {
@@ -840,7 +840,7 @@ input#bioView, input#mainView{
   left: 320px;
   width: 50px;
   height: 50px;
-  background: #bbb;
+  background: #295099;
 }
 
 .hitBubble p {
@@ -853,7 +853,7 @@ input#bioView, input#mainView{
   left: 460px;
   width: 70px;
 	height: 70px;
-  background: #bbb;
+  background: #3498db;
 }
 
 .htmlBubble p {
@@ -866,7 +866,7 @@ input#bioView, input#mainView{
   left: 1250px;
   width: 100px;
   height: 100px;
-  background: #aaa;
+  background: #2c3e50;
 }
 
 .httpBubble p {
@@ -879,7 +879,7 @@ input#bioView, input#mainView{
   left: 750px;
   width: 120px;
   height: 120px;
-  background: #555;
+  background: #2c3e50;
 }
 
 .httpsBubble p {
@@ -892,7 +892,7 @@ input#bioView, input#mainView{
   left: 1080px;
   width: 100px;
 	height: 100px;
-  background: #444;
+  background: #2980b9;
 }
 
 .hyperlinkBubble p {
@@ -905,7 +905,7 @@ input#bioView, input#mainView{
   left: 900px;
   width: 90px;
   height: 90px;
-  background: #aaa;
+  background: #295099;
 }
 
 .hypertextBubble p {
@@ -918,7 +918,7 @@ input#bioView, input#mainView{
   left: 1050px;
   width: 110px;
   height: 110px;
-  background: #777;
+  background: #2c3e50;
 }
 
 .iframeBubble p {
@@ -931,7 +931,7 @@ input#bioView, input#mainView{
   left: 200px;
   width: 60px;
 	height: 60px;
-  background: #999;
+  background: #295099;
 }
 
 .ispBubble p {
@@ -944,7 +944,7 @@ input#bioView, input#mainView{
   left: 1170px;
   width: 100px;
   height: 100px;
-  background: #aaa;
+  background: #2980b9;
 }
 
 .ipAddressBubble p {
@@ -957,7 +957,7 @@ input#bioView, input#mainView{
   left: 35px;
   width: 120px;
   height: 120px;
-  background: #666;
+  background: #2c3e50;
 }
 
 .javascriptBubble p {
@@ -970,7 +970,7 @@ input#bioView, input#mainView{
   left: 1280px;
   width: 100px;
 	height: 100px;
-  background: #888;
+  background: #2980b9;
 }
 
 .lanBubble p {
@@ -983,7 +983,7 @@ input#bioView, input#mainView{
   left: 800px;
   width: 130px;
   height: 130px;
-  background: #bbb;
+  background: #253077;
 }
 
 .landingPageBubble p {
@@ -996,7 +996,7 @@ input#bioView, input#mainView{
   left: 1100px;
   width: 100px;
   height: 100px;
-  background: #aaa;
+  background: #2c3e50;
 }
 
 .linkBubble p {
@@ -1009,7 +1009,7 @@ input#bioView, input#mainView{
   left: 400px;
   width: 100px;
 	height: 100px;
-  background: #666;
+  background: #3498db;
 }
 
 .metadataBubble p {
@@ -1022,7 +1022,7 @@ input#bioView, input#mainView{
   left: 500px;
   width: 90px;
   height: 90px;
-  background: #888;
+  background: #2980b9;
 }
 
 .metatagBubble p {
@@ -1035,7 +1035,7 @@ input#bioView, input#mainView{
   left: 600px;
   width: 120px;
   height: 120px;
-  background: #777;
+  background: #3498db;
 }
 
 .operatingSystemBubble p {
@@ -1048,7 +1048,7 @@ input#bioView, input#mainView{
   left: 1000px;
   width: 100px;
 	height: 100px;
-  background: #999;
+  background: #2c3e50;
 }
 
 .optimiseBubble p {
@@ -1061,7 +1061,7 @@ input#bioView, input#mainView{
   left: 800px;
   width: 80px;
   height: 80px;
-  background: #bbb;
+  background: #253077;
 }
 
 .parkedDomainBubble p {
@@ -1074,7 +1074,7 @@ input#bioView, input#mainView{
   left: 900px;
   width: 50px;
   height: 50px;
-  background: #777;
+  background: #295099;
 }
 
 .phpBubble p {
@@ -1087,7 +1087,7 @@ input#bioView, input#mainView{
   left: 960px;
   width: 60px;
 	height: 60px;
-  background: #bbb;
+  background: #3498db;
 }
 
 .rootBubble p {
@@ -1100,7 +1100,7 @@ input#bioView, input#mainView{
   left: 1150px;
   width: 100px;
   height: 100px;
-  background: #777;
+  background: #2c3e50;
 }
 
 .serverBubble p {
@@ -1113,7 +1113,7 @@ input#bioView, input#mainView{
   left: 1200px;
   width: 130px;
   height: 130px;
-  background: #999;
+  background: #3498db;
 }
 
 .serversideBubble p {
@@ -1126,7 +1126,7 @@ input#bioView, input#mainView{
   left: 0px;
   width: 80px;
 	height: 80px;
-  background: #aaa;
+  background: #295099;
 }
 
 .scriptBubble p {
@@ -1139,7 +1139,7 @@ input#bioView, input#mainView{
   left: 260px;
   width: 130px;
   height: 130px;
-  background: #aaa;
+  background: #295099;
 }
 
 .sitemapBubble p {
@@ -1152,7 +1152,7 @@ input#bioView, input#mainView{
   left: 180px;
   width: 120px;
   height: 120px;
-  background: #555;
+  background: #295099;
 }
 
 .subdomainBubble p {
@@ -1165,7 +1165,7 @@ input#bioView, input#mainView{
   left: 700px;
   width: 50px;
 	height: 50px;
-  background: #666;
+  background: #295099;
 }
 
 .tagBubble p {
@@ -1178,7 +1178,7 @@ input#bioView, input#mainView{
   left: 400px;
   width: 90px;
   height: 90px;
-  background: #888;
+  background: #2980b9;
 }
 
 .theNetBubble p {
@@ -1191,7 +1191,7 @@ input#bioView, input#mainView{
   left: 500px;
   width: 130px;
   height: 130px;
-  background: #bbb;
+  background: #253077;
 }
 
 .trojanHorseBubble p {
@@ -1204,7 +1204,7 @@ input#bioView, input#mainView{
   left: 500px;
   width: 70px;
 	height: 70px;
-  background: #bbb;
+  background: #2980b9;
 }
 
 .urlBubble p {
@@ -1217,7 +1217,7 @@ input#bioView, input#mainView{
   left: 750px;
   width: 80px;
   height: 80px;
-  background: #888;
+  background: #253077;
 }
 
 .websiteBubble p {
@@ -1230,7 +1230,7 @@ input#bioView, input#mainView{
   left: 850px;
   width: 140px;
   height: 140px;
-  background: #666;
+  background: #2980b9;
 }
 
 .websiteAddressBubble p {
@@ -1243,7 +1243,7 @@ input#bioView, input#mainView{
   left: 220px;
   width: 60px;
 	height: 60px;
-  background: #aaa;
+  background: #295099;
 }
 
 .wwwBubble p {
@@ -1256,7 +1256,7 @@ input#bioView, input#mainView{
   left: 1000px;
   width: 50px;
   height: 50px;
-  background: #777;
+  background: #295099;
 }
 
 .xmlBubble p {
@@ -2134,7 +2134,8 @@ input#bioView, input#mainView{
   left: 2%;
   width: 96%;
   height: 90%;
-  background-color: #fff;
+  background-color: #2c3e50;
+  border: 2px solid #e74c3c;
   -webkit-border-radius: 40px;
   -moz-border-radius: 40px;
   -ms-border-radius: 40px;
@@ -2146,8 +2147,9 @@ input#bioView, input#mainView{
   text-align:center;
   position: relative;
   top: 10%;
-  font-weight: bold;
+  font-weight: lighter;
   font-size: 30px;
+  color: #ecf0f1;
 }
 
 .comparisonColumns a {
@@ -2165,7 +2167,7 @@ input#bioView, input#mainView{
   color: #ecf0f1;
   column-count: 3;
   column-gap: 70px;
-  column-rule: 1px solid #ecf0f1;
+  column-rule: 2px solid #e74c3c;
 }
 
 @media (max-width: 1300px) {
