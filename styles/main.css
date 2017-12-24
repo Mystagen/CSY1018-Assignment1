@@ -2212,8 +2212,16 @@ input#bioView, input#mainView{
   }
 
   .groupVideo {
-    top: 15%;
+    top: 25%;
     width: 40%;
     margin-left: -20%;
+  }
+
+  .main {
+    overflow: scroll;
+  }
+
+  .bios {
+    top: 40%;
   }
 }
