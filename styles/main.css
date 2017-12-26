@@ -615,11 +615,16 @@ input#bioView, input#mainView{
 }
 
 .accessibilityBubble {
-  top: 30px;
-  left: 5px;
+  top: 3%;
+  left: 1%;
   width: 110px;
 	height: 110px;
   background: #3498db;
+  -webkit-transition: -webkit-transform 2s;
+  -moz-transition: -moz-transform 2s;
+  -ms-transition: -ms-transform 2s;
+  -o-transition: -o-transform 2s;
+  transition: transform 2s;
 }
 
 .accessibilityBubble p {
@@ -628,11 +633,16 @@ input#bioView, input#mainView{
 }
 
 .asciiBubble {
-  top: 10px;
-  left: 150px;
+  top: 1%;
+  left: 10.5%;
   width: 70px;
   height: 70px;
   background: #2980b9;
+  -webkit-transition: -webkit-transform 2s;
+  -moz-transition: -moz-transform 2s;
+  -ms-transition: -ms-transform 2s;
+  -o-transition: -o-transform 2s;
+  transition: transform 2s;
 }
 
 .asciiBubble p {
@@ -641,11 +651,16 @@ input#bioView, input#mainView{
 }
 
 .attributeBubble {
-  top: 180px;
-  left: 200px;
+  top: 32%;
+  left: 15%;
   width: 90px;
   height: 90px;
   background: #2c3e50;
+  -webkit-transition: -webkit-transform 2s;
+  -moz-transition: -moz-transform 2s;
+  -ms-transition: -ms-transform 2s;
+  -o-transition: -o-transform 2s;
+  transition: transform 2s;
 }
 
 .attributeBubble p {
@@ -654,11 +669,16 @@ input#bioView, input#mainView{
 }
 
 .bounceBubble {
-  top: 0px;
-  left: 300px;
+  top: 0%;
+  left: 21%;
   width: 75px;
 	height: 75px;
   background: #2980b9;
+  -webkit-transition: -webkit-transform 2s;
+  -moz-transition: -moz-transform 2s;
+  -ms-transition: -ms-transform 2s;
+  -o-transition: -o-transform 2s;
+  transition: transform 2s;
 }
 
 .bounceBubble p {
@@ -667,11 +687,16 @@ input#bioView, input#mainView{
 }
 
 .browserBubble {
-  top: 0px;
-  left: 400px;
+  top: 0%;
+  left: 28.5%;
   width: 90px;
   height: 90px;
   background: #3498db;
+  -webkit-transition: -webkit-transform 2s;
+  -moz-transition: -moz-transform 2s;
+  -ms-transition: -ms-transform 2s;
+  -o-transition: -o-transform 2s;
+  transition: transform 2s;
 }
 
 .browserBubble p {
@@ -680,11 +705,16 @@ input#bioView, input#mainView{
 }
 
 .browserWindowBubble {
-  top: 0px;
-  left: 500px;
+  top: 0%;
+  left: 38%;
   width: 110px;
   height: 110px;
   background: #2980b9;
+  -webkit-transition: -webkit-transform 2s;
+  -moz-transition: -moz-transform 2s;
+  -ms-transition: -ms-transform 2s;
+  -o-transition: -o-transform 2s;
+  transition: transform 2s;
 }
 
 .browserWindowBubble p {
@@ -693,11 +723,16 @@ input#bioView, input#mainView{
 }
 
 .cssBubble {
-  top: -50px;
-  left: 650px;
+  top: -3%;
+  left: 48%;
   width: 130px;
 	height: 130px;
   background: #2c3e50;
+  -webkit-transition: -webkit-transform 2s;
+  -moz-transition: -moz-transform 2s;
+  -ms-transition: -ms-transform 2s;
+  -o-transition: -o-transform 2s;
+  transition: transform 2s;
 }
 
 .cssBubble p {
@@ -706,11 +741,16 @@ input#bioView, input#mainView{
 }
 
 .cookieBubble {
-  top: 120px;
-  left: 600px;
+  top: 20%;
+  left: 45%;
   width: 100px;
   height: 100px;
   background: #295099;
+  -webkit-transition: -webkit-transform 2s;
+  -moz-transition: -moz-transform 2s;
+  -ms-transition: -ms-transform 2s;
+  -o-transition: -o-transform 2s;
+  transition: transform 2s;
 }
 
 .cookieBubble p {
@@ -719,11 +759,16 @@ input#bioView, input#mainView{
 }
 
 .domainBubble {
-  top: 0px;
-  left: 800px;
+  top: 0%;
+  left: 60%;
   width: 80px;
   height: 80px;
   background: #295099;
+  -webkit-transition: -webkit-transform 2s;
+  -moz-transition: -moz-transform 2s;
+  -ms-transition: -ms-transform 2s;
+  -o-transition: -o-transform 2s;
+  transition: transform 2s;
 }
 
 .domainBubble p {
@@ -732,11 +777,16 @@ input#bioView, input#mainView{
 }
 
 .domainNameBubble {
-  top: 0px;
-  left: 960px;
+  top: 0%;
+  left: 71%;
   width: 120px;
 	height: 120px;
   background: #2980b9;
+  -webkit-transition: -webkit-transform 2s;
+  -moz-transition: -moz-transform 2s;
+  -ms-transition: -ms-transform 2s;
+  -o-transition: -o-transform 2s;
+  transition: transform 2s;
 }
 
 .domainNameBubble p {
@@ -745,11 +795,16 @@ input#bioView, input#mainView{
 }
 
 .dnsBubble {
-  top: 525px;
-  left: 990px;
+  top: 92%;
+  left: 73%;
   width: 60px;
   height: 60px;
   background: #3498db;
+  -webkit-transition: -webkit-transform 2s;
+  -moz-transition: -moz-transform 2s;
+  -ms-transition: -ms-transform 2s;
+  -o-transition: -o-transform 2s;
+  transition: transform 2s;
 }
 
 .dnsBubble p {
@@ -758,11 +813,16 @@ input#bioView, input#mainView{
 }
 
 .doctypeBubble {
-  top: 0px;
-  left: 1100px;
+  top: 0%;
+  left: 81%;
   width: 100px;
   height: 100px;
   background: #2c3e50;
+  -webkit-transition: -webkit-transform 2s;
+  -moz-transition: -moz-transform 2s;
+  -ms-transition: -ms-transform 2s;
+  -o-transition: -o-transform 2s;
+  transition: transform 2s;
 }
 
 .doctypeBubble p {
@@ -771,11 +831,16 @@ input#bioView, input#mainView{
 }
 
 .elementBubble {
-  top: 300px;
-  left: 650px;
+  top: 53%;
+  left: 48%;
   width: 80px;
 	height: 80px;
   background: #253077;
+  -webkit-transition: -webkit-transform 2s;
+  -moz-transition: -moz-transform 2s;
+  -ms-transition: -ms-transform 2s;
+  -o-transition: -o-transform 2s;
+  transition: transform 2s;
 }
 
 .elementBubble p {
@@ -784,11 +849,16 @@ input#bioView, input#mainView{
 }
 
 .faviconBubble {
-  top: 200px;
-  left: 40px;
+  top: 36%;
+  left: 5%;
   width: 110px;
   height: 110px;
   background: #2980b9;
+  -webkit-transition: -webkit-transform 2s;
+  -moz-transition: -moz-transform 2s;
+  -ms-transition: -ms-transform 2s;
+  -o-transition: -o-transform 2s;
+  transition: transform 2s;
 }
 
 .faviconBubble p {
@@ -797,11 +867,16 @@ input#bioView, input#mainView{
 }
 
 .ftpClientBubble {
-  top: 110px;
-  left: 110px;
+  top: 18%;
+  left: 8.5%;
   width: 90px;
   height: 90px;
   background: #3498db;
+  -webkit-transition: -webkit-transform 2s;
+  -moz-transition: -moz-transform 2s;
+  -ms-transition: -ms-transform 2s;
+  -o-transition: -o-transform 2s;
+  transition: transform 2s;
 }
 
 .ftpClientBubble p {
@@ -810,11 +885,16 @@ input#bioView, input#mainView{
 }
 
 .gifBubble {
-  top: -20px;
-  left: 1250px;
+  top: -3.5%;
+  left: 91.5%;
   width: 140px;
 	height: 140px;
   background: #2980b9;
+  -webkit-transition: -webkit-transform 2s;
+  -moz-transition: -moz-transform 2s;
+  -ms-transition: -ms-transform 2s;
+  -o-transition: -o-transform 2s;
+  transition: transform 2s;
 }
 
 .gifBubble p {
@@ -823,11 +903,16 @@ input#bioView, input#mainView{
 }
 
 .hexadecimalBubble {
-  top: 100px;
-  left: 300px;
+  top: 17%;
+  left: 22%;
   width: 150px;
   height: 150px;
   background: #2c3e50;
+  -webkit-transition: -webkit-transform 2s;
+  -moz-transition: -moz-transform 2s;
+  -ms-transition: -ms-transform 2s;
+  -o-transition: -o-transform 2s;
+  transition: transform 2s;
 }
 
 .hexadecimalBubble p {
@@ -836,11 +921,16 @@ input#bioView, input#mainView{
 }
 
 .hitBubble {
-  top: 280px;
-  left: 320px;
+  top: 48%;
+  left: 24%;
   width: 50px;
   height: 50px;
   background: #295099;
+  -webkit-transition: -webkit-transform 2s;
+  -moz-transition: -moz-transform 2s;
+  -ms-transition: -ms-transform 2s;
+  -o-transition: -o-transform 2s;
+  transition: transform 2s;
 }
 
 .hitBubble p {
@@ -849,11 +939,16 @@ input#bioView, input#mainView{
 }
 
 .htmlBubble {
-  top: 110px;
-  left: 460px;
+  top: 19%;
+  left: 34.5%;
   width: 70px;
 	height: 70px;
   background: #3498db;
+  -webkit-transition: -webkit-transform 2s;
+  -moz-transition: -moz-transform 2s;
+  -ms-transition: -ms-transform 2s;
+  -o-transition: -o-transform 2s;
+  transition: transform 2s;
 }
 
 .htmlBubble p {
@@ -862,11 +957,16 @@ input#bioView, input#mainView{
 }
 
 .httpBubble {
-  top: 480px;
-  left: 1250px;
+  top: 82%;
+  left: 92%;
   width: 100px;
   height: 100px;
   background: #2c3e50;
+  -webkit-transition: -webkit-transform 2s;
+  -moz-transition: -moz-transform 2s;
+  -ms-transition: -ms-transform 2s;
+  -o-transition: -o-transform 2s;
+  transition: transform 2s;
 }
 
 .httpBubble p {
@@ -875,11 +975,16 @@ input#bioView, input#mainView{
 }
 
 .httpsBubble {
-  top: 90px;
-  left: 750px;
+  top: 15%;
+  left: 55%;
   width: 120px;
   height: 120px;
   background: #2c3e50;
+  -webkit-transition: -webkit-transform 2s;
+  -moz-transition: -moz-transform 2s;
+  -ms-transition: -ms-transform 2s;
+  -o-transition: -o-transform 2s;
+  transition: transform 2s;
 }
 
 .httpsBubble p {
@@ -888,11 +993,16 @@ input#bioView, input#mainView{
 }
 
 .hyperlinkBubble {
-  top: 250px;
-  left: 1080px;
+  top: 43%;
+  left: 79%;
   width: 100px;
 	height: 100px;
   background: #2980b9;
+  -webkit-transition: -webkit-transform 2s;
+  -moz-transition: -moz-transform 2s;
+  -ms-transition: -ms-transform 2s;
+  -o-transition: -o-transform 2s;
+  transition: transform 2s;
 }
 
 .hyperlinkBubble p {
@@ -901,11 +1011,16 @@ input#bioView, input#mainView{
 }
 
 .hypertextBubble {
-  top: 100px;
-  left: 900px;
+  top: 15%;
+  left: 65%;
   width: 90px;
   height: 90px;
   background: #295099;
+  -webkit-transition: -webkit-transform 2s;
+  -moz-transition: -moz-transform 2s;
+  -ms-transition: -ms-transform 2s;
+  -o-transition: -o-transform 2s;
+  transition: transform 2s;
 }
 
 .hypertextBubble p {
@@ -914,11 +1029,16 @@ input#bioView, input#mainView{
 }
 
 .iframeBubble {
-  top: 110px;
-  left: 1050px;
+  top: 21%;
+  left: 76%;
   width: 110px;
   height: 110px;
   background: #2c3e50;
+  -webkit-transition: -webkit-transform 2s;
+  -moz-transition: -moz-transform 2s;
+  -ms-transition: -ms-transform 2s;
+  -o-transition: -o-transform 2s;
+  transition: transform 2s;
 }
 
 .iframeBubble p {
@@ -927,11 +1047,16 @@ input#bioView, input#mainView{
 }
 
 .ispBubble {
-  top: 500px;
-  left: 200px;
+  top: 85%;
+  left: 14%;
   width: 60px;
 	height: 60px;
   background: #295099;
+  -webkit-transition: -webkit-transform 2s;
+  -moz-transition: -moz-transform 2s;
+  -ms-transition: -ms-transform 2s;
+  -o-transition: -o-transform 2s;
+  transition: transform 2s;
 }
 
 .ispBubble p {
@@ -940,11 +1065,16 @@ input#bioView, input#mainView{
 }
 
 .ipAddressBubble {
-  top: 90px;
-  left: 1170px;
+  top: 16%;
+  left: 85%;
   width: 100px;
   height: 100px;
   background: #2980b9;
+  -webkit-transition: -webkit-transform 2s;
+  -moz-transition: -moz-transform 2s;
+  -ms-transition: -ms-transform 2s;
+  -o-transition: -o-transform 2s;
+  transition: transform 2s;
 }
 
 .ipAddressBubble p {
@@ -953,11 +1083,16 @@ input#bioView, input#mainView{
 }
 
 .javascriptBubble {
-  top: 400px;
-  left: 35px;
+  top: 73%;
+  left: 3%;
   width: 120px;
   height: 120px;
   background: #2c3e50;
+  -webkit-transition: -webkit-transform 2s;
+  -moz-transition: -moz-transform 2s;
+  -ms-transition: -ms-transform 2s;
+  -o-transition: -o-transform 2s;
+  transition: transform 2s;
 }
 
 .javascriptBubble p {
@@ -966,11 +1101,16 @@ input#bioView, input#mainView{
 }
 
 .lanBubble {
-  top: 330px;
-  left: 1280px;
+  top: 57%;
+  left: 94%;
   width: 100px;
 	height: 100px;
   background: #2980b9;
+  -webkit-transition: -webkit-transform 2s;
+  -moz-transition: -moz-transform 2s;
+  -ms-transition: -ms-transform 2s;
+  -o-transition: -o-transform 2s;
+  transition: transform 2s;
 }
 
 .lanBubble p {
@@ -979,11 +1119,16 @@ input#bioView, input#mainView{
 }
 
 .landingPageBubble {
-  top: 450px;
-  left: 800px;
+  top: 76%;
+  left: 58%;
   width: 130px;
   height: 130px;
   background: #253077;
+  -webkit-transition: -webkit-transform 2s;
+  -moz-transition: -moz-transform 2s;
+  -ms-transition: -ms-transform 2s;
+  -o-transition: -o-transform 2s;
+  transition: transform 2s;
 }
 
 .landingPageBubble p {
@@ -992,11 +1137,16 @@ input#bioView, input#mainView{
 }
 
 .linkBubble {
-  top: 500px;
-  left: 1100px;
+  top: 86%;
+  left: 82%;
   width: 100px;
   height: 100px;
   background: #2c3e50;
+  -webkit-transition: -webkit-transform 2s;
+  -moz-transition: -moz-transform 2s;
+  -ms-transition: -ms-transform 2s;
+  -o-transition: -o-transform 2s;
+  transition: transform 2s;
 }
 
 .linkBubble p {
@@ -1005,11 +1155,16 @@ input#bioView, input#mainView{
 }
 
 .metadataBubble {
-  top: 500px;
-  left: 400px;
+  top: 86%;
+  left: 28.5%;
   width: 100px;
 	height: 100px;
   background: #3498db;
+  -webkit-transition: -webkit-transform 2s;
+  -moz-transition: -moz-transform 2s;
+  -ms-transition: -ms-transform 2s;
+  -o-transition: -o-transform 2s;
+  transition: transform 2s;
 }
 
 .metadataBubble p {
@@ -1018,11 +1173,16 @@ input#bioView, input#mainView{
 }
 
 .metatagBubble {
-  top: 200px;
-  left: 500px;
+  top: 33%;
+  left: 37%;
   width: 90px;
   height: 90px;
   background: #2980b9;
+  -webkit-transition: -webkit-transform 2s;
+  -moz-transition: -moz-transform 2s;
+  -ms-transition: -ms-transform 2s;
+  -o-transition: -o-transform 2s;
+  transition: transform 2s;
 }
 
 .metatagBubble p {
@@ -1031,11 +1191,16 @@ input#bioView, input#mainView{
 }
 
 .operatingSystemBubble {
-  top: 480px;
-  left: 600px;
+  top: 81%;
+  left: 44%;
   width: 120px;
   height: 120px;
   background: #3498db;
+  -webkit-transition: -webkit-transform 2s;
+  -moz-transition: -moz-transform 2s;
+  -ms-transition: -ms-transform 2s;
+  -o-transition: -o-transform 2s;
+  transition: transform 2s;
 }
 
 .operatingSystemBubble p {
@@ -1044,11 +1209,16 @@ input#bioView, input#mainView{
 }
 
 .optimiseBubble {
-  top: 400px;
-  left: 1000px;
+  top: 67%;
+  left: 74%;
   width: 100px;
 	height: 100px;
   background: #2c3e50;
+  -webkit-transition: -webkit-transform 2s;
+  -moz-transition: -moz-transform 2s;
+  -ms-transition: -ms-transform 2s;
+  -o-transition: -o-transform 2s;
+  transition: transform 2s;
 }
 
 .optimiseBubble p {
@@ -1057,11 +1227,16 @@ input#bioView, input#mainView{
 }
 
 .parkedDomainBubble {
-  top: 220px;
-  left: 800px;
+  top: 38%;
+  left: 52.5%;
   width: 80px;
   height: 80px;
   background: #253077;
+  -webkit-transition: -webkit-transform 2s;
+  -moz-transition: -moz-transform 2s;
+  -ms-transition: -ms-transform 2s;
+  -o-transition: -o-transform 2s;
+  transition: transform 2s;
 }
 
 .parkedDomainBubble p {
@@ -1070,11 +1245,16 @@ input#bioView, input#mainView{
 }
 
 .phpBubble {
-  top: 200px;
-  left: 900px;
+  top: 38%;
+  left: 63%;
   width: 50px;
   height: 50px;
   background: #295099;
+  -webkit-transition: -webkit-transform 2s;
+  -moz-transition: -moz-transform 2s;
+  -ms-transition: -ms-transform 2s;
+  -o-transition: -o-transform 2s;
+  transition: transform 2s;
 }
 
 .phpBubble p {
@@ -1083,11 +1263,16 @@ input#bioView, input#mainView{
 }
 
 .rootBubble {
-  top: 220px;
-  left: 960px;
+  top: 36%;
+  left: 71%;
   width: 60px;
 	height: 60px;
   background: #3498db;
+  -webkit-transition: -webkit-transform 2s;
+  -moz-transition: -moz-transform 2s;
+  -ms-transition: -ms-transform 2s;
+  -o-transition: -o-transform 2s;
+  transition: transform 2s;
 }
 
 .rootBubble p {
@@ -1096,11 +1281,16 @@ input#bioView, input#mainView{
 }
 
 .serverBubble {
-  top: 350px;
-  left: 1150px;
+  top: 63%;
+  left: 85%;
   width: 100px;
   height: 100px;
   background: #2c3e50;
+  -webkit-transition: -webkit-transform 2s;
+  -moz-transition: -moz-transform 2s;
+  -ms-transition: -ms-transform 2s;
+  -o-transition: -o-transform 2s;
+  transition: transform 2s;
 }
 
 .serverBubble p {
@@ -1109,11 +1299,16 @@ input#bioView, input#mainView{
 }
 
 .serversideBubble {
-  top: 200px;
-  left: 1200px;
+  top: 33%;
+  left: 88%;
   width: 130px;
   height: 130px;
   background: #3498db;
+  -webkit-transition: -webkit-transform 2s;
+  -moz-transition: -moz-transform 2s;
+  -ms-transition: -ms-transform 2s;
+  -o-transition: -o-transform 2s;
+  transition: transform 2s;
 }
 
 .serversideBubble p {
@@ -1122,11 +1317,16 @@ input#bioView, input#mainView{
 }
 
 .scriptBubble {
-  top: 310px;
-  left: 0px;
+  top: 52%;
+  left: 0%;
   width: 80px;
 	height: 80px;
   background: #295099;
+  -webkit-transition: -webkit-transform 2s;
+  -moz-transition: -moz-transform 2s;
+  -ms-transition: -ms-transform 2s;
+  -o-transition: -o-transform 2s;
+  transition: transform 2s;
 }
 
 .scriptBubble p {
@@ -1135,11 +1335,16 @@ input#bioView, input#mainView{
 }
 
 .sitemapBubble {
-  top: 400px;
-  left: 260px;
+  top: 68%;
+  left: 20.5%;
   width: 130px;
   height: 130px;
   background: #295099;
+  -webkit-transition: -webkit-transform 2s;
+  -moz-transition: -moz-transform 2s;
+  -ms-transition: -ms-transform 2s;
+  -o-transition: -o-transform 2s;
+  transition: transform 2s;
 }
 
 .sitemapBubble p {
@@ -1148,11 +1353,16 @@ input#bioView, input#mainView{
 }
 
 .subdomainBubble {
-  top: 300px;
-  left: 180px;
+  top: 53%;
+  left: 12%;
   width: 120px;
   height: 120px;
   background: #295099;
+  -webkit-transition: -webkit-transform 2s;
+  -moz-transition: -moz-transform 2s;
+  -ms-transition: -ms-transform 2s;
+  -o-transition: -o-transform 2s;
+  transition: transform 2s;
 }
 
 .subdomainBubble p {
@@ -1161,11 +1371,16 @@ input#bioView, input#mainView{
 }
 
 .tagBubble {
-  top: 400px;
-  left: 700px;
+  top: 72%;
+  left: 52%;
   width: 50px;
 	height: 50px;
   background: #295099;
+  -webkit-transition: -webkit-transform 2s;
+  -moz-transition: -moz-transform 2s;
+  -ms-transition: -ms-transform 2s;
+  -o-transition: -o-transform 2s;
+  transition: transform 2s;
 }
 
 .tagBubble p {
@@ -1174,11 +1389,16 @@ input#bioView, input#mainView{
 }
 
 .theNetBubble {
-  top: 300px;
-  left: 400px;
+  top: 51%;
+  left: 29%;
   width: 90px;
   height: 90px;
   background: #2980b9;
+  -webkit-transition: -webkit-transform 2s;
+  -moz-transition: -moz-transform 2s;
+  -ms-transition: -ms-transform 2s;
+  -o-transition: -o-transform 2s;
+  transition: transform 2s;
 }
 
 .theNetBubble p {
@@ -1187,11 +1407,16 @@ input#bioView, input#mainView{
 }
 
 .trojanHorseBubble {
-  top: 300px;
-  left: 500px;
+  top: 52%;
+  left: 37%;
   width: 130px;
   height: 130px;
   background: #253077;
+  -webkit-transition: -webkit-transform 2s;
+  -moz-transition: -moz-transform 2s;
+  -ms-transition: -ms-transform 2s;
+  -o-transition: -o-transform 2s;
+  transition: transform 2s;
 }
 
 .trojanHorseBubble p {
@@ -1200,11 +1425,16 @@ input#bioView, input#mainView{
 }
 
 .urlBubble {
-  top: 450px;
-  left: 500px;
+  top: 76%;
+  left: 36%;
   width: 70px;
 	height: 70px;
   background: #2980b9;
+  -webkit-transition: -webkit-transform 2s;
+  -moz-transition: -moz-transform 2s;
+  -ms-transition: -ms-transform 2s;
+  -o-transition: -o-transform 2s;
+  transition: transform 2s;
 }
 
 .urlBubble p {
@@ -1213,11 +1443,16 @@ input#bioView, input#mainView{
 }
 
 .websiteBubble {
-  top: 310px;
-  left: 750px;
+  top: 54%;
+  left: 55.5%;
   width: 80px;
   height: 80px;
   background: #253077;
+  -webkit-transition: -webkit-transform 2s;
+  -moz-transition: -moz-transform 2s;
+  -ms-transition: -ms-transform 2s;
+  -o-transition: -o-transform 2s;
+  transition: transform 2s;
 }
 
 .websiteBubble p {
@@ -1226,11 +1461,16 @@ input#bioView, input#mainView{
 }
 
 .websiteAddressBubble {
-  top: 300px;
-  left: 850px;
+  top: 52%;
+  left: 63%;
   width: 140px;
   height: 140px;
   background: #2980b9;
+  -webkit-transition: -webkit-transform 2s;
+  -moz-transition: -moz-transform 2s;
+  -ms-transition: -ms-transform 2s;
+  -o-transition: -o-transform 2s;
+  transition: transform 2s;
 }
 
 .websiteAddressBubble p {
@@ -1239,11 +1479,16 @@ input#bioView, input#mainView{
 }
 
 .wwwBubble {
-  top: 70px;
-  left: 220px;
+  top: 12%;
+  left: 16%;
   width: 60px;
 	height: 60px;
   background: #295099;
+  -webkit-transition: -webkit-transform 2s;
+  -moz-transition: -moz-transform 2s;
+  -ms-transition: -ms-transform 2s;
+  -o-transition: -o-transform 2s;
+  transition: transform 2s;
 }
 
 .wwwBubble p {
@@ -1252,51 +1497,21 @@ input#bioView, input#mainView{
 }
 
 .xmlBubble {
-  top: 300px;
-  left: 1000px;
+  top: 51%;
+  left: 74%;
   width: 50px;
   height: 50px;
   background: #295099;
+  -webkit-transition: -webkit-transform 2s;
+  -moz-transition: -moz-transform 2s;
+  -ms-transition: -ms-transform 2s;
+  -o-transition: -o-transform 2s;
+  transition: transform 2s;
 }
 
 .xmlBubble p {
   top: 35%;
   left: 10%;
-}
-
-.closeButton {
-  top: 2px;
-  left: 2px;
-  width: 50px;
-  height: 25px;
-  background-color: #fff;
-  border-radius: 50px;
-}
-
-.closeButton p {
-  color: #ecf0f1;
-  font-weight: bold;
-  padding: 1px;
-  top: 10%;
-}
-
-.glossaryTitle {
-  position: absolute;
-  z-index: 1;
-  top: 40%;
-  left: 47%;
-  background-color: #fff;
-  height: 50px;
-  width: 100px;
-  border-radius: 25px;
-}
-
-.glossaryTitle p {
-  position: absolute;
-  z-index: 2;
-  top: 35%;
-  left: 15%;
-  font-weight: bold;
 }
 
 .accessibilityMenu, .asciiMenu, .attributeMenu, .bounceMenu, .browserMenu, .browserWindowMenu, .cssMenu, .cookieMenu, .domainMenu, .domainNameMenu, .dnsMenu, .doctypeMenu, .elementMenu,
@@ -2188,6 +2403,277 @@ input#bioView, input#mainView{
   .comparisonColumns p {
     column-count: 2;
   }
+
+  .htmlBubble {
+    left: 2%;
+    top: 23%;
+  }
+
+  .hitBubble {
+    left: 6%;
+    top: 60%;
+  }
+
+  .ispBubble {
+    top: 90%;
+    left: 2%;
+  }
+
+  .javascriptBubble {
+    top: 70%;
+    left: 2%;
+  }
+
+  .metadataBubble {
+    left: 10%;
+  }
+
+  .sitemapBubble {
+    top: 69%;
+    left: 15%;
+  }
+  
+  .elementBubble {
+    top: 40%;
+    left: 25%;
+  }
+
+  .trojanHorseBubble {
+    top: 85%;
+    left: 25%;
+  }
+
+  .websiteAddressBubble {
+    left: 40%;
+  }
+
+  .hypertextBubble {
+    left: 36%;
+    top: 18%; 
+  }
+
+  .lanBubble {
+    left: 65%;
+  }
+}
+
+
+@media (max-width: 1200px) {
+  .doctypeBubble {
+    left: 26%;
+    top: 66%;
+  }
+
+  .ipAddressBubble {
+    left: 67%;
+  }
+
+  .gifBubble {
+    left: 85%;
+    top: 3%;
+  }
+}
+
+@media (max-width: 1100px) {
+  .accessibilityBubble {
+    top: -100vh;
+  }
+
+  .asciiBubble {
+    top: -100vh;
+  }
+
+  .attributeBubble {
+    top: -100vh;
+  }
+  
+  .bounceBubble {
+    top: -100vh;
+  }
+
+  .browserBubble {
+    top: -100vh;
+  }
+
+  .browserWindowBubble {
+    top: -100vh;
+  }
+
+  .cookieBubble {
+    top: -100vh;
+  }
+
+  .cssBubble {
+    top: -100vh;
+  }
+
+  .dnsBubble {
+    top: -100vh;
+  }
+
+  .doctypeBubble {
+    top: -100vh;
+  }
+
+  .domainBubble {
+    top: -100vh;
+  }
+
+  .domainNameBubble {
+    top: -100vh;
+  }
+
+  .elementBubble {
+    top: -100vh;
+  }
+
+  .faviconBubble {
+    top: -100vh;
+  }
+
+  .ftpClientBubble {
+    top: -100vh;
+  }
+
+  .gifBubble {
+    top: -100vh;
+  }
+
+  .hexadecimalBubble {
+    top: -100vh;
+  }
+
+  .hitBubble {
+    top: -100vh;
+  }
+
+  .htmlBubble {
+    top: -100vh;
+  }
+
+  .httpBubble {
+    top: -100vh;
+  }
+
+  .httpsBubble {
+    top: -100vh;
+  }
+
+  .hyperlinkBubble {
+    top: -100vh;
+  }
+
+  .hypertextBubble {
+    top: -100vh;
+  }
+
+  .iframeBubble {
+    top: -100vh;
+  }
+
+  .ipAddressBubble {
+    top: -100vh;
+  }
+
+  .ispBubble {
+    top: -100vh;
+  }
+
+  .javascriptBubble {
+    top: -100vh;
+  }
+
+  .lanBubble {
+    top: -100vh;
+  }
+
+  .landingPageBubble {
+    top: -100vh;
+  }
+
+  .linkBubble {
+    top: -100vh;
+  }
+
+  .metadataBubble {
+    top: -100vh;
+  }
+
+  .metatagBubble {
+    top: -100vh;
+  }
+
+  .operatingSystemBubble {
+    top: -100vh;
+  }
+
+  .optimiseBubble {
+    top: -100vh;
+  }
+
+  .rootBubble {
+    top: -100vh;
+  }
+
+  .scriptBubble {
+    top: -100vh;
+  }
+
+  .serverBubble {
+    top: -100vh;
+  }
+
+  .serversideBubble {
+    top: -100vh;
+  }
+
+  .tagBubble {
+    top: -100vh;
+  }
+
+  .theNetBubble {
+    top: -100vh;
+  }
+
+  .urlBubble {
+    top: -100vh;
+  }
+
+  .websiteAddressBubble {
+    top: -100vh;
+  }
+
+  .websiteBubble {
+    top: -100vh;
+  }
+
+  .wwwBubble {
+    top: -100vh;
+  }
+
+  .xmlBubble {
+    top: -100vh;
+  }
+
+  .subdomainBubble {
+    top: -100vh;
+  }
+
+  .sitemapBubble {
+    top: -100vh;
+  }
+
+  .trojanHorseBubble {
+    top: -100vh;
+  }
+
+  .parkedDomainBubble {
+    top: -100vh;
+  }
+
+  .phpBubble {
+    top: -100vh;
+  }  
 }
 
 @media (max-width: 600px) {
