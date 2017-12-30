@@ -142,7 +142,6 @@
 
 .main {
   border-top: 3px solid #e74c3c;
-  border-bottom: 3px solid #e74c3c;
   position: absolute;
   top: 40px;
   left: 0;
@@ -2346,7 +2345,6 @@ input#bioView, input#mainView{
 .mainCC {
   overflow: visible;
   border-top: 3px solid #e74c3c;
-  border-bottom: 3px solid #e74c3c;
   position: absolute;
   top: 40px;
   left: 0;
