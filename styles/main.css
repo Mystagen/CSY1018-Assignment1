@@ -2675,6 +2675,20 @@ input#bioView, input#mainView{
 }
 
 @media (max-width: 600px) {
+  .menu {
+    width: 300px;
+    margin-left: -150px;
+    top: -600px;
+  }
+
+  #navigationBurger:checked ~ .menu {
+    -webkit-transform: translate(0, 580px);
+    -moz-transform: translate(0, 580px);
+    -ms-transform: translate(0, 580px);
+    -o-transform: translate(0, 580px);
+    transform: translate(0, 580px);
+  }
+  
   .comparisonColumns p {
     column-count: 1;
   }
