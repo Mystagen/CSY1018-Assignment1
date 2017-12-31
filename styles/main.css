@@ -32,11 +32,13 @@
   border: 2px solid #e74c3c;
 }
 
-.alphabetMenu input{
+.main input {
   display: none;
 }
 
-.alphabetMenu label{ 
+.aLabel, .bLabel, .cLabel, .dLabel, .eLabel, .fLabel, 
+.gLabel, .hLabel, .iLabel, .jLabel, .lLabel, .mLabel, .oLabel, 
+.pLabel, .rLabel, .sLabel, .tLabel, .uLabel, .wLabel, .xLabel { 
   display: none;
 }
 
@@ -244,14 +246,6 @@ footer label {
   -o-transition: -o-transform 2s;
   transition: transform 2s;
   border: 2px solid #e74c3c;
-}
-
-#a:checked ~ .accessibilityBubble {
-  -webkit-transform: translate(0, 100vh);
-  -moz-transform: translate(0, 100vh);
-  -ms-transform: translate(0, 100vh);
-  -o-transform: translate(0, 100vh);
-  transform: translate(0, 100vh);
 }
 
 .contactForm p {
@@ -2489,136 +2483,267 @@ input#bioView, input#mainView{
 }
 
 @media (max-width: 1100px) {
-  .alphabetMenu label{ 
+  .aLabel, .bLabel, .cLabel, .dLabel, .eLabel, .fLabel, 
+.gLabel, .hLabel, .iLabel, .jLabel, .lLabel, .mLabel, .oLabel, 
+.pLabel, .rLabel, .sLabel, .tLabel, .uLabel, .wLabel, .xLabel { 
     display: block;
-    width: 5%;
+    width: 8%;
     background-color: #2c3e50;
-    height: 4.35vh;
+    height: 5%;
+    border-right: 3px solid #e74c3c;
   }
 
-  .alphabetMenu p {
+  .aLabel p, .bLabel p, .cLabel p, .dLabel p, .eLabel p, .fLabel p, 
+.gLabel p, .hLabel p, .iLabel p, .jLabel p, .lLabel p, .mLabel p, .oLabel p, 
+.pLabel p, .rLabel p, .sLabel p, .tLabel p, .uLabel p, .wLabel p, .xLabel p {
     color: #ecf0f1;
-    padding: 2px;
+    padding: 7px;
+  }
+
+  #a:checked ~ .bubbles .accessibilityBubble, #a:checked ~ .bubbles .asciiBubble,
+  #a:checked ~ .bubbles .attributeBubble {
+    -webkit-transform: translate(0, 100vh);
+    -moz-transform: translate(0, 100vh);
+    -ms-transform: translate(0, 100vh);
+    -o-transform: translate(0, 100vh);
+    transform: translate(0, 100vh);
+  }
+
+  #b:checked ~ .bubbles .bounceBubble, #b:checked ~ .bubbles .browserBubble, 
+  #b:checked ~ .bubbles .browserWindowBubble {
+    -webkit-transform: translate(0, 100vh);
+    -moz-transform: translate(0, 100vh);
+    -ms-transform: translate(0, 100vh);
+    -o-transform: translate(0, 100vh);
+    transform: translate(0, 100vh);
+  }
+
+  #c:checked ~ .bubbles .cookieBubble, #c:checked ~ .bubbles .cssBubble {
+    -webkit-transform: translate(0, 100vh);
+    -moz-transform: translate(0, 100vh);
+    -ms-transform: translate(0, 100vh);
+    -o-transform: translate(0, 100vh);
+    transform: translate(0, 100vh);
+  }
+
+  #d:checked ~ .bubbles .dnsBubble, #d:checked ~ .bubbles .doctypeBubble, 
+  #d:checked ~ .bubbles .domainBubble, #d:checked ~ .bubbles .domainNameBubble {
+    -webkit-transform: translate(0, 100vh);
+    -moz-transform: translate(0, 100vh);
+    -ms-transform: translate(0, 100vh);
+    -o-transform: translate(0, 100vh);
+    transform: translate(0, 100vh);
+  }
+
+  #e:checked ~ .bubbles .elementBubble {
+    -webkit-transform: translate(0, 100vh);
+    -moz-transform: translate(0, 100vh);
+    -ms-transform: translate(0, 100vh);
+    -o-transform: translate(0, 100vh);
+    transform: translate(0, 100vh);
+  }
+
+  #f:checked ~ .bubbles .faviconBubble, #f:checked ~ .bubbles .ftpClientBubble{
+    -webkit-transform: translate(0, 100vh);
+    -moz-transform: translate(0, 100vh);
+    -ms-transform: translate(0, 100vh);
+    -o-transform: translate(0, 100vh);
+    transform: translate(0, 100vh);
+  }
+
+  #g:checked ~ .bubbles .gifBubble {
+    -webkit-transform: translate(0, 100vh);
+    -moz-transform: translate(0, 100vh);
+    -ms-transform: translate(0, 100vh);
+    -o-transform: translate(0, 100vh);
+    transform: translate(0, 100vh);
+  }
+
+  #h:checked ~ .bubbles .hitBubble, #h:checked ~ .bubbles .hexadecimalBubble, 
+  #h:checked ~ .bubbles .htmlBubble, #h:checked ~ .bubbles .httpBubble, 
+  #h:checked ~ .bubbles .httpsBubble, #h:checked ~ .bubbles .hyperlinkBubble, 
+  #h:checked ~ .bubbles .hypertextBubble {
+    -webkit-transform: translate(0, 100vh);
+    -moz-transform: translate(0, 100vh);
+    -ms-transform: translate(0, 100vh);
+    -o-transform: translate(0, 100vh);
+    transform: translate(0, 100vh);
+  }
+
+  #i:checked ~ .bubbles .iframeBubble, #i:checked ~ .bubbles .ipAddressBubble,
+  #i:checked ~ .bubbles .ispBubble {
+    -webkit-transform: translate(0, 100vh);
+    -moz-transform: translate(0, 100vh);
+    -ms-transform: translate(0, 100vh);
+    -o-transform: translate(0, 100vh);
+    transform: translate(0, 100vh);
+  }
+
+  #j:checked ~ .bubbles .javascriptBubble {
+    -webkit-transform: translate(0, 100vh);
+    -moz-transform: translate(0, 100vh);
+    -ms-transform: translate(0, 100vh);
+    -o-transform: translate(0, 100vh);
+    transform: translate(0, 100vh);
+  }
+
+  #l:checked ~ .bubbles .lanBubble, #l:checked ~ .bubbles .landingPageBubble,
+  #l:checked ~ .bubbles .linkBubble {
+    -webkit-transform: translate(0, 100vh);
+    -moz-transform: translate(0, 100vh);
+    -ms-transform: translate(0, 100vh);
+    -o-transform: translate(0, 100vh);
+    transform: translate(0, 100vh);
   }
   
   .accessibilityBubble {
-    top: -100vh;
+    top: -100%;
+    left: 25%;
   }
 
   .asciiBubble {
-    top: -100vh;
+    top: -80%;
+    left: 60%;
   }
 
   .attributeBubble {
-    top: -100vh;
+    top: -60%;
+    left: 15%;
   }
   
   .bounceBubble {
-    top: -100vh;
+    top: -70%;
+    left: 75%;
   }
 
   .browserBubble {
-    top: -100vh;
+    top: -100%;
+    left: 30%;
   }
 
   .browserWindowBubble {
-    top: -100vh;
+    top: -60%;
+    left: 25%;
   }
 
   .cookieBubble {
-    top: -100vh;
+    top: -90%;
+    left: 25%;
   }
 
   .cssBubble {
-    top: -100vh;
+    top: -60%;
+    left: 48%;
   }
 
   .dnsBubble {
-    top: -100vh;
+    top: -60%;
+    left: 75%;
   }
 
   .doctypeBubble {
-    top: -100vh;
+    top: -85%;
+    left: 15%;
   }
 
   .domainBubble {
-    top: -100vh;
+    top: -100%;
+    left: 64%;
   }
 
   .domainNameBubble {
-    top: -100vh;
+    top: -50%;
+    left: 28%;
   }
 
   .elementBubble {
-    top: -100vh;
+    top: -90%;
+    left: 40%;
   }
 
   .faviconBubble {
-    top: -100vh;
+    top: -90%;
+    left: 30%;
   }
 
   .ftpClientBubble {
-    top: -100vh;
+    top: -60%;
+    left: 60%;
   }
 
   .gifBubble {
-    top: -100vh;
+    top: -70%;
+    left: 30%;
   }
 
   .hexadecimalBubble {
-    top: -100vh;
+    top: -105%;
+    left: 20%;
   }
 
   .hitBubble {
-    top: -100vh;
+    top: -70%;
+    left: 20%;
   }
 
   .htmlBubble {
-    top: -100vh;
+    top: -80%;
+    left: 70%;
   }
 
   .httpBubble {
-    top: -100vh;
+    top: -50%;
+    left: 25%;
   }
 
   .httpsBubble {
-    top: -100vh;
+    top: -50%;
+    left: 65%;
   }
 
   .hyperlinkBubble {
-    top: -100vh;
+    top: -105%;
+    left: 70%;
   }
 
   .hypertextBubble {
-    top: -100vh;
+    top: -70%;
+    left: 50%;
   }
 
   .iframeBubble {
-    top: -100vh;
+    top: -90%;
+    left: 25%;
   }
 
   .ipAddressBubble {
-    top: -100vh;
+    top: -70%;
+    left: 60%;
   }
 
   .ispBubble {
-    top: -100vh;
+    top: -50%;
+    left: 30%;
   }
 
   .javascriptBubble {
-    top: -100vh;
+    top: -80%;
+    left: 35%;
   }
 
   .lanBubble {
-    top: -100vh;
+    top: -100%;
+    left: 65%;
   }
 
   .landingPageBubble {
-    top: -100vh;
+    top: -60%;
+    left: 60%;
   }
 
   .linkBubble {
-    top: -100vh;
+    top: -80%;
+    left: 20%;
   }
 
   .metadataBubble {
