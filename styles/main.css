@@ -2595,187 +2595,236 @@ input#bioView, input#mainView{
     -o-transform: translate(0, 100vh);
     transform: translate(0, 100vh);
   }
+  #m:checked ~ .bubbles .metatagBubble, #m:checked ~.bubbles .metadataBubble {
+    -webkit-transform: translate(0, 100vh);
+    -moz-transform: translate(0, 100vh);
+    -ms-transform: translate(0, 100vh);
+    -o-transform: translate(0, 100vh);
+    transform: translate(0, 100vh);
+  }
+
+  #o:checked ~ .bubbles .operatingSystemBubble, #o:checked ~ .bubbles .optimiseBubble {
+    -webkit-transform: translate(0, 100vh);
+    -moz-transform: translate(0, 100vh);
+    -ms-transform: translate(0, 100vh);
+    -o-transform: translate(0, 100vh);
+    transform: translate(0, 100vh);
+  }
   
+  #p:checked ~ .bubbles .parkedDomainBubble, #p:checked ~ .bubbles .phpBubble {
+    -webkit-transform: translate(0, 100vh);
+    -moz-transform: translate(0, 100vh);
+    -ms-transform: translate(0, 100vh);
+    -o-transform: translate(0, 100vh);
+    transform: translate(0, 100vh);
+  }
+
+  #r:checked ~ .bubbles .rootBubble {
+    -webkit-transform: translate(0, 100vh);
+    -moz-transform: translate(0, 100vh);
+    -ms-transform: translate(0, 100vh);
+    -o-transform: translate(0, 100vh);
+    transform: translate(0, 100vh);
+  }
+
+  #s:checked ~ .bubbles .scriptBubble, #s:checked ~ .bubbles .serverBubble,
+  #s:checked ~ .bubbles .serversideBubble, #s:checked ~ .bubbles .sitemapBubble,
+  #s:checked ~ .bubbles .subdomainBubble {
+    -webkit-transform: translate(0, 100vh);
+    -moz-transform: translate(0, 100vh);
+    -ms-transform: translate(0, 100vh);
+    -o-transform: translate(0, 100vh);
+    transform: translate(0, 100vh);
+  }
+
   .accessibilityBubble {
-    top: -100%;
+    top: -100vh;
     left: 25%;
   }
 
   .asciiBubble {
-    top: -80%;
+    top: -80vh;
     left: 60%;
   }
 
   .attributeBubble {
-    top: -60%;
+    top: -60vh;
     left: 15%;
   }
   
   .bounceBubble {
-    top: -70%;
+    top: -70vh;
     left: 75%;
   }
 
   .browserBubble {
-    top: -100%;
+    top: -100vh;
     left: 30%;
   }
 
   .browserWindowBubble {
-    top: -60%;
+    top: -60vh;
     left: 25%;
   }
 
   .cookieBubble {
-    top: -90%;
+    top: -90vh;
     left: 25%;
   }
 
   .cssBubble {
-    top: -60%;
+    top: -60vh;
     left: 48%;
   }
 
   .dnsBubble {
-    top: -60%;
+    top: -60vh;
     left: 75%;
   }
 
   .doctypeBubble {
-    top: -85%;
+    top: -85vh;
     left: 15%;
   }
 
   .domainBubble {
-    top: -100%;
+    top: -100vh;
     left: 64%;
   }
 
   .domainNameBubble {
-    top: -50%;
+    top: -50vh;
     left: 28%;
   }
 
   .elementBubble {
-    top: -90%;
+    top: -90vh;
     left: 40%;
   }
 
   .faviconBubble {
-    top: -90%;
+    top: -90vh;
     left: 30%;
   }
 
   .ftpClientBubble {
-    top: -60%;
+    top: -60vh;
     left: 60%;
   }
 
   .gifBubble {
-    top: -70%;
+    top: -70vh;
     left: 30%;
   }
 
   .hexadecimalBubble {
-    top: -105%;
+    top: -100vh;
     left: 20%;
   }
 
   .hitBubble {
-    top: -70%;
+    top: -70vh;
     left: 20%;
   }
 
   .htmlBubble {
-    top: -80%;
+    top: -80vh;
     left: 70%;
   }
 
   .httpBubble {
-    top: -50%;
+    top: -50vh;
     left: 25%;
   }
 
   .httpsBubble {
-    top: -50%;
+    top: -50vh;
     left: 65%;
   }
 
   .hyperlinkBubble {
-    top: -105%;
+    top: -100vh;
     left: 70%;
   }
 
   .hypertextBubble {
-    top: -70%;
+    top: -70vh;
     left: 50%;
   }
 
   .iframeBubble {
-    top: -90%;
+    top: -90vh;
     left: 25%;
   }
 
   .ipAddressBubble {
-    top: -70%;
+    top: -70vh;
     left: 60%;
   }
 
   .ispBubble {
-    top: -50%;
+    top: -50vh;
     left: 30%;
   }
 
   .javascriptBubble {
-    top: -80%;
+    top: -80vh;
     left: 35%;
   }
 
   .lanBubble {
-    top: -100%;
+    top: -100vh;
     left: 65%;
   }
 
   .landingPageBubble {
-    top: -60%;
+    top: -60vh;
     left: 60%;
   }
 
   .linkBubble {
-    top: -80%;
+    top: -80vh;
     left: 20%;
   }
 
   .metadataBubble {
-    top: -100vh;
+    top: -90vh;
+    left: 25%;
   }
 
   .metatagBubble {
-    top: -100vh;
+    top: -70vh;
+    left: 60%;
   }
 
   .operatingSystemBubble {
-    top: -100vh;
+    top: -65vh;
+    left: 40%;
   }
 
   .optimiseBubble {
-    top: -100vh;
+    top: -90vh;
+    left: 65%;
   }
 
   .rootBubble {
-    top: -100vh;
+    top: -70vh;
+    left: 40%;
   }
 
   .scriptBubble {
-    top: -100vh;
+    top: -95vh;
+    left: 25%;
   }
 
   .serverBubble {
-    top: -100vh;
+    top: -90vh;
+    left: 65%;
   }
 
   .serversideBubble {
-    top: -100vh;
+    top: -70vh;
+    left: 25%;
   }
 
   .tagBubble {
@@ -2807,11 +2856,13 @@ input#bioView, input#mainView{
   }
 
   .subdomainBubble {
-    top: -100vh;
+    top: -65vh;
+    left: 65%;
   }
 
   .sitemapBubble {
-    top: -100vh;
+    top: -40vh;
+    left: 40%;
   }
 
   .trojanHorseBubble {
@@ -2819,11 +2870,13 @@ input#bioView, input#mainView{
   }
 
   .parkedDomainBubble {
-    top: -100vh;
+    top: -80vh;
+    left: 30%;
   }
 
   .phpBubble {
-    top: -100vh;
+    top: -60vh;
+    left: 60%;
   }  
 }
 
