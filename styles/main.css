@@ -2490,6 +2490,10 @@ input#bioView, input#mainView{
 
 .model1 {
   position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
   height: 100%;
   width: 100%;
   background-color: #3498db;
@@ -2500,6 +2504,21 @@ input#bioView, input#mainView{
   -ms-transition: -ms-transform 2s;
   -o-transition: -o-transform 2s;
   transition: transform 2s;
+}
+
+#launcher1, #launcher2 {
+  margin-top: -5%;
+  height: 50%;
+  padding: 2%;
+}
+
+.model1 h1 {
+  color: #ecf0f1;
+  font-weight: lighter;
+  top: 8%;
+  left: 50%;
+  margin-left: -25%;
+  width: 50%;
 }
 
 .model2 {
