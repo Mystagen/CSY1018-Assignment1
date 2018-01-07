@@ -369,6 +369,7 @@ label input:checked + img{
   width: 2px;
   background-color: #fff;
 }
+
 .closeIcon:before {
   transform: rotate(45deg);
 }
@@ -2426,6 +2427,7 @@ input#bioView, input#mainView{
   color: #ecf0f1;
   font-weight: lighter;
   text-decoration: underline;
+  text-decoration-color: #e74c3c;
   left: 5%;
   top: 10%;
 }
@@ -2435,6 +2437,7 @@ input#bioView, input#mainView{
   color: #ecf0f1;
   font-weight: lighter;
   text-decoration: underline;
+  text-decoration-color: #e74c3c;
   top: 50%;
   left: 5%;
 }
@@ -2445,17 +2448,19 @@ input#bioView, input#mainView{
   left: 55%;
   width: 40%;
   height: 40%;
+  border: 2px solid #e74c3c;
+  border-radius: 5px;
 }
 
 #definition {
   position: absolute;
   color: #ecf0f1;
-  border: 2px solid #ecf0f1;
+  border: 2px solid #e74c3c;
   border-radius: 5px;
   padding: 10px;
   top: 25%;
   left: 5%;
-  width: 40%;
+  width: 40%;  
 }
 
 #whyIDoIt {
@@ -2470,6 +2475,7 @@ input#bioView, input#mainView{
   position: absolute;
   color: #ecf0f1;
   text-decoration: underline;
+  text-decoration-color: #e74c3c;
   top: 60%;
   left: 55%;
 }
@@ -2480,6 +2486,236 @@ input#bioView, input#mainView{
   top: 70%;
   left: 55%;
   width: 40%;
+}
+
+.model1 {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background-color: #3498db;
+  z-index: 3;
+  left: -100%;
+  -webkit-transition: -webkit-transform 2s;
+  -moz-transition: -moz-transform 2s;
+  -ms-transition: -ms-transform 2s;
+  -o-transition: -o-transform 2s;
+  transition: transform 2s;
+}
+
+.model2 {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background-color: #2980b9;
+  z-index: 3;
+  right: -100%;
+  -webkit-transition: -webkit-transform 2s;
+  -moz-transition: -moz-transform 2s;
+  -ms-transition: -ms-transform 2s;
+  -o-transition: -o-transform 2s;
+  transition: transform 2s;
+}
+
+.model3 {
+  position: absolute;
+  height: 100%;
+  width: 100%; 
+  background-color: #295099;
+  z-index: 3;
+  top: -100%;
+  -webkit-transition: -webkit-transform 2s;
+  -moz-transition: -moz-transform 2s;
+  -ms-transition: -ms-transform 2s;
+  -o-transition: -o-transform 2s;
+  transition: transform 2s;
+}
+
+.model4 {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background-color: #253077;
+  z-index: 3;
+  bottom: -100%;
+  -webkit-transition: -webkit-transform 2s;
+  -moz-transition: -moz-transform 2s;
+  -ms-transition: -ms-transform 2s;
+  -o-transition: -o-transform 2s;
+  transition: transform 2s;
+}
+
+.model1Switch {
+  position: absolute;
+  top: 50%;
+  margin-top: -20vh;
+  left: 0;
+  z-index: 1;
+  border-top: 20vh solid transparent;
+  border-left: 20vh solid #3498db;
+  border-bottom: 20vh solid transparent;
+  cursor: pointer;
+  -webkit-transition: -webkit-transform 2s;
+  -moz-transition: -moz-transform 2s;
+  -ms-transition: -ms-transform 2s;
+  -o-transition: -o-transform 2s;
+  transition: transform 2s;
+}
+
+.model2Switch {
+  position: absolute;
+  top: 50%;
+  margin-top: -20vh;
+  right: 0;
+  z-index: 1;
+  border-top: 20vh solid transparent;
+  border-right: 20vh solid #2980b9;
+  border-bottom: 20vh solid transparent;
+  cursor: pointer;
+  -webkit-transition: -webkit-transform 2s;
+  -moz-transition: -moz-transform 2s;
+  -ms-transition: -ms-transform 2s;
+  -o-transition: -o-transform 2s;
+  transition: transform 2s;
+}
+
+.model3Switch {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  margin-left: -20vh;
+  z-index: 1;
+  border-left: 20vh solid transparent;
+  border-top: 20vh solid #295099;
+  border-right: 20vh solid transparent;
+  cursor: pointer;
+  -webkit-transition: -webkit-transform 2s;
+  -moz-transition: -moz-transform 2s;
+  -ms-transition: -ms-transform 2s;
+  -o-transition: -o-transform 2s;
+  transition: transform 2s;
+}
+
+.model4Switch {
+  position: absolute;
+  bottom: 0px;
+  left: 50%;
+  margin-left: -20vh;
+  z-index: 1;
+  border-left: 20vh solid transparent;
+  border-bottom: 20vh solid #253077;
+  border-right: 20vh solid transparent;
+  cursor: pointer;
+  -webkit-transition: -webkit-transform 2s;
+  -moz-transition: -moz-transform 2s;
+  -ms-transition: -ms-transform 2s;
+  -o-transition: -o-transform 2s;
+  transition: transform 2s;
+}
+
+.model1Plus {
+  position: absolute;
+  top: 50%;
+  margin-top: 42px;
+  left: 13vh;
+}
+
+.model2Plus {
+  position: absolute;
+  top: 50%;
+  margin-top: 42px;
+  right: 3.5vh;
+}
+
+.model3Plus {
+  position: absolute;
+  top: 15vh;
+  left: 50%;
+  margin-left: 35px;
+}
+
+.model4Plus {
+  position: absolute;
+  bottom: 4vh;
+  left: 50%;
+  margin-left: 35px;
+}
+
+#model1View:checked ~ .model1, #model1View:checked ~ .model1Switch {
+  -webkit-transform: translate(100%, 0);
+  -moz-transform: translate(100%, 0);
+  -ms-transform: translate(100%, 0);
+  -o-transform: translate(100%, 0);
+  transform: translate(100%, 0);
+}
+
+#model2View:checked ~ .model2, #model2View:checked ~ .model2Switch {
+  -webkit-transform: translate(-100%, 0);
+  -moz-transform: translate(-100%, 0);
+  -ms-transform: translate(-100%, 0);
+  -o-transform: translate(-100%, 0);
+  transform: translate(-100%, 0);
+}
+
+#model3View:checked ~ .model3, #model3View:checked ~ .model3Switch {
+  -webkit-transform: translate(0 ,100%);
+  -moz-transform: translate(0 ,100%);
+  -ms-transform: translate(0 ,100%);
+  -o-transform: translate(0 ,100%);
+  transform: translate(0 ,100%);
+}
+
+#model4View:checked ~ .model4, #model4View:checked ~ .model4Switch {
+  -webkit-transform: translate(0 ,-100%);
+  -moz-transform: translate(0 ,-100%);
+  -ms-transform: translate(0 ,-100%);
+  -o-transform: translate(0 ,-100%);
+  transform: translate(0 ,-100%);
+}
+
+.model1 input { 
+  display: block;
+  top: 0;
+  left: 0;
+  z-index: 5;
+}
+
+#topArrow {
+  position: absolute;
+  top: 10%;
+  left: 38%;
+  height: 20%;
+}
+
+#rightArrow {
+  position: absolute;
+  top: 40%;
+  left: 75%;
+  height: 15%;
+}
+
+#bottomArrow {
+  position: absolute;
+  top: 62%;
+  left: 50%;
+  height: 25%;
+}
+
+#leftArrow {
+  position: absolute;
+  top: 45%;
+  left: 12%;
+  height: 13%;
+}
+
+#gpTitle {
+  position: absolute;
+  width: 20%;
+  top: 42%;
+  left: 50%;
+  margin-left: -10%;
+  padding: 10px;
+  border: 3px solid #e74c3c;
+  border-radius: 15px;
 }
 
 @media (max-width: 1300px) {
@@ -2539,7 +2775,6 @@ input#bioView, input#mainView{
     left: 65%;
   }
 }
-
 
 @media (max-width: 1200px) {
   .doctypeBubble {
