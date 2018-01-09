@@ -2449,6 +2449,10 @@ input#bioView, input#mainView{
   width: 40%;
   height: 40%;
   border: 2px solid #e74c3c;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
   border-radius: 5px;
 }
 
@@ -2456,6 +2460,10 @@ input#bioView, input#mainView{
   position: absolute;
   color: #ecf0f1;
   border: 2px solid #e74c3c;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
   border-radius: 5px;
   padding: 10px;
   top: 25%;
@@ -2521,8 +2529,19 @@ input#bioView, input#mainView{
   width: 50%;
 }
 
+.model1 p {
+  color: #ecf0f1;
+  width: 80%;
+  position: absolute;
+  top: 80%;
+}
+
 .model2 {
   position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
   height: 100%;
   width: 100%;
   background-color: #2980b9;
@@ -2535,10 +2554,49 @@ input#bioView, input#mainView{
   transition: transform 2s;
 }
 
+.model2 a {
+  border: 3px solid #e74c3c;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  border-radius: 10px;
+  position: absolute;
+  top: 15%;
+  color: #ecf0f1;
+  padding: 5px;
+}
+
+#squeezeA {
+  left: 18%;
+}
+
+#girlA {
+  right: 18%;
+}
+
+.model2 p {
+  color: #ecf0f1;
+}
+
+.model2 img {
+  margin-top: -10%;
+  height: 30%;
+  padding: 2px;
+}
+
+.model2 p {
+  top: 70%;
+  position: absolute;
+  width: 80%;
+}
+
 .model3 {
   position: absolute;
   height: 100%;
   width: 100%; 
+  display: flex;
+  justify-content: center;
   background-color: #295099;
   z-index: 3;
   top: -100%;
@@ -2549,10 +2607,39 @@ input#bioView, input#mainView{
   transition: transform 2s;
 }
 
+.model3 h1 {
+  color: #ecf0f1;
+  width: 45%;
+  left: 50%;
+  margin-left: -22.5%;
+  top: 10%;
+  font-weight: lighter;
+  text-decoration: underline;
+  text-decoration-color: #e74c3c;
+}
+
+.model3 p {
+  position: absolute;
+  color: #ecf0f1;
+  width: 80%;
+  top: 30%;
+  border: 3px solid #e74c3c;
+  padding: 10px;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  -ms-border-radius: 15px;
+  -o-border-radius: 15px;
+  border-radius: 15px;
+}
+
 .model4 {
   position: absolute;
   height: 100%;
   width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
   background-color: #253077;
   z-index: 3;
   bottom: -100%;
@@ -2561,6 +2648,30 @@ input#bioView, input#mainView{
   -ms-transition: -ms-transform 2s;
   -o-transition: -o-transform 2s;
   transition: transform 2s;
+}
+
+.model4 img {
+  top: 40%;
+  height: 35%;
+  border: 3px solid #e74c3c;
+}
+
+.model4 h1 {
+  color: #ecf0f1;
+  top: 15%;
+  width: 19%;
+  left: 50%;
+  margin-left: -9.5%;
+  font-weight: lighter;
+  text-decoration: underline;
+  text-decoration-color: #e74c3c;
+}
+
+.model4 p {
+  color: #ecf0f1;
+  position: absolute;
+  top: 80%;
+  width: 80%;
 }
 
 .model1Switch {
@@ -2734,6 +2845,10 @@ input#bioView, input#mainView{
   margin-left: -10%;
   padding: 10px;
   border: 3px solid #e74c3c;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  -ms-border-radius: 15px;
+  -o-border-radius: 15px;
   border-radius: 15px;
 }
 
