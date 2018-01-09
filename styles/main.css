@@ -3473,7 +3473,7 @@ input#bioView, input#mainView{
     text-align: center;
   }
 
-  .michael p, .raj p, .mendes p {
+  #michaelP, #rajP, #mendesP {
     display: none;
   }
 
