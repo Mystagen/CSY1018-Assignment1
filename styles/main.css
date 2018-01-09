@@ -464,6 +464,10 @@ label input:checked + img{
   position: absolute;
 }
 
+#bigPhoto {
+  width: 100%;
+}
+
 .seperator {
   position: absolute;
   width: 0;
