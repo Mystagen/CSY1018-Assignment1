@@ -327,11 +327,7 @@ label input:checked + img{
   display: none;
 }
 
-#crossCloseButton {
-  display: none;
-}
-
-#crossCloseButton2 {
+#crossCloseButton, #crossCloseButton2, #crossCloseButton3, #crossCloseButton4 {
   display: none;
 }
 
