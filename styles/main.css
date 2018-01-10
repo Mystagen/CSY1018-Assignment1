@@ -2934,15 +2934,10 @@ input#bioView, input#mainView{
     display: block;
     width: 8%;
     background-color: #2c3e50;
-    height: 5%;
+    height: 4%;
     border-right: 3px solid #e74c3c;
-  }
-
-  .aLabel p, .bLabel p, .cLabel p, .dLabel p, .eLabel p, .fLabel p, 
-.gLabel p, .hLabel p, .iLabel p, .jLabel p, .lLabel p, .mLabel p, .oLabel p, 
-.pLabel p, .rLabel p, .sLabel p, .tLabel p, .uLabel p, .wLabel p, .xLabel p {
     color: #ecf0f1;
-    padding: 7px;
+    padding: 0.79%;
   }
 
   #a:checked ~ .bubbles .accessibilityBubble, #a:checked ~ .bubbles .asciiBubble,
