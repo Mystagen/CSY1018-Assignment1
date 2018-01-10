@@ -629,16 +629,15 @@ input#bioView, input#mainView{
   width: 110px;
 	height: 110px;
   background: #3498db;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #ecf0f1;
   -webkit-transition: -webkit-transform 2s;
   -moz-transition: -moz-transform 2s;
   -ms-transition: -ms-transform 2s;
   -o-transition: -o-transform 2s;
   transition: transform 2s;
-}
-
-.accessibilityBubble p {
-  top: 40%;
-  left: 5%;
 }
 
 .asciiBubble {
@@ -647,16 +646,15 @@ input#bioView, input#mainView{
   width: 70px;
   height: 70px;
   background: #2980b9;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #ecf0f1;
   -webkit-transition: -webkit-transform 2s;
   -moz-transition: -moz-transform 2s;
   -ms-transition: -ms-transform 2s;
   -o-transition: -o-transform 2s;
   transition: transform 2s;
-}
-
-.asciiBubble p {
-  top: 40%;
-  left: 20%;
 }
 
 .attributeBubble {
@@ -665,16 +663,15 @@ input#bioView, input#mainView{
   width: 90px;
   height: 90px;
   background: #2c3e50;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #ecf0f1;
   -webkit-transition: -webkit-transform 2s;
   -moz-transition: -moz-transform 2s;
   -ms-transition: -ms-transform 2s;
   -o-transition: -o-transform 2s;
   transition: transform 2s;
-}
-
-.attributeBubble p {
-  top: 40%;
-  left: 10%;
 }
 
 .bounceBubble {
@@ -683,16 +680,15 @@ input#bioView, input#mainView{
   width: 75px;
 	height: 75px;
   background: #2980b9;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #ecf0f1;
   -webkit-transition: -webkit-transform 2s;
   -moz-transition: -moz-transform 2s;
   -ms-transition: -ms-transform 2s;
   -o-transition: -o-transform 2s;
   transition: transform 2s;
-}
-
-.bounceBubble p {
-  top: 40%;
-  left: 8%;
 }
 
 .browserBubble {
@@ -701,16 +697,15 @@ input#bioView, input#mainView{
   width: 90px;
   height: 90px;
   background: #3498db;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #ecf0f1;
   -webkit-transition: -webkit-transform 2s;
   -moz-transition: -moz-transform 2s;
   -ms-transition: -ms-transform 2s;
   -o-transition: -o-transform 2s;
   transition: transform 2s;
-}
-
-.browserBubble p {
-  top: 40%;
-  left: 15%;
 }
 
 .browserWindowBubble {
@@ -719,16 +714,15 @@ input#bioView, input#mainView{
   width: 110px;
   height: 110px;
   background: #2980b9;
+  display: flex;
+  justify-content: center;  
+  align-items: center;
+  color: #ecf0f1;
   -webkit-transition: -webkit-transform 2s;
   -moz-transition: -moz-transform 2s;
   -ms-transition: -ms-transform 2s;
   -o-transition: -o-transform 2s;
   transition: transform 2s;
-}
-
-.browserWindowBubble p {
-  top: 35%;
-  left: 20%;
 }
 
 .cssBubble {
@@ -737,16 +731,15 @@ input#bioView, input#mainView{
   width: 130px;
 	height: 130px;
   background: #2c3e50;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #ecf0f1;
   -webkit-transition: -webkit-transform 2s;
   -moz-transition: -moz-transform 2s;
   -ms-transition: -ms-transform 2s;
   -o-transition: -o-transform 2s;
   transition: transform 2s;
-}
-
-.cssBubble p {
-  top: 45%;
-  left: 35%;
 }
 
 .cookieBubble {
@@ -755,16 +748,15 @@ input#bioView, input#mainView{
   width: 100px;
   height: 100px;
   background: #295099;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #ecf0f1;
   -webkit-transition: -webkit-transform 2s;
   -moz-transition: -moz-transform 2s;
   -ms-transition: -ms-transform 2s;
   -o-transition: -o-transform 2s;
   transition: transform 2s;
-}
-
-.cookieBubble p {
-  top: 40%;
-  left: 20%;
 }
 
 .domainBubble {
@@ -773,16 +765,15 @@ input#bioView, input#mainView{
   width: 80px;
   height: 80px;
   background: #295099;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #ecf0f1;
   -webkit-transition: -webkit-transform 2s;
   -moz-transition: -moz-transform 2s;
   -ms-transition: -ms-transform 2s;
   -o-transition: -o-transform 2s;
   transition: transform 2s;
-}
-
-.domainBubble p {
-  top: 40%;
-  left: 10%;
 }
 
 .domainNameBubble {
@@ -791,16 +782,15 @@ input#bioView, input#mainView{
   width: 120px;
 	height: 120px;
   background: #2980b9;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #ecf0f1;
   -webkit-transition: -webkit-transform 2s;
   -moz-transition: -moz-transform 2s;
   -ms-transition: -ms-transform 2s;
   -o-transition: -o-transform 2s;
   transition: transform 2s;
-}
-
-.domainNameBubble p {
-  top: 35%;
-  left: 25%;
 }
 
 .dnsBubble {
@@ -809,16 +799,15 @@ input#bioView, input#mainView{
   width: 60px;
   height: 60px;
   background: #3498db;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #ecf0f1;
   -webkit-transition: -webkit-transform 2s;
   -moz-transition: -moz-transform 2s;
   -ms-transition: -ms-transform 2s;
   -o-transition: -o-transform 2s;
   transition: transform 2s;
-}
-
-.dnsBubble p {
-  top: 35%;
-  left: 20%;
 }
 
 .doctypeBubble {
@@ -827,16 +816,15 @@ input#bioView, input#mainView{
   width: 100px;
   height: 100px;
   background: #2c3e50;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #ecf0f1;
   -webkit-transition: -webkit-transform 2s;
   -moz-transition: -moz-transform 2s;
   -ms-transition: -ms-transform 2s;
   -o-transition: -o-transform 2s;
   transition: transform 2s;
-}
-
-.doctypeBubble p {
-  top: 42%;
-  left: 10%;
 }
 
 .elementBubble {
@@ -845,16 +833,15 @@ input#bioView, input#mainView{
   width: 80px;
 	height: 80px;
   background: #253077;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #ecf0f1;
   -webkit-transition: -webkit-transform 2s;
   -moz-transition: -moz-transform 2s;
   -ms-transition: -ms-transform 2s;
   -o-transition: -o-transform 2s;
   transition: transform 2s;
-}
-
-.elementBubble p {
-  top: 40%;
-  left: 10%;
 }
 
 .faviconBubble {
@@ -863,16 +850,15 @@ input#bioView, input#mainView{
   width: 110px;
   height: 110px;
   background: #2980b9;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #ecf0f1;
   -webkit-transition: -webkit-transform 2s;
   -moz-transition: -moz-transform 2s;
   -ms-transition: -ms-transform 2s;
   -o-transition: -o-transform 2s;
   transition: transform 2s;
-}
-
-.faviconBubble p {
-  top: 40%;
-  left: 20%;
 }
 
 .ftpClientBubble {
@@ -881,16 +867,15 @@ input#bioView, input#mainView{
   width: 90px;
   height: 90px;
   background: #3498db;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #ecf0f1;
   -webkit-transition: -webkit-transform 2s;
   -moz-transition: -moz-transform 2s;
   -ms-transition: -ms-transform 2s;
   -o-transition: -o-transform 2s;
   transition: transform 2s;
-}
-
-.ftpClientBubble p {
-  top: 30%;
-  left: 20%;
 }
 
 .gifBubble {
@@ -899,16 +884,15 @@ input#bioView, input#mainView{
   width: 140px;
 	height: 140px;
   background: #2980b9;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #ecf0f1;
   -webkit-transition: -webkit-transform 2s;
   -moz-transition: -moz-transform 2s;
   -ms-transition: -ms-transform 2s;
   -o-transition: -o-transform 2s;
   transition: transform 2s;
-}
-
-.gifBubble p {
-  top: 45%;
-  left: 40%;
 }
 
 .hexadecimalBubble {
@@ -917,16 +901,15 @@ input#bioView, input#mainView{
   width: 150px;
   height: 150px;
   background: #2c3e50;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #ecf0f1;
   -webkit-transition: -webkit-transform 2s;
   -moz-transition: -moz-transform 2s;
   -ms-transition: -ms-transform 2s;
   -o-transition: -o-transform 2s;
   transition: transform 2s;
-}
-
-.hexadecimalBubble p {
-  top: 43%;
-  left: 15%;
 }
 
 .hitBubble {
@@ -935,16 +918,15 @@ input#bioView, input#mainView{
   width: 50px;
   height: 50px;
   background: #295099;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #ecf0f1;
   -webkit-transition: -webkit-transform 2s;
   -moz-transition: -moz-transform 2s;
   -ms-transition: -ms-transform 2s;
   -o-transition: -o-transform 2s;
   transition: transform 2s;
-}
-
-.hitBubble p {
-  top: 35%;
-  left: 25%;
 }
 
 .htmlBubble {
@@ -953,16 +935,15 @@ input#bioView, input#mainView{
   width: 70px;
 	height: 70px;
   background: #3498db;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #ecf0f1;
   -webkit-transition: -webkit-transform 2s;
   -moz-transition: -moz-transform 2s;
   -ms-transition: -ms-transform 2s;
   -o-transition: -o-transform 2s;
   transition: transform 2s;
-}
-
-.htmlBubble p {
-  top: 40%;
-  left: 15%;
 }
 
 .httpBubble {
@@ -971,16 +952,15 @@ input#bioView, input#mainView{
   width: 100px;
   height: 100px;
   background: #2c3e50;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #ecf0f1;
   -webkit-transition: -webkit-transform 2s;
   -moz-transition: -moz-transform 2s;
   -ms-transition: -ms-transform 2s;
   -o-transition: -o-transform 2s;
   transition: transform 2s;
-}
-
-.httpBubble p {
-  top: 40%;
-  left: 25%;
 }
 
 .httpsBubble {
@@ -989,16 +969,15 @@ input#bioView, input#mainView{
   width: 120px;
   height: 120px;
   background: #2c3e50;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #ecf0f1;
   -webkit-transition: -webkit-transform 2s;
   -moz-transition: -moz-transform 2s;
   -ms-transition: -ms-transform 2s;
   -o-transition: -o-transform 2s;
   transition: transform 2s;
-}
-
-.httpsBubble p {
-  top: 40%;
-  left: 25%;
 }
 
 .hyperlinkBubble {
@@ -1007,16 +986,15 @@ input#bioView, input#mainView{
   width: 100px;
 	height: 100px;
   background: #2980b9;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #ecf0f1;
   -webkit-transition: -webkit-transform 2s;
   -moz-transition: -moz-transform 2s;
   -ms-transition: -ms-transform 2s;
   -o-transition: -o-transform 2s;
   transition: transform 2s;
-}
-
-.hyperlinkBubble p {
-  top: 40%;
-  left: 10%;
 }
 
 .hypertextBubble {
@@ -1025,16 +1003,15 @@ input#bioView, input#mainView{
   width: 90px;
   height: 90px;
   background: #295099;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #ecf0f1;
   -webkit-transition: -webkit-transform 2s;
   -moz-transition: -moz-transform 2s;
   -ms-transition: -ms-transform 2s;
   -o-transition: -o-transform 2s;
   transition: transform 2s;
-}
-
-.hypertextBubble p {
-  top: 40%;
-  left: 5%;
 }
 
 .iframeBubble {
@@ -1043,16 +1020,15 @@ input#bioView, input#mainView{
   width: 110px;
   height: 110px;
   background: #2c3e50;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #ecf0f1;
   -webkit-transition: -webkit-transform 2s;
   -moz-transition: -moz-transform 2s;
   -ms-transition: -ms-transform 2s;
   -o-transition: -o-transform 2s;
   transition: transform 2s;
-}
-
-.iframeBubble p {
-  top: 40%;
-  left: 25%;
 }
 
 .ispBubble {
@@ -1061,16 +1037,15 @@ input#bioView, input#mainView{
   width: 60px;
 	height: 60px;
   background: #295099;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #ecf0f1;
   -webkit-transition: -webkit-transform 2s;
   -moz-transition: -moz-transform 2s;
   -ms-transition: -ms-transform 2s;
   -o-transition: -o-transform 2s;
   transition: transform 2s;
-}
-
-.ispBubble p {
-  top: 38%;
-  left: 30%;
 }
 
 .ipAddressBubble {
@@ -1079,16 +1054,15 @@ input#bioView, input#mainView{
   width: 100px;
   height: 100px;
   background: #2980b9;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #ecf0f1;
   -webkit-transition: -webkit-transform 2s;
   -moz-transition: -moz-transform 2s;
   -ms-transition: -ms-transform 2s;
   -o-transition: -o-transform 2s;
   transition: transform 2s;
-}
-
-.ipAddressBubble p {
-  top: 30%;
-  left: 15%;
 }
 
 .javascriptBubble {
@@ -1097,16 +1071,15 @@ input#bioView, input#mainView{
   width: 120px;
   height: 120px;
   background: #2c3e50;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #ecf0f1;
   -webkit-transition: -webkit-transform 2s;
   -moz-transition: -moz-transform 2s;
   -ms-transition: -ms-transform 2s;
   -o-transition: -o-transform 2s;
   transition: transform 2s;
-}
-
-.javascriptBubble p {
-  top: 40%;
-  left: 12%;
 }
 
 .lanBubble {
@@ -1115,16 +1088,15 @@ input#bioView, input#mainView{
   width: 100px;
 	height: 100px;
   background: #2980b9;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #ecf0f1;
   -webkit-transition: -webkit-transform 2s;
   -moz-transition: -moz-transform 2s;
   -ms-transition: -ms-transform 2s;
   -o-transition: -o-transform 2s;
   transition: transform 2s;
-}
-
-.lanBubble p {
-  top: 40%;
-  left: 30%;
 }
 
 .landingPageBubble {
@@ -1133,16 +1105,15 @@ input#bioView, input#mainView{
   width: 130px;
   height: 130px;
   background: #253077;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #ecf0f1;
   -webkit-transition: -webkit-transform 2s;
   -moz-transition: -moz-transform 2s;
   -ms-transition: -ms-transform 2s;
   -o-transition: -o-transform 2s;
   transition: transform 2s;
-}
-
-.landingPageBubble p {
-  top: 40%;
-  left: 20%;
 }
 
 .linkBubble {
@@ -1151,16 +1122,15 @@ input#bioView, input#mainView{
   width: 100px;
   height: 100px;
   background: #2c3e50;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #ecf0f1;
   -webkit-transition: -webkit-transform 2s;
   -moz-transition: -moz-transform 2s;
   -ms-transition: -ms-transform 2s;
   -o-transition: -o-transform 2s;
   transition: transform 2s;
-}
-
-.linkBubble p {
-  top: 40%;
-  left: 30%;
 }
 
 .metadataBubble {
@@ -1169,16 +1139,15 @@ input#bioView, input#mainView{
   width: 100px;
 	height: 100px;
   background: #3498db;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #ecf0f1;
   -webkit-transition: -webkit-transform 2s;
   -moz-transition: -moz-transform 2s;
   -ms-transition: -ms-transform 2s;
   -o-transition: -o-transform 2s;
   transition: transform 2s;
-}
-
-.metadataBubble p {
-  top: 35%;
-  left: 30%;
 }
 
 .metatagBubble {
@@ -1187,16 +1156,15 @@ input#bioView, input#mainView{
   width: 90px;
   height: 90px;
   background: #2980b9;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #ecf0f1;
   -webkit-transition: -webkit-transform 2s;
   -moz-transition: -moz-transform 2s;
   -ms-transition: -ms-transform 2s;
   -o-transition: -o-transform 2s;
   transition: transform 2s;
-}
-
-.metatagBubble p {
-  top: 30%;
-  left: 25%;
 }
 
 .operatingSystemBubble {
@@ -1205,16 +1173,15 @@ input#bioView, input#mainView{
   width: 120px;
   height: 120px;
   background: #3498db;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #ecf0f1;
   -webkit-transition: -webkit-transform 2s;
   -moz-transition: -moz-transform 2s;
   -ms-transition: -ms-transform 2s;
   -o-transition: -o-transform 2s;
   transition: transform 2s;
-}
-
-.operatingSystemBubble p {
-  top: 35%;
-  left: 15%;
 }
 
 .optimiseBubble {
@@ -1223,16 +1190,15 @@ input#bioView, input#mainView{
   width: 100px;
 	height: 100px;
   background: #2c3e50;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #ecf0f1;
   -webkit-transition: -webkit-transform 2s;
   -moz-transition: -moz-transform 2s;
   -ms-transition: -ms-transform 2s;
   -o-transition: -o-transform 2s;
   transition: transform 2s;
-}
-
-.optimiseBubble p {
-  top: 40%;
-  left: 13%;
 }
 
 .parkedDomainBubble {
@@ -1241,16 +1207,15 @@ input#bioView, input#mainView{
   width: 80px;
   height: 80px;
   background: #253077;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #ecf0f1;
   -webkit-transition: -webkit-transform 2s;
   -moz-transition: -moz-transform 2s;
   -ms-transition: -ms-transform 2s;
   -o-transition: -o-transform 2s;
   transition: transform 2s;
-}
-
-.parkedDomainBubble p {
-  top: 25%;
-  left: 10%;
 }
 
 .phpBubble {
@@ -1259,16 +1224,15 @@ input#bioView, input#mainView{
   width: 50px;
   height: 50px;
   background: #295099;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #ecf0f1;
   -webkit-transition: -webkit-transform 2s;
   -moz-transition: -moz-transform 2s;
   -ms-transition: -ms-transform 2s;
   -o-transition: -o-transform 2s;
   transition: transform 2s;
-}
-
-.phpBubble p {
-  top: 35%;
-  left: 15%;
 }
 
 .rootBubble {
@@ -1277,16 +1241,15 @@ input#bioView, input#mainView{
   width: 60px;
 	height: 60px;
   background: #3498db;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #ecf0f1;
   -webkit-transition: -webkit-transform 2s;
   -moz-transition: -moz-transform 2s;
   -ms-transition: -ms-transform 2s;
   -o-transition: -o-transform 2s;
   transition: transform 2s;
-}
-
-.rootBubble p {
-  top: 35%;
-  left: 15%;
 }
 
 .serverBubble {
@@ -1295,16 +1258,15 @@ input#bioView, input#mainView{
   width: 100px;
   height: 100px;
   background: #2c3e50;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #ecf0f1;
   -webkit-transition: -webkit-transform 2s;
   -moz-transition: -moz-transform 2s;
   -ms-transition: -ms-transform 2s;
   -o-transition: -o-transform 2s;
   transition: transform 2s;
-}
-
-.serverBubble p {
-  top: 40%;
-  left: 21%;
 }
 
 .serversideBubble {
@@ -1313,16 +1275,15 @@ input#bioView, input#mainView{
   width: 130px;
   height: 130px;
   background: #3498db;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #ecf0f1;
   -webkit-transition: -webkit-transform 2s;
   -moz-transition: -moz-transform 2s;
   -ms-transition: -ms-transform 2s;
   -o-transition: -o-transform 2s;
   transition: transform 2s;
-}
-
-.serversideBubble p {
-  top: 43%;
-  left: 15%;
 }
 
 .scriptBubble {
@@ -1331,16 +1292,15 @@ input#bioView, input#mainView{
   width: 80px;
 	height: 80px;
   background: #295099;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #ecf0f1;
   -webkit-transition: -webkit-transform 2s;
   -moz-transition: -moz-transform 2s;
   -ms-transition: -ms-transform 2s;
   -o-transition: -o-transform 2s;
   transition: transform 2s;
-}
-
-.scriptBubble p {
-  top: 40%;
-  left: 20%;
 }
 
 .sitemapBubble {
@@ -1349,16 +1309,15 @@ input#bioView, input#mainView{
   width: 130px;
   height: 130px;
   background: #295099;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #ecf0f1;
   -webkit-transition: -webkit-transform 2s;
   -moz-transition: -moz-transform 2s;
   -ms-transition: -ms-transform 2s;
   -o-transition: -o-transform 2s;
   transition: transform 2s;
-}
-
-.sitemapBubble p {
-  top: 42%;
-  left: 23%;
 }
 
 .subdomainBubble {
@@ -1367,16 +1326,15 @@ input#bioView, input#mainView{
   width: 120px;
   height: 120px;
   background: #295099;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #ecf0f1;
   -webkit-transition: -webkit-transform 2s;
   -moz-transition: -moz-transform 2s;
   -ms-transition: -ms-transform 2s;
   -o-transition: -o-transform 2s;
   transition: transform 2s;
-}
-
-.subdomainBubble p {
-  top: 43%;
-  left: 10%;
 }
 
 .tagBubble {
@@ -1385,16 +1343,15 @@ input#bioView, input#mainView{
   width: 50px;
 	height: 50px;
   background: #295099;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #ecf0f1;
   -webkit-transition: -webkit-transform 2s;
   -moz-transition: -moz-transform 2s;
   -ms-transition: -ms-transform 2s;
   -o-transition: -o-transform 2s;
   transition: transform 2s;
-}
-
-.tagBubble p {
-  top: 35%;
-  left: 20%;
 }
 
 .theNetBubble {
@@ -1403,16 +1360,15 @@ input#bioView, input#mainView{
   width: 90px;
   height: 90px;
   background: #2980b9;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #ecf0f1;
   -webkit-transition: -webkit-transform 2s;
   -moz-transition: -moz-transform 2s;
   -ms-transition: -ms-transform 2s;
   -o-transition: -o-transform 2s;
   transition: transform 2s;
-}
-
-.theNetBubble p {
-  top: 40%;
-  left: 10%;
 }
 
 .trojanHorseBubble {
@@ -1421,16 +1377,15 @@ input#bioView, input#mainView{
   width: 130px;
   height: 130px;
   background: #253077;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #ecf0f1;
   -webkit-transition: -webkit-transform 2s;
   -moz-transition: -moz-transform 2s;
   -ms-transition: -ms-transform 2s;
   -o-transition: -o-transform 2s;
   transition: transform 2s;
-}
-
-.trojanHorseBubble p {
-  top: 40%;
-  left: 13%;
 }
 
 .urlBubble {
@@ -1439,16 +1394,15 @@ input#bioView, input#mainView{
   width: 70px;
 	height: 70px;
   background: #2980b9;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #ecf0f1;
   -webkit-transition: -webkit-transform 2s;
   -moz-transition: -moz-transform 2s;
   -ms-transition: -ms-transform 2s;
   -o-transition: -o-transform 2s;
   transition: transform 2s;
-}
-
-.urlBubble p {
-  top: 40%;
-  left: 25%;
 }
 
 .websiteBubble {
@@ -1457,16 +1411,15 @@ input#bioView, input#mainView{
   width: 80px;
   height: 80px;
   background: #253077;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #ecf0f1;
   -webkit-transition: -webkit-transform 2s;
   -moz-transition: -moz-transform 2s;
   -ms-transition: -ms-transform 2s;
   -o-transition: -o-transform 2s;
   transition: transform 2s;
-}
-
-.websiteBubble p {
-  top: 40%;
-  left: 10%;
 }
 
 .websiteAddressBubble {
@@ -1475,16 +1428,15 @@ input#bioView, input#mainView{
   width: 140px;
   height: 140px;
   background: #2980b9;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #ecf0f1;
   -webkit-transition: -webkit-transform 2s;
   -moz-transition: -moz-transform 2s;
   -ms-transition: -ms-transform 2s;
   -o-transition: -o-transform 2s;
   transition: transform 2s;
-}
-
-.websiteAddressBubble p {
-  top: 40%;
-  left: 25%;
 }
 
 .wwwBubble {
@@ -1493,16 +1445,15 @@ input#bioView, input#mainView{
   width: 60px;
 	height: 60px;
   background: #295099;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #ecf0f1;
   -webkit-transition: -webkit-transform 2s;
   -moz-transition: -moz-transform 2s;
   -ms-transition: -ms-transform 2s;
   -o-transition: -o-transform 2s;
   transition: transform 2s;
-}
-
-.wwwBubble p {
-  top: 40%;
-  left: 13%;
 }
 
 .xmlBubble {
@@ -1511,16 +1462,15 @@ input#bioView, input#mainView{
   width: 50px;
   height: 50px;
   background: #295099;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #ecf0f1;
   -webkit-transition: -webkit-transform 2s;
   -moz-transition: -moz-transform 2s;
   -ms-transition: -ms-transform 2s;
   -o-transition: -o-transform 2s;
   transition: transform 2s;
-}
-
-.xmlBubble p {
-  top: 35%;
-  left: 10%;
 }
 
 .accessibilityMenu, .asciiMenu, .attributeMenu, .bounceMenu, .browserMenu, .browserWindowMenu, .cssMenu, .cookieMenu, .domainMenu, .domainNameMenu, .dnsMenu, .doctypeMenu, .elementMenu,
