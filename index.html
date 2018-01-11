@@ -1,23 +1,42 @@
 <!DOCTYPE html>
+<!--This tag starts the html file and also determines that the language its in is english-->
 <html lang="en">
     <head>
+        <!--The head section is used for all of the metadata and the title tag-->
+        <!--This tag determines the name displayed in the top of the browser window-->
         <title>The Team</title>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!--This tag allows the page to function as a webapp as in if users save it to their home screen,
+            it can open in its own window as opposed to their browser window-->
         <meta name="apple-mobile-web-app-capable" content="yes">
+        <!--The following two tags link the html file to the stylesheet I have and the font I've used from
+            google docs-->
         <link rel="stylesheet" type="text/css" href="styles/main.css">
         <link href="https://fonts.googleapis.com/css?family=Comfortaa:300" rel="stylesheet">
     </head>
+    <!--The body holds the main content of the webpage-->
     <body>
-        <div class="navigation">               
+        <!--This div contains the navigation-->
+        <div class="navigation">  
+            <!--Creates a checkbox that has a label linked to it. When the label is clicked,
+                the checkbox is clicked-->             
             <input type="checkbox" id="navigationBurger"/>
+            <!--The label itself will be the hamburger once the css has been applied-->
             <label class="menuicon" for="navigationBurger">
                 <span></span>
             </label> 
-            <h1>Web Dev</h1>             
+            <!-- h1 is the biggest header tag. Here its giving the page a displayed title-->
+            <h1>Web Dev</h1>       
+            <!--The next div holds an unordered list that contains all the links
+                for the navigation-->      
             <div class="menu">
+                <!--Starts the navigation-->
                 <nav>
+                    <!--Starts the unordered list-->
                     <ul>
+                        <!--Each link goes to a different part of the webpage. If a link is "active"
+                            then it will be shown in solid color as dictated by the CSS-->
                         <li class="active"><a href="index.html">The Team</a></li>
                         <li><a href="glossary.html">Glossary</a></li>
                         <li><a href="jobComparison.html">Job Comparison</a></li>
@@ -28,12 +47,19 @@
                 </nav>
             </div>
         </div>
+        <!--The main div is where im storing the main part of my web pages information-->
         <div class = "main">
+            <!--A div containing the background image-->
             <div class="teamImage">
                 <img src="images/Team.jpg" alt="The whole team" id="bigPhoto"/>
             </div>
+            <!--The next div holds all the code that creates the part of the page that 
+                slides over when the plus is pressed-->
             <div class="scrollPage">
+                <!--This input is a radio button of type "changeView" meaning it will uncheck
+                all other radio buttons of the same type when it itself is checked-->
                 <input type="radio" name="changeView" id="bioView"/>
+                <!--The next 4 labels are the red triangle and the plus that you click to move the overlay-->
                 <label class = "switch1" for="bioView">
                 </label>
                 <label class="seperator" for="bioView">
@@ -42,38 +68,56 @@
                 </label>
                 <label class="plus2" for="bioView">
                 </label>
+                <!--This div contains all the information in the actual overlay-->
                 <div class="bioPage">
+                    <!--The next two labels are the part you click to hide the overlay again-->
                     <label class = "switch2">
                         <input type="radio" name="changeView" id="mainView"/>
                     </label>
                     <label class="backSeperator" for ="mainView">
                     </label>
+                    <!--This div contains the group video-->
                     <div class="groupVideo">
+                        <!--I created this next div to ensure that the video will maintain its
+                            aspect ratio with css-->
                         <div class="maintainAspectRatio">
+                            <!--The actual video. "allowfullscreen" does exactly as it says and
+                                enables the fullscreen control which is disabled by default-->
                             <iframe src="https://www.youtube.com/embed/HQlkp6Dobjg" allowfullscreen>
                             </iframe>
                         </div>
                     </div>
+                    <!--These next two divs are there to ensure that the website has the illusion of
+                        a big diagonal overlay sliding over. Without this it would just be a rectangle moving across-->
                     <div class="topExtension">
                     </div>
                     <div class="bottomExtension">
                     </div>
+                    <!--This div holds the pictures and text associated with out bios-->
                     <div class="bios">
+                        <!--The phoneBio radio inputs are only shown on the phone version of the site.
+                            They are the pictures of our faces as buttons that, when clicked, move 
+                            an overlay with text on it onto the screen-->
                         <input type="radio" name="phoneBio" id="michaelPhone"/>
                         <label class="michael" for="michaelPhone">
                                 <img src="images/Michael.jpg" alt=Michael/>
                         </label>
+                        <!--Holds the text for the desktop version of the bio-->
                         <p id="michaelP">I am an 18-year-old Software Engineering student studying 
                             at the University of Northampton. I was born in Reading 
                             however I have lived in Scotland since I was 3. I have 
                             long held a passion for programming having being taught 
                             to use Python to a decent extent in highschool. I am a 
                             fan of PC gaming and my favourite game is the free-to-play MMO Warframe.</p>
+                        <!--This next div contains the code that makes the overlay the phone will see-->
                         <div class="michaelPhoneMenu">
+                            <!--This input and label creates the close button-->
                             <input type="radio" name="phoneBio" id="crossCloseButton"/>
                             <label class="closeIcon" for="crossCloseButton">
                             </label> 
+                            <!--The image shown on the overlay-->
                             <img src="images/Michael.jpg" alt=Michael/>
+                            <!--The text shown on the overlay-->
                             <p>I am an 18-year-old Software Engineering student 
                                 studying at the University of Northampton. I was 
                                 born in Reading however I have lived in Scotland 
@@ -83,6 +127,8 @@
                                 is the free-to-play MMO Warframe.</p>
                         </div>
 
+                        <!--The next two sections are all but the same as the code 
+                            above - please refer to comments in that section-->
                         <input type="radio" name="phoneBio" id="rajPhone"/>
                         <label class="raj" for="rajPhone">
                                 <img src="images/Raj.jpg" alt=Raj/>
@@ -120,6 +166,7 @@
                             dream of working in a company like Google. I play 
                             the piano as music is very important for me as well. 
                             Also a fan of video games.</p>
+
                         <div class="mendesPhoneMenu">
                             <input type="radio" name="phoneBio" id="crossCloseButton3"/>
                             <label class="closeIcon" for="crossCloseButton3">
@@ -133,27 +180,39 @@
                                 piano as music is very important for me as well. Also a 
                                 fan of video games.</p>
                         </div>
+                        <!--This div contains text prompting mobile users on how to view the bios-->
                         <div class="PhonePrompt">
                             <p>Tap above for respective bios</p>
                         </div>
                     </div>
                 </div>
             </div>
+            <!--Holds all of the information about the contact form-->
             <div class="contact">
+                <!--Creates a radio button that will show the contact form-->
                 <input type="radio" name="contactToggle" id="contactButton"/>
+                <!--The image shown on the picture-->
                 <label class="contactIcon" for="contactButton">
                     <img src="images/contactUs.png" height = "40" width = "40" alt="Contact Us"/>
                 </label> 
+                <!--Holds all the information on the actual contact form-->
                 <div class="contactForm">
+                    <!--A heading for the form-->
                     <p>Contact Us</p>
+                    <!--The close button-->
                     <input type="radio" name="contactToggle" id="crossCloseButton2"/>
                     <label class="closeIcon" for="crossCloseButton2">
                     </label> 
+                    <!--Directs the user on what to do-->
                     <div class="subheading">
                         <p> Choose Recipient</p>
                     </div>
+                    <!--Contains the small photos as seen on the contact form-->
                     <div class="soloPhotos">
+                        <!--These photos all have the same ID so that css can be applied to them all much easier-->
                         <label>
+                            <!--They are also radio buttons so that the usre can choose
+                                one recepitent-->
                             <input type="radio" name ="personalPhotos"/>
                             <img src="images/Michael.jpg" alt="Michael"/>
                         </label>
@@ -166,19 +225,24 @@
                             <img src="images/Mendes.jpg" alt="Mendes"/>
                         </label>
                     </div> 
+                    <!--Contains the form information-->
                     <div class="emailForm">
+                        <!--Starts the form-->
                         <form>
+                            <!--Creats three text boxes. A name field, an email field and a field for the users message-->
                             <input type="text" name="name" placeholder="Your name"><br><br>
                             <input type="email" name="email" placeholder="Your e-mail"><br><br>
                             <textarea name="message" cols="35" rows="6" placeholder="Your question or message"></textarea>
                         </form> 
                     </div>
+                    <!--This holds the submit button that would do something if php was used-->
                     <div class="submitButton">
                         <input type="button" value="Send"/>
                     </div>
                 </div>
             </div>
         </div>
+        <!--The footer on the webpage-->
         <footer>
             <p class = "logo">Web Dev</p>
         </footer>

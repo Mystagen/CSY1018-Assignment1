@@ -1,5 +1,7 @@
 <!DOCTYPE html>
+<!--The start of the html document-->
 <html lang="en">
+    <!--The head section contains the metadata, the title and the links to the style sheets and font-->
     <head>
         <title>Reflection</title>
         <meta charset="utf-8">
@@ -8,7 +10,9 @@
         <link rel="stylesheet" type="text/css" href="styles/main.css">
         <link href="https://fonts.googleapis.com/css?family=Comfortaa:300" rel="stylesheet">
     </head>
+    <!--The body section contains the site's content-->
     <body>
+        <!--The navigation section-->
         <div class="navigation">               
             <input type="checkbox" id="navigationBurger"/>
             <label class="menuicon" for="navigationBurger">
@@ -28,37 +32,46 @@
                 </nav>
             </div>
         </div>
+        <!--The button to display the sketches-->
         <div class = "mainR">
             <input type="radio" name="proofView" id="sketchView">
             <label class="sketchSwitch" for="sketchView">
             </label>
 
+            <!--The plus for the sketch button-->
             <div class=sketchPlus>
                 <label class="plus1" for="sketchView">
                 </label>
                 <label class="plus2" for="sketchView">
                 </label>
             </div>
+            <!--The code for the actual contents of the overlay-->
             <div class="sketchPage">
+                <!--The three sketch images-->
                 <img src="images/homeScreen.png" alt="Sketch of homescreen design"><br>
                 <img src="images/glossary.png" alt="Sketch of glossary"><br>
                 <img src="images/goodPractice.png" alt="Sketch of good practice">
+                <!--The close button-->
                 <input type="radio" name ="proofView" id="crossCloseButton"/>
                 <label class="closeIcon" for="crossCloseButton">
                 </label>
             </div>
 
+            <!--The button to display the proof overlay-->
             <input type="radio" name="proofView" id="validationView">
             <label class="validationSwitch" for="validationView">
             </label>
 
+            <!--The code for the plus-->
             <div class=validationPlus>
                 <label class="plus1" for="validationView">
                 </label>
                 <label class="plus2" for="validationView">
                 </label>
             </div>
+            <!--The contents of the actual validation page-->
             <div class="validationPage">
+                <!--The images of all of the proof-->
                 <img src="images/proof1.PNG" alt="Proof of validation">
                 <img src="images/proof2.PNG" alt="Proof of validation">
                 <img src="images/proof3.PNG" alt="Proof of validation">
@@ -71,9 +84,11 @@
                 </label>
             </div>
             <div class="comparisonColumns">
+                <!--The title of the main part-->
                 <div class="cchead">
                     Reflection
                 </div>
+                <!--The final reflection essay-->
                 <p>This website has been the final product of my first 
                     term of web development. I had a little experience 
                     of it from Highschool however nothing I produced back 
@@ -106,6 +121,7 @@
                     of validating each webpage.</p>
             </div>
         </div>
+        <!--The footer-->
         <footer>
             <p class = "logo">Web Dev</p>
         </footer>

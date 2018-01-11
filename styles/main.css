@@ -1,47 +1,63 @@
-
+/*Sets the font for all text as well as defaulting everything to no margin or padding*/
 * {
   margin: 0;
   padding: 0;
   font-family: 'Comfortaa', cursive;
 }
 
+/*This hides the checkbox of the navigation burger*/
 #navigationBurger {
   display: none;
   position: fixed;
 }
 
+/*The styles for the navigation menu*/
 .menu {
+  /*This left by 50% and then margin-left by negative 
+  half of the width ensures it will always be centered. 
+  Ive used this a fair few times throughout the document*/
   left:50%;
-  margin-left:-200px;
+  margin-left:-200px; 
+  /*Aligns the text*/
   text-align: center;
   position: relative;
+  /*These border-radius lines make the edges of the border curved. 
+  The webkit, moz, ms and o beginnings allow it to work on multiple browsers*/
   -webkit-border-radius: 40px;
   -moz-border-radius: 40px;
   -ms-border-radius: 40px;
   -o-border-radius: 40px;
   border-radius: 40px;
+  /*z-index is a number that determines what goes in front of other stuff*/
   z-index: 5;
+  /*Determines the position of the item*/
   top: -500px;
   width: 400px;
+  /*Sets the background color*/
   background-color: #2c3e50;
+  /*These determine what speed the transitions happen at*/
   -webkit-transition: -webkit-transform 2s;
   -moz-transition: -moz-transform 2s;
   -ms-transition: -ms-transform 2s;
   -o-transition: -o-transform 2s;
   transition: transform 2s;
+  /*Determine the thickness, style and color of the border*/
   border: 2px solid #e74c3c;
 }
 
+/*Hides a checkbox*/
 .main input {
   display: none;
 }
 
+/*Hides the alphabet checkbox*/
 .aLabel, .bLabel, .cLabel, .dLabel, .eLabel, .fLabel, 
 .gLabel, .hLabel, .iLabel, .jLabel, .lLabel, .mLabel, .oLabel, 
 .pLabel, .rLabel, .sLabel, .tLabel, .uLabel, .wLabel, .xLabel { 
   display: none;
 }
 
+/*All of the menuicon code was adapted from a codepen example*/
 .menuicon {
   position: absolute;
   top: 10px;
@@ -131,7 +147,9 @@
   -o-transform: rotate(-45deg);
   transform: rotate(-45deg);
 }
-	
+/*End of forked code*/
+
+/*Defines the size and position of the navigation menu*/
 .navigation {
   opacity: 1;
   margin: 0px;
@@ -143,11 +161,13 @@
   background-color: #2c3e50;
 }
 
+/*Changes the weight and colour of the navigation header*/
 .navigation h1 {
   font-weight: lighter;
   color: #ecf0f1;
 }
 
+/*This sets up the main section of the html files*/
 .main {
   border-top: 3px solid #e74c3c;
   position: absolute;
@@ -160,6 +180,7 @@
   background-color: #ecf0f1;
 }
 
+/*This sets up the footer of the page*/
 footer {
   width: 100%;
   overflow: hidden;
@@ -174,6 +195,7 @@ footer {
   position: fixed;
 }
 
+/*This sets up the design on the footer*/
 .logo {
   color: #ecf0f1;
   font-weight: lighter;
@@ -181,6 +203,7 @@ footer {
   border-right: 3px solid #e74c3c;
 }
 
+/*Sets up some default styles for all h1 tags*/
 h1 {
   padding: 5px;
   position: absolute;
@@ -189,20 +212,24 @@ h1 {
   font-size: 30px;
 }
 
+/*Sets up the font on the footer's logo*/
 footer label {
   font-weight: bold;
   padding: 15px;
 }
 
+/*Sets some styles for the navigation*/
 .menu ul {
   overflow: auto;
   list-style-type: none;
 }
  
+/*Gives the navigation options some padding*/
 .menu li {
   padding: 20px;
 }
  
+/*Sets the styles for the link elements*/
 .menu li a {
   text-decoration: none;
   color: #777;
@@ -216,14 +243,19 @@ footer label {
   transition: all 0.5s ease;
 }
  
+/*Makes it so when you hover over the links, it lights up more*/
 .menu li a:hover {
   color: #ccc;
 }
  
+/*When a link is active, it will be solid white*/
 .menu li.active a {
   color: #ecf0f1;;
 }
 
+/*Sets up the contact form styles. It sets up the  
+ shape, color, style and thickness of the border as well
+ as the position of the form and the speed at which it appears */
 .contactForm {
   left:50%;
   margin-left:-200px;
@@ -246,23 +278,28 @@ footer label {
   border: 2px solid #e74c3c;
 }
 
+/*Sets the color, size and padding of the contact form text*/
 .contactForm p {
   padding: 15px;
   font-size: 30px;
   color: #ecf0f1;
 }
 
+/*Sets the style for the p used as a subheading*/
 .subheading p {
   padding: 15px;
   font-size: 25px;
   color: #ecf0f1;
 }
 
+/*Gets rid of three radio button boxes*/
 .soloPhotos label input{
   visibility: hidden; 
   position: absolute; 
 }
 
+/*Sets up the shape, size and padding of the solo photos on 
+the contact form. Also sets them to be round*/
 .soloPhotos label input + img{ 
   cursor:pointer;
   padding: 10px;
@@ -275,22 +312,26 @@ footer label {
   border-radius: 100px;
 }
 
+/*Creates a border when a solo picture is clicked on*/
 label input:checked + img{ 
   border:2px solid #fff;
 }
 
+/*Sets the padding of the email form*/
 .emailForm {
   padding: 10px;
 }
-
+/*Sets the width of the email form box*/
 .emailForm input {
   width: 55%;
 }
 
+/*Makes it so the email form text area isnt resizeable*/
 .emailForm textarea{
   resize: none;
 }
 
+/*Makes the form areas rounded*/
 .emailForm input, .emailForm textarea{
   padding: 10px;
   -webkit-border-radius: 25px;
@@ -301,10 +342,12 @@ label input:checked + img{
   outline: 0;
 }
 
+/*Gives the submit button some padding*/
 .submitButton {
   padding: 10px;
 }
 
+/*Makes the button rounded and positions it*/
 .submitButton input{
   -webkit-border-radius: 10px;
   -moz-border-radius: 10px;
@@ -316,6 +359,7 @@ label input:checked + img{
   outline: 0;
 }
 
+/*Sets the position and color of the contact button*/
 #contactButton, .contactIcon {
   position: absolute;
   top: 10%;
@@ -323,14 +367,17 @@ label input:checked + img{
   background-color: #2c3e50;
 }
 
+/*Hides the contact button box*/
 #contactButton {
   display: none;
 }
 
+/*Hides some of the checkboxes*/
 #crossCloseButton, #crossCloseButton2, #crossCloseButton3, #crossCloseButton4, #crossCloseButton5,#crossCloseButton6,#crossCloseButton7,#crossCloseButton8,#crossCloseButton9,#crossCloseButton10,#crossCloseButton11,#crossCloseButton12,#crossCloseButton13,#crossCloseButton14,#crossCloseButton15,#crossCloseButton16,#crossCloseButton17,#crossCloseButton18,#crossCloseButton19,#crossCloseButton20,#crossCloseButton21,#crossCloseButton22,#crossCloseButton23,#crossCloseButton24,#crossCloseButton25,#crossCloseButton26,#crossCloseButton27,#crossCloseButton28,#crossCloseButton29,#crossCloseButton30,#crossCloseButton31,#crossCloseButton32,#crossCloseButton33,#crossCloseButton34,#crossCloseButton35,#crossCloseButton36,#crossCloseButton37,#crossCloseButton38,#crossCloseButton39,#crossCloseButton40,#crossCloseButton41,#crossCloseButton42,#crossCloseButton43,#crossCloseButton44,#crossCloseButton45,#crossCloseButton46,#crossCloseButton47,#crossCloseButton48,#crossCloseButton49,#crossCloseButton50 {
   display: none;
 }
 
+/*Positions the close icon in pages*/
 .closeIcon {
   position: absolute;
   right: 5%;
@@ -340,6 +387,7 @@ label input:checked + img{
   opacity: 0.3;
 }
 
+/*Positions the close icon for the glossary bubbles*/
 .bubbles .closeIcon {
   position: absolute;
   left: 50%;
@@ -350,13 +398,17 @@ label input:checked + img{
   opacity: 0.3;
 }
 
+/*Adds padding to the close buttons*/
 .bubbles .closeIcon .contactBack {
   padding: 5px;
 }
 
+/*Makes the button turn opaque when hovered over*/
 .closeIcon:hover {
   opacity: 1;
 }
+
+/*Positions the close icon and sets the color*/
 .closeIcon:before, .closeIcon:after {
   position: absolute;
   left: 15px;
@@ -366,13 +418,17 @@ label input:checked + img{
   background-color: #fff;
 }
 
+/*Makes the close icon into a cross*/
 .closeIcon:before {
   transform: rotate(45deg);
 }
+
+/*Same as above*/
 .closeIcon:after {
   transform: rotate(-45deg);
 }
 
+/*Makes the edges of the contact button curved and sets the color of the border*/
 .contactIcon {
   -webkit-border-radius: 50px;
   -moz-border-radius: 50px;
@@ -384,6 +440,7 @@ label input:checked + img{
   width: 180px;
 }
 
+/*Sets the size and position of the image on the contact icon*/
 .contactIcon img {
   padding: 5px;
   width: 100%;
@@ -391,12 +448,14 @@ label input:checked + img{
   margin-left: -5%;
 }
 
+/*Makes the text for the contact form sit side by side*/
 .contactIcon p {
   float: left;
   color: #ecf0f1;
   padding: 16px;
 }
 
+/*Makes the contact form appear when the button is clicked*/
 #contactButton:checked ~ .contactForm {
   -webkit-transform: translate(0, 600px);
   -moz-transform: translate(0, 600px);
@@ -405,6 +464,7 @@ label input:checked + img{
   transform: translate(0, 600px);
 }
 
+/*Positions the top triangle to give the illusion of the overlay flying over*/
 .topExtension {
   width: 0;
   height: 0;
@@ -416,6 +476,7 @@ label input:checked + img{
 	border-left: 1400px solid transparent;
 }
 
+/*Same as above except for the bottom triangle*/
 .bottomExtension {
   width: 0;
   height: 0;
@@ -427,6 +488,7 @@ label input:checked + img{
 	border-left: 1000px solid transparent;
 }
 
+/*Sets the size and color of the plus icons*/
 .plus1, .plus2, .plus21, .plus22 {
   width: 50px;
   height: 50px;
@@ -436,12 +498,14 @@ label input:checked + img{
   cursor: pointer;
 }
 
+/*Positions the first plus part*/
 .plus1 {
   bottom: 40px;
   right: 5px;
   margin-right: 5px;
 }
 
+/*Positions the second part of the plus*/
 .plus2 {
   bottom: 15px;
   right: 5px;
@@ -453,18 +517,22 @@ label input:checked + img{
   transform: rotate(90deg);
 }
 
+/*Ensures that the off screen content isnt accessible until it appears on screen*/
 .contact {
   overflow: hidden;
 }
 
+/*Makes the image appear exactly where definied*/
 .teamImage {
   position: absolute;
 }
 
+/*Sets width of the big background photo*/
 #bigPhoto {
   width: 100%;
 }
 
+/*Creates the red triangle on the first page*/
 .seperator {
   position: absolute;
   width: 0;
@@ -477,6 +545,7 @@ label input:checked + img{
   cursor: pointer;
 }
 
+/*Sets up the page with everyones bio*/
 .bioPage {
   position: absolute;
   z-index: 2;
@@ -492,6 +561,7 @@ label input:checked + img{
   transition: transform 2s;
 }
 
+/*Makes the bio page images round*/
 .bioPage img {
   max-width: 10%;
   max-height: 10%;
@@ -504,11 +574,13 @@ label input:checked + img{
   margin: 5px;
 }
 
+/*Positions the text on the bio page*/
 .bioPage p {
   padding: 10px;
   color: #ecf0f1;
 }
 
+/*Positions and sets the backgound of the video*/
 .groupVideo {
   top: 5%;
   position: absolute;
@@ -524,6 +596,8 @@ label input:checked + img{
   border-radius: 25px;
 }
 
+/*This div ensures that the video maintains the aspect ratio*/
+/*This part positions it*/
 .maintainAspectRatio{
   position: relative;
   width: 100%;
@@ -531,6 +605,7 @@ label input:checked + img{
   padding-bottom: 51%;
 }
 
+/*This part handles the aspect ratio*/
 .maintainAspectRatio iframe {
   position: absolute;
   width: 100%;
@@ -539,25 +614,30 @@ label input:checked + img{
   top: 0;
 }
 
+/*Sets the size of the images on the bio page*/
 .bioPage img, .bioPage p {
   width: 250px;
   float: left;
 }
 
+/*Positions the bios*/
 .bios {
   position: absolute;
   top: 52%;
   width: 100%;
 }
 
+/*Hides the checkboxes on the bio page*/
 .bios input {
   display: none;
 }
 
+/*Hides the phone design on the bio page*/
 .michaelPhoneMenu, .rajPhoneMenu, .mendesPhoneMenu, .PhonePrompt{ 
   display: none;
 }
 
+/*Sets up and creates the button that hides the overlay on the home screen*/
 .backSeperator {
   width: 0;
   height: 0;
@@ -569,11 +649,13 @@ label input:checked + img{
   cursor: pointer;
 }
 
+/*Hides more checkboxes*/
 .soloPhotos label input{
   visibility: hidden; 
   position: absolute; 
 }
 
+/*Makes the photos round*/
 .soloPhotos label input + img{ 
   cursor:pointer;
   padding: 10px;
@@ -586,15 +668,18 @@ label input:checked + img{
   border-radius: 100px;
 }
 
+/*Hides more checkboxes*/
 input#bioView, input#mainView{
   position: absolute;
   visibility: hidden;
 }
 
+/*Makes the cursor when mousing over the labels into a pointer*/
 .switch1 label input + div, .switch2 label input + div {
   cursor: pointer;
 }
 
+/*Makes it so when the red triangle is clicked, the bioView overlay appears*/
 #bioView:checked ~ .bioPage {
   -webkit-transform: translate(-100%, -100%);
   -moz-transform: translate(-100%, -100%);
@@ -603,6 +688,7 @@ input#bioView, input#mainView{
   transform: translate(-100%, -100%);
 }
 
+/*Made all the bubbles round*/
 .bubbles * {
   z-index: 1;
   position: absolute;
@@ -614,15 +700,20 @@ input#bioView, input#mainView{
   cursor: pointer;
 }
 
+/*Sets the color of the text on the bubbles*/
 .bubbles p {
   color: #ecf0f1;
   position: absolute;
 }
 
+/*Hides the bubbles checkbox*/
 .bubbles input {
   display: none;
 }
 
+/*The following section has the definitions for 
+the styles for the bubbles. It sets the size, color, 
+size of bubble and speed of transition*/
 .accessibilityBubble {
   top: 3%;
   left: 1%;
@@ -1473,6 +1564,7 @@ input#bioView, input#mainView{
   transition: transform 2s;
 }
 
+/*Defines the menu that pops up when clicking a bubble*/
 .accessibilityMenu, .asciiMenu, .attributeMenu, .bounceMenu, .browserMenu, .browserWindowMenu, .cssMenu, .cookieMenu, .domainMenu, .domainNameMenu, .dnsMenu, .doctypeMenu, .elementMenu,
 .faviconMenu, .ftpClientMenu, .gifMenu, .hexadecimalMenu, .hitMenu, .htmlMenu, .httpMenu, .httpsMenu, .hyperlinkMenu, .hypertextMenu, .iFrameMenu, .ispMenu, .ipAddressMenu, .javascriptMenu,
 .lanMenu, .landingPageMenu, .linkMenu, .metadataMenu, .metatagMenu, .operatingSystemMenu, .optimiseMenu, .parkedDomainMenu, .phpMenu, .rootMenu, .serverMenu, .serversideMenu, .scriptMenu,
@@ -1494,6 +1586,7 @@ input#bioView, input#mainView{
   transition: transform 2s;
 }
 
+/*This sets up the header on the accessibility menu*/
 .accessibilityMenu h1 {
   position: absolute;
   color: #ecf0f1;
@@ -1502,6 +1595,7 @@ input#bioView, input#mainView{
   top: 5%;
 }
 
+/*Defines the paragraph in the bubble menus*/
 .accessibilityMenu p, .asciiMenu p, .attributeMenu p, .bounceMenu p, .browserMenu p, .browserWindowMenu p, .cssMenu p, .cookieMenu p, .domainMenu p, .domainNameMenu p, .dnsMenu p, .doctypeMenu p, .elementMenu p,
 .faviconMenu p, .ftpClientMenu p, .gifMenu p, .hexadecimalMenu p, .hitMenu p, .htmlMenu p, .httpMenu p, .httpsMenu p, .hyperlinkMenu p, .hypertextMenu p, .iFrameMenu p, .ispMenu p, .ipAddressMenu p, .javascriptMenu p,
 .lanMenu p, .landingPageMenu p, .linkMenu p, .metadataMenu p, .metatagMenu p, .operatingSystemMenu p, .optimiseMenu p, .parkedDomainMenu p, .phpMenu p, .rootMenu p, .serverMenu p, .serversideMenu p, .scriptMenu p,
@@ -1510,6 +1604,7 @@ input#bioView, input#mainView{
   padding: 10px;
 }
 
+/*The next section sets up all the header and the motion of the menus*/
 #accessibility:checked ~ .accessibilityMenu{
   -webkit-transform: translate(0, 550px);
   -moz-transform: translate(0, 550px);
@@ -2302,6 +2397,7 @@ input#bioView, input#mainView{
   transform: translate(0, 550px);
 }
 
+/*Defines the main section for the comparison columns*/
 .mainCC {
   overflow: visible;
   border-top: 3px solid #e74c3c;
@@ -2314,6 +2410,7 @@ input#bioView, input#mainView{
   background-color: #ecf0f1;
 }
 
+/*Sets up the columns*/
 .comparisonColumns {
   position: absolute;
   overflow-y: visible;
@@ -2330,6 +2427,7 @@ input#bioView, input#mainView{
   border-radius: 40px;
 }
 
+/*Positions the head in the comparrison columns page*/
 .cchead{
   display: flex;
   justify-content: center;
@@ -2340,12 +2438,14 @@ input#bioView, input#mainView{
   color: #ecf0f1;
 }
 
+/*Sets up the styles for the links on the column page*/
 .comparisonColumns a {
   color: #e74c3c;
   font-weight: bold;
   text-decoration: none;
 }
 
+/*Ensures that the text is split into 3 columns*/
 .comparisonColumns p {
   position: relative;
   margin-top: 5%;
@@ -2358,6 +2458,7 @@ input#bioView, input#mainView{
   column-rule: 2px solid #e74c3c;
 }
 
+/*Creates a section of blue floating in the center of the main white body*/
 .se {
   position: absolute;
   overflow-y: visible;
@@ -2374,6 +2475,7 @@ input#bioView, input#mainView{
   border-radius: 40px;
 }
 
+/*Defines the h1 and h2 tags within the se div*/
 .se h1 {
   position: absolute;
   color: #ecf0f1;
@@ -2394,6 +2496,7 @@ input#bioView, input#mainView{
   left: 5%;
 }
 
+/*Defines the video on the software engineering page*/
 .se iframe {
   position: absolute;
   top: 10%;
@@ -2408,6 +2511,7 @@ input#bioView, input#mainView{
   border-radius: 5px;
 }
 
+/*Positions the defnintion text on the screen*/
 #definition {
   position: absolute;
   color: #ecf0f1;
@@ -2423,6 +2527,7 @@ input#bioView, input#mainView{
   width: 40%;  
 }
 
+/*Positions the why I do it text on the screen*/
 #whyIDoIt {
   position: absolute;
   color: #ecf0f1;
@@ -2431,6 +2536,7 @@ input#bioView, input#mainView{
   width: 40%;
 }
 
+/*Positions the opportunites text on the screen*/
 #opportunities {
   position: absolute;
   color: #ecf0f1;
@@ -2448,6 +2554,7 @@ input#bioView, input#mainView{
   width: 40%;
 }
 
+/*Defines the page that shows all of the sketchs*/
 .model1 {
   position: absolute;
   display: flex;
@@ -2468,6 +2575,7 @@ input#bioView, input#mainView{
   transition: transform 2s;
 }
 
+/*Positions various aspects of the sketch page on screen*/
 #launcher1, #launcher2 {
   margin-top: -5%;
   height: 50%;
@@ -2490,6 +2598,7 @@ input#bioView, input#mainView{
   top: 80%;
 }
 
+/*Sets up the content on the other 3 model pages*/
 .model2 {
   position: absolute;
   display: flex;
@@ -2634,6 +2743,7 @@ input#bioView, input#mainView{
   width: 80%;
 }
 
+/*Positions the switches that make the 4 model overlays appear*/
 .model1Switch {
   position: absolute;
   top: 50%;
@@ -2702,6 +2812,7 @@ input#bioView, input#mainView{
   transition: transform 2s;
 }
 
+/*Positions and creates the plus symbols*/
 .model1Plus {
   position: absolute;
   top: 50%;
@@ -2730,6 +2841,7 @@ input#bioView, input#mainView{
   margin-left: 35px;
 }
 
+/*Moves the various screens when the icon is clicked*/
 #model1View:checked ~ .model1, #model1View:checked ~ .model1Switch {
   -webkit-transform: translate(100%, 0);
   -moz-transform: translate(100%, 0);
@@ -2762,6 +2874,7 @@ input#bioView, input#mainView{
   transform: translate(0 ,-100%);
 }
 
+/*Positions the input on the model screen*/
 .model1 input { 
   display: block;
   top: 0;
@@ -2769,6 +2882,7 @@ input#bioView, input#mainView{
   z-index: 5;
 }
 
+/*Positions the arrows*/
 #topArrow {
   position: absolute;
   top: 10%;
@@ -2797,6 +2911,7 @@ input#bioView, input#mainView{
   height: 13%;
 }
 
+/*Positions the good practice title*/
 #gpTitle {
   position: absolute;
   width: 20%;
@@ -2812,6 +2927,7 @@ input#bioView, input#mainView{
   border-radius: 15px;
 }
 
+/*Positions the sketch page*/
 .sketchPage {
   position: absolute;
   width: 100%;
@@ -2826,6 +2942,7 @@ input#bioView, input#mainView{
   transition: transform 2s;
 }
 
+/*Positions the sketches on the page*/
 .sketchPage img {
   position: relative;
   left: 50%;
@@ -2835,6 +2952,7 @@ input#bioView, input#mainView{
   padding: 5px;
 }
 
+/*Sets up the page with all of the validation proofs*/
 .validationPage {
   position: absolute;
   display: flex;
@@ -2850,6 +2968,7 @@ input#bioView, input#mainView{
   transition: transform 2s;
 }
 
+/*Creates the switch that when clicked moves the sketch page over*/
 .sketchSwitch {
   position: absolute;
   cursor: pointer;
@@ -2862,6 +2981,7 @@ input#bioView, input#mainView{
 	border-right: 15vh solid transparent;
 }
 
+/*Creates the plus on the sketch switch*/
 .sketchPlus {
   display: block;
   position: absolute;
@@ -2871,10 +2991,12 @@ input#bioView, input#mainView{
   top: 10vh;
 }
 
+/*Hides the checkbox*/
 #sketchView { 
   display: none;
 }
 
+/*Creates the switch and the plus for the validation button*/
 .validationSwitch {
   position: absolute;
   cursor: pointer;
@@ -2896,10 +3018,12 @@ input#bioView, input#mainView{
   top: 10vh;
 }
 
+/*Hides the validation checkbox*/
 #validationView {
   display: none;
 }
 
+/*Sets up the main section for the reflection section*/
 .mainR {
   overflow: hidden;
   border-top: 3px solid #e74c3c;
@@ -2912,6 +3036,7 @@ input#bioView, input#mainView{
   background-color: #ecf0f1;
 }
 
+/*Sets up the validation page*/
 .validationPage {
   overflow-y: scroll;
   display: flex;
@@ -2923,6 +3048,7 @@ input#bioView, input#mainView{
   padding: 10px;
 }
 
+/*Moves the sketch and validation pages when the icon is clicked*/
 #sketchView:checked ~ .sketchPage {
   -webkit-transform: translate(100%, 0);
   -moz-transform: translate(100%, 0);
@@ -2939,6 +3065,7 @@ input#bioView, input#mainView{
   transform: translate(-100%, 0);
 }
 
+/*Sets up the main section of the software engineering section*/
 .mainSe {
   border-top: 3px solid #e74c3c;
   position: absolute;
@@ -2951,11 +3078,13 @@ input#bioView, input#mainView{
   background-color: #ecf0f1;
 }
 
+/*This section runs if the width is 1300px or less*/
 @media (max-width: 1300px) {
   .comparisonColumns p {
     column-count: 2;
   }
 
+  /*Changes the pictures from rows to columns*/
   .model1 {
     flex-direction: column;
   }
@@ -2964,6 +3093,7 @@ input#bioView, input#mainView{
     flex-direction: column;
   }
 
+  /*Repositions images and text*/
   .model4 h1 {
     width: 80%;
     left: 10%;
@@ -2992,12 +3122,14 @@ input#bioView, input#mainView{
     padding: 2%;
   }
 
+  /*Removes some of the previous styles*/
   .model2 {
     justify-content: unset;
     align-content: unset;
     flex-direction: column;
   }
 
+  /*Repositions various parts of text and images*/
   .model2 img {
     position: relative;
     top: 40%;
@@ -3084,7 +3216,9 @@ input#bioView, input#mainView{
   }
 }
 
+/*Only runs when the width is 1200px or less*/
 @media (max-width: 1200px) {
+  /*Repositions 3 bubbles*/
   .doctypeBubble {
     left: 26%;
     top: 66%;
@@ -3100,7 +3234,9 @@ input#bioView, input#mainView{
   }
 }
 
+/*Runs when width is 1100px or less*/
 @media (max-width: 1100px) {
+  /*Displays the alphabet labels*/
   .aLabel, .bLabel, .cLabel, .dLabel, .eLabel, .fLabel, 
 .gLabel, .hLabel, .iLabel, .jLabel, .lLabel, .mLabel, .oLabel, 
 .pLabel, .rLabel, .sLabel, .tLabel, .uLabel, .wLabel, .xLabel { 
@@ -3113,6 +3249,7 @@ input#bioView, input#mainView{
     padding: 0.79%;
   }
 
+  /*Sets up all the movement for the alphabet buttons*/
   #a:checked ~ .bubbles .accessibilityBubble, #a:checked ~ .bubbles .asciiBubble,
   #a:checked ~ .bubbles .attributeBubble {
     -webkit-transform: translate(0, 100vh);
@@ -3284,6 +3421,7 @@ input#bioView, input#mainView{
     transform: translate(0, 100vh);
   }
 
+  /*Re-positions the bubbles off-screen*/
   .accessibilityBubble {
     top: -100vh;
     left: 25%;
@@ -3534,6 +3672,7 @@ input#bioView, input#mainView{
     left: 60%;
   }  
 
+  /*Changes the size of the glossary description menus*/
   .accessibilityMenu, .asciiMenu, .attributeMenu, .bounceMenu, .browserMenu, .browserWindowMenu, .cssMenu, .cookieMenu, .domainMenu, .domainNameMenu, .dnsMenu, .doctypeMenu, .elementMenu,
   .faviconMenu, .ftpClientMenu, .gifMenu, .hexadecimalMenu, .hitMenu, .htmlMenu, .httpMenu, .httpsMenu, .hyperlinkMenu, .hypertextMenu, .iFrameMenu, .ispMenu, .ipAddressMenu, .javascriptMenu,
   .lanMenu, .landingPageMenu, .linkMenu, .metadataMenu, .metatagMenu, .operatingSystemMenu, .optimiseMenu, .parkedDomainMenu, .phpMenu, .rootMenu, .serverMenu, .serversideMenu, .scriptMenu,
@@ -3556,13 +3695,17 @@ input#bioView, input#mainView{
   }
 }
 
+/*Runs if the width is 850px or less*/
 @media (max-width: 850px) {
+  /*Hides the good practice title*/
   #gpTitle {
     display: none;
   }
 }
 
+/*Runs if the width is 600px or less*/
 @media (max-width: 600px) {
+  /*Enables scrolling on the following divs but only up/down*/
   .mainR {
     overflow-y: visible;
   }  
@@ -3571,10 +3714,12 @@ input#bioView, input#mainView{
     overflow-y: visible;
   }
 
+  /*Changes the height of the software engineering page*/
   .se {
-    height: 200%;
+    height: 250%;
   }
 
+  /*Changes the layout of text and the video on the se page*/
   .se h2 {
     top: 55%;
   }
@@ -3591,7 +3736,7 @@ input#bioView, input#mainView{
 
   #opportunities {
     left: 48%;
-    top: 63%;
+    top: 55%;
   }
 
   .se iframe {
@@ -3602,12 +3747,14 @@ input#bioView, input#mainView{
     
   }
 
+  /*Changes the size of the navigation*/
   .menu {
     width: 300px;
     margin-left: -150px;
     top: -600px;
   }
 
+  /*Relocates the images on the good practice page*/
   #leftArrow{
     top: 70%;
   }
@@ -3616,6 +3763,11 @@ input#bioView, input#mainView{
     left: 0;
   }
 
+  #opportunitiesP{
+    top: 60%;
+  }
+
+  /*Changes the location that the navigation moves to*/
   #navigationBurger:checked ~ .menu {
     -webkit-transform: translate(0, 580px);
     -moz-transform: translate(0, 580px);
@@ -3624,10 +3776,12 @@ input#bioView, input#mainView{
     transform: translate(0, 580px);
   }
   
+  /*Changes the number of columns to 1*/
   .comparisonColumns p {
     column-count: 1;
   }
 
+  /*Repositions and resizes the sketches*/
   .sketchPage img {
     width: 60%;
     max-height: 50%;
@@ -3636,11 +3790,13 @@ input#bioView, input#mainView{
     left: 50%;
   }
 
+  /*Changes the layout to column from row*/
   .model1 {
     flex-direction: column;
     margin-top: 0;
   }
 
+  /*Repositions text, images, forms and buttons*/
   .model3 h1{
     width: 80%;
     left: 10%;
@@ -3702,6 +3858,7 @@ input#bioView, input#mainView{
     top: 40%;
   }
 
+  /*Makes images round and re-sizes them*/
   .bioPage img {
     max-width: 25%;
     max-height: 25%;
@@ -3714,14 +3871,17 @@ input#bioView, input#mainView{
     text-align: center;
   }
 
+  /*Hides the desktop portion of the bio view*/
   #michaelP, #rajP, #mendesP {
     display: none;
   }
 
+  /*Sets the cursor to a pointer*/
   .michael img, .raj img, .mendes img {
     cursor: pointer;
   }
 
+  /*Sets the styles for the mobile version of the site*/
   .michaelPhoneMenu, .rajPhoneMenu, .mendesPhoneMenu {
     display: block;
     left: 50%;
@@ -3745,6 +3905,7 @@ input#bioView, input#mainView{
     transition: transform 2s;
   }
 
+  /*Displays and positions the prompt message, images and text*/
   .PhonePrompt {
     position: absolute;
     display: block;
@@ -3768,6 +3929,7 @@ input#bioView, input#mainView{
     position: relative;
   }
 
+  /*Ensures that the menus move when the photos are clicked*/
   #michaelPhone:checked ~ .michaelPhoneMenu {
     -webkit-transform: translate(0, 278vh);
     -moz-transform: translate(0, 278vh);

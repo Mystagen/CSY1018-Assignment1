@@ -1,5 +1,7 @@
 <!DOCTYPE html>
+<!--Starts the html tag-->
 <html lang="en">
+    <!--The head tag holds all the meta data, the title and the links to external styles-->
     <head>
         <title>Glossary</title>
         <meta charset="utf-8">
@@ -8,7 +10,9 @@
         <link rel="stylesheet" type="text/css" href="styles/main.css">
         <link href="https://fonts.googleapis.com/css?family=Comfortaa:300" rel="stylesheet">
     </head>
+    <!--The body contains the main site-->
     <body>
+        <!--The navigation-->
         <div class="navigation">               
             <input type="checkbox" id="navigationBurger"/>
             <label class="menuicon" for="navigationBurger">
@@ -28,7 +32,10 @@
                 </nav>
             </div>
         </div>
+        <!--The main part of the site's contect-->
         <div class = "main">
+            <!--This section is only seen if the user is using a phone. Each letter
+                is a radio button that shows the glossary entries that begin with that letter-->
             <input type="radio" name="alphabet" id="a"/>
             <label class="aLabel" for="a">
                 A
@@ -109,16 +116,23 @@
             <label class="xLabel" for="x">
                 X
             </label>
+            <!--This is what the desktop users see-->
             <div class="bubbles">
+                <!--Each one of these is a radio button of type "bubble"-->
                 <input type="radio" name="bubble" id="accessibility"/>
+                <!--The label is a circle of varying size and colour with a text label on it-->
                 <label class="accessibilityBubble" for="accessibility">
                     Accessibility
                 </label>
+                <!--When the circle is clicked, this menu appears-->
                 <div class="accessibilityMenu">
+                    <!--It contains a close button...-->
                     <input type="radio" name="bubble" id="crossCloseButton"/>
                     <label class="closeIcon" for="crossCloseButton">
                     </label> 
+                    <!--...a title...-->
                     <h1>Accessibility</h1>
+                    <!--...and a description of the term clicked on-->
                     <p>Refers to how easy it is for people with visual impairments and other such handicaps to make use of your website</p>
                 </div>
 
@@ -711,6 +725,7 @@
                 </div>
             </div>
         </div>
+        <!--The footer-->
         <footer>
             <p class = "logo">Web Dev</p>
         </footer>

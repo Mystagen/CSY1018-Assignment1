@@ -1,5 +1,7 @@
 <!DOCTYPE html>
+<!--Start of html document-->
 <html lang="en">
+    <!--Contains all of the metadata, title and the links to the CSS and the fonts-->
     <head>
         <title>Good Practice</title>
         <meta charset="utf-8">
@@ -8,7 +10,9 @@
         <link rel="stylesheet" type="text/css" href="styles/main.css">
         <link href="https://fonts.googleapis.com/css?family=Comfortaa:300" rel="stylesheet">
     </head>
+    <!--Contains the sites contents-->
     <body>
+        <!--The navigation-->
         <div class="navigation">               
             <input type="checkbox" id="navigationBurger"/>
             <label class="menuicon" for="navigationBurger">
@@ -28,32 +32,42 @@
                 </nav>
             </div>
         </div>
+        <!--The main part of the site's content-->
         <div class = "main" id="goodPractice">
+            <!--These 4 images shows what each button does-->
             <img src="images/TopArrow.png" alt="What I did to come up with my design" id="topArrow">
             <img src="images/RightArrow.png" alt="Sites I used as inspiration" id="rightArrow">
             <img src="images/BottomArrow.png" alt="Preliminary Sketches" id="bottomArrow">
             <img src="images/LeftArrow.png" alt="Other inspiration" id="leftArrow">
+            <!--This is a header that sits in the center of the screen but isnt visable on the mobile version-->
             <h1 id="gpTitle">Models of good UI Practice</h1>
+            <!--A triangle shaped button that opens the first overlay-->
             <input type="radio" name="goodPracticeView" id="model1View">
             <label class="model1Switch" for="model1View">
             </label>
 
+            <!--This is the code for the plus icon-->
             <div class=model1Plus>
                 <label class="plus1" for="model1View">
                 </label>
                 <label class="plus2" for="model1View">
                 </label>
             </div>
+            <!--This div contains all the code for the first overlay-->
             <div class="model1">
+                <!--A header for the overlay-->
                 <h1>Homepage sliding button inspiration</h1>
+                <!--Two images that show where I got one of my ideas from-->
                 <img src="images/exampleLauncher1.jpg" alt="Launcher where I got the idea for the main page from" id="launcher1">
                 <img src="images/exampleLauncher2.jpg" alt="When the view is switched" id="launcher2">
+                <!--A paragraph that describes why I made the choice I did-->
                 <p>My idea mainly came from the launcher for the game warframe. When you click the black
                      triangle on the bottom left of the first image an overlay slides over and it
                       looks like the second image. I decided to make use of this to increase the 
                       space available on a single page as I wanted to avoid scrolling on all my pages. 
                       To do this I simply positioned the overlay off-screen. The clickable part is a radio 
                       button that on click uses a css transition to move the overlay into place.<br><br></p>
+                <!--The close button to the overlay-->
                 <input type="radio" name ="goodPracticeView" id="crossCloseButton"/>
                 <label class="closeIcon" for="crossCloseButton">
                 </label>
@@ -69,12 +83,15 @@
                 </label>
             </div>
             <div class="model2">
+                <!--The three links to the sites I used as insperation-->
                 <a href="https://squeezecreative.com.au/" id="squeezeA">Link: Squeeze Creative</a>
                 <a href="http://www.girleffect.org/what-we-do/" id="girlA">Link: The Girl Effect</a>
                 <a href="https://stayhideoutlodge.com/" id="hideoutA">Link: Hideout Lodge</a>
+                <!--Images that show the sites I used as insperation-->
                 <img src="images/squeezeCreative.PNG" alt="Squeeze Creative's site" id="squeezeCreative">
                 <img src="images/hideout.PNG" alt="Hideout Lodge's site" id="hideout">
                 <img src="images/girlEffect.PNG" alt="Girl Effect's site" id="girlEffect">
+                <!--This is the text that shows what I thought of each site example-->
                 <p>I knew I wanted to have a hamburger menu so sites like Squeeze Creative 
                     and Hideout Lodge appealed to me. I decided to adapt it a fair 
                     bit in the end but I started there. I also wanted to have mimimal 
@@ -96,6 +113,7 @@
                 <label class="plus2" for="model3View">
                 </label>
             </div>
+            <!--This overlay contains my essay that describes why I did what I did-->
             <div class="model3">
                 <h1>How I came up with my final design</h1>
                 <p>My design came from a few key features I wanted to include.
@@ -113,7 +131,6 @@
                     horribly out-dated design. We all still ended up with different designs but im very happy with them as a whole.
                     <br><br>All in all im quite happy with the final 
                     design that I went for.<br><br>
-                    
                 </p>
                 <input type="radio" name ="goodPracticeView" id="crossCloseButton3"/>
                 <label class="closeIcon" for="crossCloseButton3">
@@ -131,9 +148,11 @@
             </div>
             <div class="model4">
                 <h1>Early Sketches</h1>
+                <!--These three images contain the initial sketches I did-->
                 <img src="images/homeScreen.png" alt="Home Screen Design Sketch">
                 <img src="images/glossary.png" alt="Glossary Design Sketch">
                 <img src="images/goodPractice.png" alt="Good Practice Design Sketch">
+                <!--Description of what I did with my sketches-->
                 <p>Shown here are some early designs for 3 of my pages. Quickly 
                     sketching out ideas is my favourite way of designing a page 
                     and I used it heavily for the more complex page designs. It 
@@ -144,6 +163,7 @@
                 </label>
             </div>  
         </div>
+        <!--This is the footer-->
         <footer id="gpFooter">
             <p class = "logo">Web Dev</p>
         </footer>
